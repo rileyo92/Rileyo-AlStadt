@@ -150,6 +150,7 @@ political_decisions = {
 			TUR_832 = { remove_core = TUR }
 			TUR_805 = { remove_core = TUR }
 			TUR_674 = { remove_core = TUR }
+			capital = 876
 			remove_accepted_culture = bosniak
 			remove_accepted_culture = bulgarian
 			remove_accepted_culture = albanian
