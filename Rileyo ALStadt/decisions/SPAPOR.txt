@@ -61,4 +61,29 @@ political_decisions = {
 			set_country_flag = mendizabal_confiscated
 		}
 	}
+	kingdom_portugal_brazil = {
+		potential = {
+			OR = {
+				tag = POR
+				tag = BRZ
+			}
+			NOT = { has_country_flag = k_port_brz }
+		}
+		allow = {
+			owns = 521
+			owns = 518
+			owns = 526
+			owns = 2432
+			owns = 2450
+			owns = 2447
+		}
+		effect = {
+			set_country_flag = k_port_brz
+			capital = 2447
+			add_accepted_culture = brazilian
+			add_accepted_culture = portuguese
+			BRZ = { all_core = { add_core = THIS } }
+			POR = { all_core = { add_core = THIS } }
+		}
+	}
 }
