@@ -2,6 +2,8 @@ capital = 1121
 primary_culture = persian
 culture = azerbaijani
 culture = baluchi
+culture = kurdish
+culture = north_caucasian
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
@@ -34,7 +36,7 @@ safety_regulations = no_safety
 
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # Starting Consciousness

@@ -1,5 +1,6 @@
 capital = 2512
 primary_culture = british
+culture = maori
 religion = protestant
 government = hms_government
 plurality = 0.88
@@ -24,7 +25,7 @@ work_hours = ten_hours
 safety_regulations = low_safety
 health_care = low_health_care
 unemployment_subsidies = low_subsidies
-pensions = low_pensions 
+pensions = low_pensions
 school_reforms = no_schools
 
 ruling_party = NWZ_conservative

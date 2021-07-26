@@ -1,6 +1,7 @@
 capital = 300
 primary_culture = british
 culture = anglo_canadian
+culture = australian
 religion = protestant
 government = hms_government
 plurality = 30
@@ -28,7 +29,7 @@ work_hours = no_work_hour_limit
 safety_regulations = trinket_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = low_schools
 
 # Technologies
@@ -138,18 +139,18 @@ public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
-political_parties = non_secret_ballots	
+political_parties = non_secret_ballots
 ruling_party = ENG_liberal_2
-	
+
 # Social Reforms
 wage_reform = trinket_wage
 work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = low_health_care
 unemployment_subsidies = trinket_subsidies
-pensions = no_pensions 
-school_reforms = low_schools	
-	
+pensions = no_pensions
+school_reforms = low_schools
+
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
@@ -163,7 +164,7 @@ school_reforms = low_schools
 	military_plans = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	raider_group_doctrine = 1
@@ -177,7 +178,7 @@ school_reforms = low_schools
 	naval_plans = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -191,7 +192,7 @@ school_reforms = low_schools
 	business_regulations = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -206,7 +207,7 @@ school_reforms = low_schools
 	nationalism_n_imperialism = 1
 	introspectionism = 1
 	associationism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1
