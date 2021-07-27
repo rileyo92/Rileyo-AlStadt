@@ -4,27 +4,32 @@ political_decisions = {
 			OR = {
 				tag = ORA
 				tag = TRN
+				tag = SAF
 			}
 			NOT = {
-				has_global_flag = the_great_trek
+				has_country_flag = the_great_trek
 			}
 		}
-		
+
 		allow = {
 			prestige = 2
 		}
-		
+
 		effect = {
-			set_global_flag = the_great_trek
+			set_country_flag = the_great_trek
 			any_owned = {
 				add_province_modifier = {
 					name = trek_boers
 					duration = 3650
 				}
 			}
+			add_country_modifier = {
+				name = Bonus_Immigration
+				duration = 3600
+			}
 			ENG = {
 				any_owned = {
-					limit = {	
+					limit = {
 						has_pop_culture = boer
 					}
 					any_pop = {
@@ -44,7 +49,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	attack_the_laagers = {
 		potential = {
 			tag = ZUL
@@ -73,7 +78,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			prestige = 5
 			badboy = 5
@@ -118,7 +123,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	orange_river_convention = {
 		potential = {
 			tag = ORA
@@ -129,7 +134,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			relation = {
 				who = ENG
@@ -138,7 +143,7 @@ political_decisions = {
 			prestige = 10
 			state_n_government = 1
 		}
-		
+
 		effect = {
 			political_reform = no_slavery
 			set_country_flag = had_orange_river_convention
