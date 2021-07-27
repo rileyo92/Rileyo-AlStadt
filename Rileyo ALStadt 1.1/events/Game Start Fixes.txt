@@ -4,19 +4,19 @@ country_event = {
 	title = "EVTNAME123412346"
 	desc = "EVTDESC123412346"
 	picture = "Administration"
-	
-	
+
+
 	trigger = {
 		year = 1836
 		tag = AUS
-	} 
+	}
 
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA123412346"
 		any_pop = {
@@ -34,23 +34,23 @@ country_event = {
 	title = "EVTNAME123412347"
 	desc = "EVTDESC123412347"
 	picture = "Administration"
-	
-	
+
+
 	trigger = {
 		year = 1836
 		tag = AUS
-	} 
+	}
 
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA123412347"
 		641 = {
-			state_scope = { 
+			state_scope = {
 				any_pop = {
 					limit = {
 						has_pop_culture = hungarian
@@ -60,7 +60,7 @@ country_event = {
 			}
 		}
 		623 = {
-			state_scope = { 
+			state_scope = {
 				any_pop = {
 					limit = {
 						has_pop_culture = hungarian
@@ -78,24 +78,24 @@ country_event = {
 	title = "EVTNAME123412348"
 	desc = "EVTDESC123412348"
 	picture = "Administration"
-	
-	
+
+
 	trigger = {
 		year = 1836
 		tag = FRA
-	} 
+	}
 
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA123412348"
 		any_pop = {
 			limit = {
-				OR = {	
+				OR = {
 					has_pop_culture = south_german
 					has_pop_culture = flemish
 					has_pop_culture = basque
@@ -114,19 +114,19 @@ country_event = {
 	title = "EVTNAME123412349"
 	desc = "EVTDESC123412349"
 	picture = "Administration"
-	
-	
+
+
 	trigger = {
 		year = 1836
 		tag = ENG
-	} 
+	}
 
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA123412349"
 		any_pop = {
@@ -134,6 +134,35 @@ country_event = {
 				has_pop_culture = irish
 			}
 			literacy = 0.20 #20 percent increase
+		}
+	}
+}
+
+#Starting 1836 Culture fix for Australia
+country_event = {
+	id = 123412350
+	title = "EVTNAME123412349"
+	desc = "EVTDESC123412349"
+	picture = "Administration"
+
+	trigger = {
+		AST = { exists = yes }
+		tag = AST
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA123412350"
+		any_pop = {
+			limit = {
+				has_pop_culture = british
+			}
+			assimilate = yes
 		}
 	}
 }
