@@ -14,3 +14,5 @@ EVTDESC123412349;This event increases the literacy rating for Irish POPs in the 
 EVTOPTA123412349;Irish can read!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 loss_of_balkans_title;The loss of the balkans;;;;;;;;;;;;;x;;;;;;;;;;;
 loss_of_balkans_desc;The Balkans have been lost to other imperial powers. However, instead of dwelling on our status of the sick man of europe, we should now work to embrace the arabs who now make up the majority of our remaining territories;;;;;;;;;;;;;x;;;;;;;;;;;
+DR_NAME;Dominions Released;;;;;;;;;;;;;x;;;;;;;;;;;
+DR_DESC;Same as Grand Campaign except all dominions of UK are released at game start;;;;;;;;;;;;;x;;;;;;;;;;;

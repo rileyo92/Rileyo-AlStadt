@@ -4,6 +4,11 @@ add_core = AST
 trade_goods = grain
 life_rating = 30
 colonial = 2
+1836.1.2 = {
+	owner = AST
+	controller = AST
+	colonial = 0
+}
 1861.1.1 = {
 	colonial = 0
 	state_building = {
@@ -17,7 +22,7 @@ colonial = 2
 		upgrade = yes
 	}
 }
-1861.1.1 = { 
-	railroad = 1 
+1861.1.1 = {
+	railroad = 1
 	naval_base = 1
 }
