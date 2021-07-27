@@ -529,7 +529,7 @@ prussian_general_staff = {
 
 ##### Boer War #####
 trek_boers = {
-	immigrant_attract = 2		#200%
+	assimilation_rate = 0.5
 	icon = 19
 }
 
