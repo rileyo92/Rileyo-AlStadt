@@ -1,0 +1,24 @@
+vassal = {
+	first = ENG
+	second = CAN
+	start_date = 1836.1.2
+	end_date = 1935.12.31
+}
+vassal = {
+	first = ENG
+	second = SAF
+	start_date = 1836.1.2
+	end_date = 1935.12.31
+}
+vassal = {
+	first = ENG
+	second = AST
+	start_date = 1836.1.2
+	end_date = 1935.12.31
+}
+vassal = {
+	first = ENG
+	second = NZL
+	start_date = 1836.1.2
+	end_date = 1935.12.31
+}
