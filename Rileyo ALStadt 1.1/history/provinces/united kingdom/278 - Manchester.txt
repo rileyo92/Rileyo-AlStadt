@@ -2,9 +2,5 @@ owner = ENG
 controller = ENG
 add_core = ENG
 trade_goods = coal
-life_rating = 40
+life_rating = 45
 railroad = 1
-1861.1.1 = {
-railroad = 3
-}
-1861.1.1 = { railroad = 3 }
