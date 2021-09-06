@@ -1017,7 +1017,9 @@ SIC_753 = { 753 756 757 758 } #Puglia
 
 AUS_702 = { 704 705 714 703 2584 } #West Galicia
 
-AUS_662 = { 702 951 952 953 950 662 } #East Galicia
+AUS_662 = { 702 951 952 953 662 } #East Galicia
+
+AUS_950 = { 950 } #Transcarpathia
 
 AUS_633 = { 633 634 635 636 638 637 } #Slovakia
 
