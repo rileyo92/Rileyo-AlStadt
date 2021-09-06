@@ -1,5 +1,6 @@
 capital = 1465
 primary_culture = manchu
+culture = mongol
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
@@ -25,7 +26,7 @@ work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = MCK_conservative
@@ -54,5 +55,3 @@ nonstate_consciousness = 1
 	#Military Reforms
 	foreign_training = yes_foreign_training
 }
-
-

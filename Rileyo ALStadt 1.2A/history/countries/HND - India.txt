@@ -1,9 +1,16 @@
 capital = 1251
-primary_culture = marathi
-culture = avadhi
+primary_culture = avadhi
+culture = marathi
 culture = bihari
 culture = tamil
 culture = kanauji
+culture = telegu
+culture = kannada
+culture = malayalam
+culture = gujarati
+culture = bengali
+culture = assamese
+culture = nepali
 
 religion = hindu
 government = democracy
@@ -44,5 +51,5 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools

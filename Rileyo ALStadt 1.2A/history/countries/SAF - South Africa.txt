@@ -1,6 +1,7 @@
 capital = 2087
 primary_culture = british
 culture = boer
+culture = khoisan
 religion = protestant
 government = hms_government
 plurality = 0.6
