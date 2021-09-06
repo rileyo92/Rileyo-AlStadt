@@ -105,9 +105,9 @@ ECU_2279 = { 2279 2280 2281 2282 2283 2284 2285 } #Ecuador
 
 HAI_2213 = { 2213 2214 2215 2216 } #Hispaniola
 
-SWE_329 = { 329 330 328 327 323 } #Vasta Gotaland
+SWE_329 = { 329 330 328 327 323 } #V�stra G�taland
 
-SWE_334 = { 334 335 } #Skane
+SWE_334 = { 334 335 } #Sk�ne
 
 SWE_318 = { 318 317 319 320 321 } #Norrland
 
@@ -153,7 +153,7 @@ ENG_2491 = { 2491 2492 2493 2494 2495 2496 } #South Australia
 
 ENG_2497 = { 2497 2498 2499 2500 2501 2502 2503 2504 2601 2602 2605 } #Western Australia
 
-ENG_2505 = { 2505 2506 2507 2603 } #Northern Territory
+ENG_2505 = { 2505 2506 2507 2603 } #Northern Australia
 
 ENG_2509 = { 2509 2510 2511 2512 2571 } #North Island
 
@@ -297,9 +297,7 @@ PRG_2343 = { 2339 2343 2341 2342 2340 } #Bajo Paraguay
 
 ARG_2355 = { 2348 2355 2353 2354 2350 2351 2352 2349 } #Buenos Aires
 
-ARG_2391 = { 2391 2392 2394 2396 2397 } #Patagonia Septentrional
-
-ARG_2398 = { 2131 2398 2399 2400 } #Patagonia Meridional
+ARG_2391 = { 2391 2392 2394 2396 2397 2398 2399 2400 } #Patagonia
 
 ARG_2393 = { 2393 2395 2390 2389 } #Rio Negro
 
@@ -325,7 +323,7 @@ CHL_2327 = { 2327 2330 2329 2331 2328 } #Los Rios
 
 CHL_2332 = { 2332 2333 2334 2335 } #Araucania
 
-ENG_2132 = { 2132 2129 2130 2133 } #South Atlantic Islands
+ENG_2132 = { 2132 2129 2130 2133 2131 } #South Atlantic Islands
 
 DEN_251 = { 251 2591 2632 2636 } # Greenland
 
@@ -401,11 +399,11 @@ ENG_2092 = { 2092 2093 2558 2094 2095 } #Northern Cape
 
 ENG_296 = { 296 299 297 298 419 } #South West England
 
-ENG_277 = { 277 278 279 285 } #Lancastershire
+ENG_277 = { 277 278 279 285 } #North West England
 
 ENG_273 = { 273 274 275 276 } #Wales
 
-ENG_280 = { 280 281 282 283 } #Yorkshire
+ENG_280 = { 280 281 282 283 } #North East England
 
 ENG_266 = { 266 267 268 270 } #Highlands
 
@@ -489,7 +487,7 @@ BEL_394 = { 394 392 393 } #Wallonie
 
 BEL_395 = { 395 396 398 397 } #Liege
 
-BEL_387 = { 387 388 389 390 391 } #Flanders
+BEL_387 = { 387 388 389 390 391 } #Vlaanderen
 
 NET_375 = { 375 376 377 382 } #Holland
 
@@ -587,7 +585,7 @@ BAL_1438 = { 1438 1442 1439 1440 1441 1443 1444 1445 1446 } #Sunda Islands
 
 ENG_1384 = { 1384 1386 1385 1387 1390 2575 1389 1391 1388 2576 } #Malaya
 
-BRU_1394 = { 1393 1394 1395 1396 } # Brunei
+BRU_1394 = { 1393 1394 1395 1396 } #Brunei
 
 SPA_1463 = { 1463 1462 1464 } #Mindanao
 
@@ -595,7 +593,7 @@ SPA_1455 = { 1455 1456 1457 1458 } #Luzon
 
 SPA_1459 = { 1459 1460 1461 2565 } #Visayas
 
-GRE_837 = { 834 836 835 838 } #Athens
+GRE_837 = { 834 836 835 838 } #Attica
 
 TUR_806 = { 806 807 } #North Macedonia
 
@@ -685,7 +683,7 @@ BEL_1992 = { 1992 1993 1995 } #Equateur
 
 ENG_2019 = { 2019 2020 2021 2022 2023 } #Uganda
 
-ENG_1843 = { 1843 1844 1845 1846 1847 } #Equatoria
+ENG_1843 = { 1843 1844 1845 1846 1847 } #South Sudan
 
 FRA_1901 = { 1901 1902 1903 1904 1905 1906 } #Volta
 
@@ -1071,7 +1069,7 @@ PRU_572 = { 570 571 572 573 574 } #Rhineland
 
 PRU_575 = { 575 576 577 578 579 2561 } #Nordrhein
 
-PRU_682 = { 682 683 684 685 } #Schlesien
+PRU_682 = { 682 683 684 685 } #Silesia
 
 PRU_549 = { 549 550 551 552 681 } #Brandenburg
 
