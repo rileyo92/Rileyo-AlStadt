@@ -429,7 +429,7 @@ FRA_451 = { 451 452 453 454 } #Rhone
 
 FRA_435 = { 435 434 437 } #Loire
 
-FRA_399 = { 399 400 401 402 2570 } #Picardie
+FRA_399 = { 399 400 401 404 } #Picardie
 
 FRA_467 = { 467 468 469 470 471 } #Provence
 
@@ -437,7 +437,7 @@ FRA_473 = { 473 } #Corsica
 
 FRA_412 = { 412 409 410 } #Alsace-Lorraine
 
-FRA_418 = { 418 415 416 417 } #Normandy
+FRA_418 = { 418 415 416 417 402 } #Normandy
 
 FRA_442 = { 442 444 443 } #Poitou
 
@@ -449,7 +449,7 @@ FRA_420 = { 420 421 422 424 423 } #Bretagne
 
 FRA_428 = { 428 429 431 430 433 } #Bourgogne
 
-FRA_404 = { 404 403 405 406 408 } #Champagne
+FRA_404 = { 403 405 406 408 } #Champagne
 
 FRA_411 = { 411 413 407 414 432 } #Franche-Comte
 
@@ -457,7 +457,7 @@ FRA_458 = { 458 459 460 } #Aquitaine
 
 FRA_438 = { 438 436 439 440 441 } #Region Centre
 
-FRA_425 = { 425 426 427 } #Ile de France
+FRA_425 = { 425 426 427 2570 } #Ile de France
 
 HAM_528 = { 528 531 532 539 } #Osthannover
 
@@ -486,6 +486,8 @@ SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 BEL_394 = { 394 392 393 } #Wallonie
 
 BEL_395 = { 395 396 398 397 } #Liege
+
+LUX_397 = { 397 } #Luxembourg
 
 BEL_387 = { 387 388 389 390 391 } #Vlaanderen
 
