@@ -485,7 +485,7 @@ SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
 BEL_394 = { 394 392 393 } #Wallonie
 
-BEL_395 = { 395 396 398 397 } #Liege
+BEL_395 = { 395 396 398 } #Liege
 
 LUX_397 = { 397 } #Luxembourg
 
