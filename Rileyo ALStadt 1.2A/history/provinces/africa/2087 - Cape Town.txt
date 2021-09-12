@@ -9,7 +9,3 @@ colonial = 2
 	controller = SAF
 	colonial = 0
 }
-1861.1.1 = {
-	railroad = 1
-	naval_base = 1
-}
