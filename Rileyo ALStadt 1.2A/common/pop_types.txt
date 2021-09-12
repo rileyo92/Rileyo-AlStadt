@@ -1004,11 +1004,6 @@ emigration_chance =
 
 ###Colony and Immigrant Nations Emigration Security###
 
-#If pop group is in a country with the country tag, then -4% chance to emigrate.
-	modifier = {
-		factor = -4.0
-		has_country_flag = new_world_nation
-	}
 #If pop group is in a colony, then -2% chance to emigrate.
 	modifier = {
 		factor = -10000
