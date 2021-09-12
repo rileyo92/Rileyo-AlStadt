@@ -2,4 +2,4 @@ owner = POR
 controller = POR
 add_core = POR
 trade_goods = tea
-life_rating = 32
+life_rating = 35
