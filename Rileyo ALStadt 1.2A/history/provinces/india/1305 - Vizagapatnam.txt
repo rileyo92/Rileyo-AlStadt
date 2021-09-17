@@ -3,5 +3,5 @@ controller = ENG
 add_core = ORI
 add_core = HND
 trade_goods = tobacco
-life_rating = 32
+life_rating = 30
 colonial = 2

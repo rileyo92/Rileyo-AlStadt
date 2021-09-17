@@ -3,5 +3,5 @@ controller = ENG
 add_core = MUG
 add_core = HND
 trade_goods = dye
-life_rating = 32
+life_rating = 30
 colonial = 2
