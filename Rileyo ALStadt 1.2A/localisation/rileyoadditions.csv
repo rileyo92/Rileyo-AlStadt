@@ -22,3 +22,9 @@ DR_DESC;Same as Grand Campaign except all dominions of UK are released at game s
 EVTNAME123412351;Sphere Fixes for Dominions;;;;;;;;;;;;;x;;;;;;;;;;;
 EVTDESC123412351;This event adds all dominions into the British Sphere at game start;;;;;;;;;;;;;x;;;;;;;;;;;
 EVTOPTA123412351;The Sun never Sets;;;;;;;;;;;;;x;;;;;;;;;;;
+embrace_slovene_minority_title;Embrace the Slovene Minority;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+embrace_slovene_minority_desc;We shall embrace our Slovene citizens, and elevate them to the status shared by that of the Hungarians.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+embrace_croat_minority_title;Embrace the Croat Minority;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+embrace_croat_minority_desc;We shall embrace our Croat citizens, and elevate them to the status shared by that of the Hungarians.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+integrate_bosnia_title;Integrate Bosnia;;;;;;;;;;;;;x;;;;;;;;;;;
+integrate_bosnia_desc;The Ottomans are seen as the sick man of Europe, we have proven this by taking Bosnia and the rest of Europe now are happy to declare us the true rulers of the region;;;;;;;;;;;;;x;;;;;;;;;;;
