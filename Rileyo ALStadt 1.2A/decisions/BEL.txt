@@ -84,5 +84,8 @@ political_decisions = {
 			add_accepted_culture = dutch
 			remove_accepted_culture = french
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 }
