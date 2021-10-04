@@ -16,14 +16,14 @@ political_decisions = {
 					government = hms_government
 					government = democracy
 				}
-			}	
+			}
 			year = 1850
 		}
-	
+
 		allow = {
 			cheap_steel = 1
 		}
-	
+
 		effect = {
 			set_global_flag = statue_of_liberty_has_been_built
 			any_pop = {
@@ -65,7 +65,7 @@ political_decisions = {
 			set_country_flag = french_foreign_legion_supported
 		}
 	}
-	
+
 	french_military_mission_to_japan = {
 		potential = {
 			tag = FRA
@@ -77,7 +77,7 @@ political_decisions = {
 				has_country_flag = military_mission_in_japan
 			}
 		}
-		
+
 		allow = {
 			naval_statistics = 1
 			relation = {
@@ -85,7 +85,7 @@ political_decisions = {
 				value = 120
 			}
 		}
-		
+
 		effect = {
 			relation = {
 				who = JAP
@@ -98,7 +98,7 @@ political_decisions = {
 			set_country_flag = military_mission_in_japan
 		}
 	}
-	
+
 	palais_garnier = {
 		potential = {
 			NOT = {
@@ -107,17 +107,17 @@ political_decisions = {
 			tag = FRA
 			owns = 425
 		}
-		
+
 		allow = {
 			expressionism = 1
 		}
-		
+
 		effect = {
 			prestige = 10
 			set_country_flag = palais_garnier_built
 		}
 	}
-	
+
 	the_lambert_charter = {
 		potential = {
 			NOT = {
@@ -126,7 +126,7 @@ political_decisions = {
 			tag = FRA
 			exists = MAD
 		}
-		
+
 		allow = {
 			is_greater_power = yes
 			ideological_thought = 1
@@ -138,7 +138,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			diplomatic_influence = {
 				who = MAD
@@ -147,7 +147,7 @@ political_decisions = {
 			set_country_flag = lambert_has_been_chartered
 		}
 	}
-	
+
 	end_the_merina_monarchy = {
 		potential = {
 			OR = {
@@ -164,7 +164,7 @@ political_decisions = {
 			MAD = {AI = yes}
 			tag = FRA
 		}
-		
+
 		allow = {
 			MAD = {
 				in_sphere = FRA
@@ -175,13 +175,13 @@ political_decisions = {
 			invention = expansionism
 			war = no
 		}
-		
+
 		effect = {
 			inherit = MAD
 			set_country_flag = merina_monarchy_is_over
 		}
 	}
-	
+
 	brazzas_expedition = {
 		potential = {
 			tag = FRA
@@ -190,11 +190,11 @@ political_decisions = {
 				has_global_flag = brazzaville_formed
 			}
 		}
-		
+
 		allow = {
 			invention = mission_to_civilize
 		}
-		
+
 		effect = {
 			1977 = {
 				change_province_name = "Brazzaville"
@@ -203,7 +203,7 @@ political_decisions = {
 			set_global_flag = brazzaville_formed
 		}
 	}
-	
+
 	the_rhine_crisis = {
 		potential = {
 			tag = FRA
@@ -216,11 +216,11 @@ political_decisions = {
 				has_country_flag = crisis_on_the_rhine
 			}
 		}
-		
+
 		allow = {
 			ideological_thought = 1
 		}
-		
+
 		effect = {
 			any_country = {
 				limit = {
@@ -253,7 +253,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	build_the_eiffel_tower = {
 		potential = {
 			tag = FRA
@@ -262,11 +262,11 @@ political_decisions = {
 			}
 			has_country_flag = world_fair_planner
 		}
-		
+
 		allow = {
 			cheap_steel = 1
 		}
-		
+
 		effect = {
 			425 = {
 				add_province_modifier = {
@@ -278,7 +278,7 @@ political_decisions = {
 			set_country_flag = the_eiffel_tower_was_built
 		}
 	}
-	
+
 	haussmanns_renovations = {
 		potential = {
 			tag = FRA
@@ -291,19 +291,41 @@ political_decisions = {
 				early_railroad = 1
 			}
 		}
-		
+
 		allow = {
 			impressionism = 1
 			iron_railroad = 1
 			business_banks = 1
 		}
-		
+
 		effect = {
 			425 = {
 				life_rating = 5
 			}
 			prestige = 10
 			set_country_flag = extreme_home_makeover
+		}
+	}
+
+	integrate_wallonia = {
+		potential = {
+			OR = {
+				tag = FRA
+				tag = NET
+			}
+			NOT = { has_country_flag = wallonia_integration }
+		}
+		allow = {
+			owns = 392
+			owns = 395
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = walloon
+			badboy = 7.5
+			BEL_394 = { add_core = THIS }
+			BEL_395 = { add_core = THIS }
+			set_country_flag = wallonia_integration
 		}
 	}
 }
