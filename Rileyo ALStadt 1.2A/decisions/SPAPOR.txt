@@ -93,15 +93,27 @@ political_decisions = {
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
-			owns =
-			owns =
-			owns =
+			owns = 1455
+			owns = 2565
+			owns = 1463
 		}
 		effect = {
 			add_accepted_culture = filipino
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = spanish
+						has_pop_culture = catalan
+						has_pop_culture = basque
+					}
+				}
+				militancy = 6
+				consciousness = 8
+			}
 			set_country_flag = filipino_integration
 		}
 	}
+
 	por_lusotropicalism = {
 		potential = {
 			tag = POR
@@ -109,17 +121,24 @@ political_decisions = {
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
-			owns =
-			owns =
-			owns =
-			owns =
-			owns =
+			owns = 1999
+			owns = 2006
+			owns = 2049
+			owns = 2057
+			owns = 2060
 		}
 		effect = {
-			add_accepted_culture
-			add_accepted_culture
-			add_accepted_culture
-			add_accepted_culture
+			add_accepted_culture = tonga
+			add_accepted_culture = sena
+			add_accepted_culture = makua
+			add_accepted_culture = ovimbundu
+			any_pop = {
+				limit = {
+					has_pop_culture = portuguese
+				}
+				militancy = 4
+				consciousness = 6
+			}
 			set_country_flag = lusotropicalism
 		}
 	}

@@ -118,6 +118,7 @@ political_decisions = {
 				prestige = 50
 				revolution_n_counterrevolution = 1
 				psychoanalysis = 1
+				social_science = 1
 			}
 			effect = {
 				set_country_flag = embraced_croats
@@ -128,10 +129,11 @@ political_decisions = {
 						OR = {
 							has_pop_culture = hungarian
 							has_pop_culture = czech
+							has_pop_culture = south_german
 						}
 					}
-					militancy = 4
-					consciousness = 4
+					militancy = 3
+					consciousness = 3
 				}
 				any_pop = {
 					limit = { has_pop_culture = croat }
@@ -155,8 +157,7 @@ political_decisions = {
 				}
 			}
 			allow = {
-				accepted_culture = croat
-				year = 1875
+				year = 1870
 				prestige = 50
 				revolution_n_counterrevolution = 1
 				psychoanalysis = 1
@@ -171,11 +172,11 @@ political_decisions = {
 						OR = {
 							has_pop_culture = hungarian
 							has_pop_culture = czech
-							has_pop_culture = croat
+							has_pop_culture = south_german
 						}
 					}
-					militancy = 4
-					consciousness = 4
+					militancy = 3
+					consciousness = 3
 				}
 				any_pop = {
 					limit = { has_pop_culture = slovene }
@@ -208,9 +209,10 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = serb
+						has_pop_culture = bosniak
 					}
 				}
-				militancy = 5
+				militancy = 6
 				consciousness = 8
 			}
 		}

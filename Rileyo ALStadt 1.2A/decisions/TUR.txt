@@ -169,16 +169,54 @@ political_decisions = {
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
-			owns =
-			owns =
-			owns =
+			owns = 794
+			owns = 2583
+			owns = 834
+			owns = 840
+			owns = 783
 		}
 		effect = {
 			set_country_flag = balkan_focus
 			add_accepted_culture = greek
 			add_accepted_culture = serb
 			remove_accepted_culture = kurdish
-			remove_accepted_culture = north_causcassian
+			remove_accepted_culture = north_caucasian
+			SER_794 = { add_core = TUR }
+			MON_2582 = { add_core = TUR }
+			TUR_824 = { add_core = TUR }
+			GRE_837 = { add_core = TUR }
+			GRE_826 = { add_core = TUR }
+			EGY_843 = { add_core = TUR }
+			WAL_665 = { add_core = TUR }
+			AUS_777 = { add_core = TUR }
+			AUS_771 = { add_core = TUR }
+			AUS_780 = { add_core = TUR }
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = kurdish
+						has_pop_culture = north_caucasian
+						has_pop_culture = mashriqi
+						has_pop_culture = turkish
+						has_pop_culture = bedouin
+					}
+				}
+				militancy = 6
+				consciousness = 8
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = serb
+						has_pop_culture = greek
+						has_pop_culture = bulgarian
+						has_pop_culture = albanian
+						has_pop_culture = bosniak
+					}
+				}
+				militancy = -4
+				consciousness = -4
+			}
 		}
 	}
 }
