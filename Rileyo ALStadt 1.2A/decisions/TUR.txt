@@ -191,6 +191,16 @@ political_decisions = {
 			AUS_777 = { add_core = TUR }
 			AUS_771 = { add_core = TUR }
 			AUS_780 = { add_core = TUR }
+			any_country = {
+				limit = {
+					tag = WAL
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
 			any_pop = {
 				limit = {
 					OR = {
