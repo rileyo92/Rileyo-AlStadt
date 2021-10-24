@@ -1,0 +1,5 @@
+#Plans/Things to do
+#
+#Script event for Irish potato famine
+#Adopt Zombie's combat width system for late-game
+#
