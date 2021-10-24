@@ -99,6 +99,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = filipino
+			PHI = { all_core = { add_core = THIS } }
 			any_pop = {
 				limit = {
 					OR = {
@@ -132,6 +133,13 @@ political_decisions = {
 			add_accepted_culture = sena
 			add_accepted_culture = makua
 			add_accepted_culture = ovimbundu
+			POR_1999 = { add_core = THIS }
+			POR_2006 = { add_core = THIS }
+			ENG_2014 = { add_core = THIS }
+			ENG_2068 = { add_core = THIS }
+			POR_2049 = { add_core = THIS }
+			POR_2060 = { add_core = THIS }
+			POR_2053 = { add_core = THIS }
 			any_pop = {
 				limit = {
 					has_pop_culture = portuguese
