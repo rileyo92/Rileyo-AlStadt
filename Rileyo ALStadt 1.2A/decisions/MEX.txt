@@ -24,6 +24,9 @@ political_decisions = {
 					factor = 8
 				}
 			}
+			add_accepted_culture = texan
+			add_accepted_culture = caribeno
+			add_accepted_culture = central_american
 			set_country_flag = we_have_tried_this_once
 		}
 	}

@@ -161,4 +161,24 @@ political_decisions = {
 			set_country_flag = balkans_lost
 		}
 	}
+	focus_on_balkans = {
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = balkans_lost }
+			NOT = { has_country_flag = balkan_focus }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns =
+			owns =
+			owns =
+		}
+		effect = {
+			set_country_flag = balkan_focus
+			add_accepted_culture = greek
+			add_accepted_culture = serb
+			remove_accepted_culture = kurdish
+			remove_accepted_culture = north_causcassian
+		}
+	}
 }

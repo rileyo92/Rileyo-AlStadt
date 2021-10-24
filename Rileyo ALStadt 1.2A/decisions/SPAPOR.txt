@@ -86,4 +86,20 @@ political_decisions = {
 			POR = { all_core = { add_core = THIS } }
 		}
 	}
+	spa_filipino_inititive = {
+		potential = {
+			tag = SPA
+			NOT = { has_country_flag = filipino_integration }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns =
+			owns =
+			owns =
+		}
+		effect = {
+			add_accepted_culture = filipino
+			set_country_flag = filipino_integration
+		}
+	}
 }

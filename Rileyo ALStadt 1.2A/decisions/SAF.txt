@@ -6,14 +6,35 @@ political_decisions = {
 				has_country_flag = has_die_stem
 			}
 		}
-		
+
 		allow = {
 			mass_culture_n_the_avant_garde = 1
 		}
-		
+
 		effect = {
 			prestige = 5
 			set_country_flag = has_die_stem
+		}
+	}
+
+	saf_beacon_of_liberty = {
+		potential = {
+			OR = {
+				tag = SAF
+				tag = TRN
+				tag = ORA
+			}
+			NOT = { has_country_flag = african_acceptance }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = khorisan
+			add_accepted_culture = zulu
+			add_accepted_culture = xhosa
+			add_accepted_culture = sotho
+			set_country_flag = african_acceptance
 		}
 	}
 }
