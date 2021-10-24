@@ -159,19 +159,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA123412350"
 		any_owned = {
-			limit = {
-				OR = {
-					province_id = 2468
-					province_id = 2469
-					province_id = 2470
-					province_id = 2472
-					province_id = 2473
-					province_id = 2482
-					province_id = 2483
-					province_id = 2497
-					province_id = 2508
-				}
-			}
 			assimilate = yes
 		}
 	}
