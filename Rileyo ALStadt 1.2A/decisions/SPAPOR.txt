@@ -102,4 +102,25 @@ political_decisions = {
 			set_country_flag = filipino_integration
 		}
 	}
+	por_lusotropicalism = {
+		potential = {
+			tag = POR
+			NOT = { has_country_flag = lusotropicalism }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns =
+			owns =
+			owns =
+			owns =
+			owns =
+		}
+		effect = {
+			add_accepted_culture
+			add_accepted_culture
+			add_accepted_culture
+			add_accepted_culture
+			set_country_flag = lusotropicalism
+		}
+	}
 }
