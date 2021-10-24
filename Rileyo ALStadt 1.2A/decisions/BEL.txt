@@ -80,7 +80,7 @@ political_decisions = {
 		}
 		effect = {
 			primary_culture = flemish
-			add_accepted_culture = walloon
+			add_accepted_culture = wallonian
 			add_accepted_culture = dutch
 			remove_accepted_culture = french
 		}

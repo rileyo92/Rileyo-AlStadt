@@ -321,7 +321,7 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
-			add_accepted_culture = walloon
+			add_accepted_culture = wallonian
 			badboy = 7.5
 			BEL_394 = { add_core = THIS }
 			BEL_395 = { add_core = THIS }
