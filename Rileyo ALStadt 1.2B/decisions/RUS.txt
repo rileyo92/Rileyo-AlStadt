@@ -160,9 +160,9 @@ political_decisions = {
 					}
 				}
 				country_event = { id=19030 days=0 }
-				add_accepted_culture = georgian
-				add_accepted_culture = armenian
 			}
+			add_accepted_culture = georgian
+			add_accepted_culture = armenian
 		}
 	}
 

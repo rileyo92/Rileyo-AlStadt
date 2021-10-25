@@ -2,4 +2,6 @@
 #
 #Script event for Irish potato famine
 #Adopt Zombie's combat width system for late-game
+#Add RGO deicison, alter RGO'S worldwide
+#Countries to look at still: Persia, Greece, Egypt, Ethiopia, Korea, Romania
 #
