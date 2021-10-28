@@ -1015,6 +1015,16 @@ emigration_chance =
 		is_accepted_culture = no
 		NOT = { culture = irish }
 	}
+
+	modifier = {
+	   factor = -0.5
+		 culture = nanfaren
+	}
+
+	modifier = {
+	   factor = -0.5
+		 culture = beifaren
+	}
 }
 #general assimilation mtth, same for all pops
 assimilation_chance = {
