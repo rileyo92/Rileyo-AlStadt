@@ -821,3 +821,19 @@ Bonus_Immigration = {
 	global_immigrant_attract = 4
 	icon = 17
 }
+
+### POD-Irish Famine###
+irish_potato_blight = {
+	local_RGO_output = -0.9
+	pop_militancy_modifier = 0.3
+	pop_consciousness_modifier = 0.3
+	immigrant_push = 1.75
+	local_factory_output = -0.25
+	population_growth = -0.001
+	icon = 4
+}
+irish_republicans = {
+	pop_militancy_modifier = 0.02
+	pop_consciousness_modifier = 0.05
+	icon = 18
+}
