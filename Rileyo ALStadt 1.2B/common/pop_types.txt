@@ -1050,6 +1050,10 @@ assimilation_chance = {
 			factor = -9.9
 			has_culture_core = no
 		}
+		modifier = {
+			factor = -11
+			culture = ashkenazi
+		}
 	}
 #LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
 	group = {
