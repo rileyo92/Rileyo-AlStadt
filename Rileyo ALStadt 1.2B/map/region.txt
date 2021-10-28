@@ -73,13 +73,19 @@ CAN_57 = { 57 56 52 46 53 55 54 } #Lower Ontario
 
 ENG_58 = { 58 59 60 61 62 63 66 64 65 67 2593 2626 2592 2627 } #Quebec
 
-ENG_74 = { 74 75 76 77 2625 } #Newfoundland
+ENG_74 = { 74 75 76 2625 } #Newfoundland
+
+CAN_77 = { 77 } #St Pierre and Miquelon
 
 TEX_132 = { 132 133 134 135 136 137 138 } #Texas
 
-UCA_2186 = { 2186 2187 2188 2189 2190 } #Guatemala
+UCA_2186 = { 2186 2187 2188 2189 } #Guatemala
 
-UCA_2191 = { 2193 2191 2192 2194 2195 2196 } #Honduras
+ENG_2190 = { 2190 } #Belize
+
+UCA_2191 = { 2191 2192 } #El Salvador
+
+UCA_2193 = { 2193 2194 2195 2196 } #Honduras
 
 UCA_2197 = { 2197 2198 2199 2200 } #Nicuagua
 
@@ -223,15 +229,17 @@ MEX_2162 = { 2172 2162 2164 2175 2176 2177 } #Mexico
 
 MEX_2170 = { 2170 2171 2174 2178 2179 2180 } #Morelia
 
-MEX_2161 = { 2161 2160 2168 2166 2169 } #Jalisco
+MEX_2161 = { 2161 2160 2168 2166 2169 2173 2167 2159 2158 } #Jalisco-Zacatecas
 
-MEX_2173 = { 2173 2167 2159 2158 } #Zacatecas
+ENG_1979 = { 1979 2239 2242 2243 } #Guayana
 
-ENG_1979 = { 1979 2239 2240 2241 2242 2243 2245 2246 } #Guayana
+NET_2240 = { 2240 2245 } #Suriname
+
+FRA_2241 = { 2241 2246 } #French Guiana
 
 VNZ_2234 = { 2268 2270 2271 2272 2273 } #Zulia
 
-NET_2234 = { 2234 2235 } #ABC Islands
+NET_2234 = { 2234 2235 2236 } #Dutch West Indies
 
 VNZ_2265 = { 2264 2265 2266 2267 2274 } #Miranda
 
@@ -503,9 +511,15 @@ SWI_603 = { 603 606 611 2568 } #East Switzerland
 
 SWI_605 = { 605 604 607 608 609 } #West Switzerland
 
-ENG_2228 = { 2228 2229 2231 2232 2233 2237 2238 2409 } #Lesser Antilles
+ENG_2228 = { 2229 2231 2233 2237 2238 2409 } #Windward Islands
 
-ENG_2224 = { 2224 2225 2226 2227 2230 2236 2223 2222 } #West Indies
+FRA_2228 = { 2228 2230 } #French Antilles
+
+ENG_2224 = { 2224 2225 2226 2227 2222 2232 } #British Antilles
+
+DEN_2223 = { 2223 } #Virgin Islands
+
+SPA_2222 = { 2222 } #Puerto Rico
 
 ENG_203 = { 203 2219 2217 2218 2220 } #Caribbean Islands
 

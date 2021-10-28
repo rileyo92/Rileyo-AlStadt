@@ -3,17 +3,11 @@
 #Adopt Zombie's combat width system for late-game
 #Add RGO deicison, alter RGO'S worldwide
 #Countries to look at still: Persia, Greece, Egypt, Ethiopia, Korea, Romania
-#Make St Pierre and Miquleon it's own State
-#Reorganise Carribean States
-#Split Belize and El Salvador into own States
-#Merge Jalisco and Zacataces
 #Reorganise Venezuela
 #Let USCA form Gran Colombia, give Gran Colombia Caribeno and Central American Accepted
 #Create Peru-Bolivia deicison
 #Create La Plata Decision
 #Add decision for Mexico to core Guatemala, Belize and Cuba
-#Rename Maryland to Maryland-Delaware
 #Create State for Falklands and South Georgia
-#Split Guyana into 3 states
 #Reduce pop growth maybe?
 #Add extra National Focus
