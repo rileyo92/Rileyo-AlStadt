@@ -3,8 +3,6 @@
 #Adopt Zombie's combat width system for late-game
 #Add RGO deicison, alter RGO'S worldwide
 #Countries to look at still: Persia, Greece, Egypt, Ethiopia, Korea, Romania
-#Make Askhenazi not assimilate
-#Remove Russian Cores on Congress Poland
 #Reduce China Migration
 #Merge Colorado and Wyoming
 #Merge Missouri and Arkansas
