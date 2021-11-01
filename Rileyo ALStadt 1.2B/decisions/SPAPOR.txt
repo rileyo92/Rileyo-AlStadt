@@ -99,7 +99,9 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = filipino
-			PHI = { all_core = { add_core = THIS } }
+			SPA_1463 = { add_core = THIS }
+			SPA_1455 = { add_core = THIS }
+			SPA_1459 = { add_core = THIS }
 			any_pop = {
 				limit = {
 					OR = {
