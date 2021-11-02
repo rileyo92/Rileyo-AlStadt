@@ -1,24 +1,24 @@
 rail_focus =
 {
-	encourage_rail = 
+	encourage_rail =
 	{
 		railroads = 0.5 #Capitalists 50% more likeley to choose railroads
 		icon = 2
 	}
 }
 
-immigration_focus = 
+immigration_focus =
 {
 	immigration =
 	{
 		immigrant_attract = 0.2 #increases attactiveness to immigrants by 20 %
 		icon = 3
-		limit = { 
-			#OR = { 
+		limit = {
+			#OR = {
 				#continent = north_america
 				#continent = south_america
 				#is_overseas = yes
-			#}  
+			#}
 		}
 	}
 }
@@ -67,15 +67,14 @@ promotion_focus =
 
 	promote_capitalists =
 	{
-		capitalists = 0.20 #20% more likeley to become this type
+		capitalists = 0.25 #25% more likeley to become this type
 		icon = 8
 		outliner_show_as_percent = yes
-		limit = { 
+		limit = {
 			civilized = yes
 		}
-
 	}
-	
+
 	promote_clergymen =
 	{
 		clergymen = 0.20 #20% more likeley to become this type
@@ -88,7 +87,7 @@ promotion_focus =
 		clerks = 0.20 #20% more likeley to become this type
 		icon = 10
 		outliner_show_as_percent = yes
-		limit = { 
+		limit = {
 			civilized = yes
 		}
 	}
@@ -98,7 +97,7 @@ promotion_focus =
 		craftsmen = 0.20 #20% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
-		limit = { 
+		limit = {
 			civilized = yes
 		}
 	}
@@ -109,7 +108,7 @@ promotion_focus =
 		icon = 12
 		outliner_show_as_percent = yes
 	}
-	
+
 	promote_labourers =
 	{
 		labourers = 0.20 #20% more likeley to become this type
@@ -165,7 +164,7 @@ production_focus =
 		steamer_convoy = 18.3
 		clipper_convoy = 18.3
 		icon = 19
-		limit = { 
+		limit = {
 			#civilized = yes
 			state_scope = { any_owned_province = { port = yes } }
 		}
@@ -178,19 +177,19 @@ production_focus =
 		fabric = 0.3
 		dye = 0.3
 		icon = 20
-		#limit = { 
+		#limit = {
 		#	civilized = yes
 		#}
 	}
 
-	wood_focus = 
+	wood_focus =
 	{
 		paper = 18.3
 		luxury_furniture = 18.3
 		furniture = 18.3
 		lumber = 18.3
 		icon = 21
-		#limit = { 
+		#limit = {
 		#	civilized = yes
 		#}
 	}
@@ -201,32 +200,32 @@ production_focus =
 		machine_parts = 25.3
 		cement = 18.3
 		icon = 22
-		#limit = { 
+		#limit = {
 		#	civilized = yes
 		#}
 	}
 
-	armaments_focus = 
+	armaments_focus =
 	{
 		artillery = 18.3
 		small_arms = 18.3
 		ammunition = 18.3
-		canned_food = 18.3  
+		canned_food = 18.3
 		explosives = 18.3
 		fertilizer = 18.3
 		icon = 23
-		#limit = { 
+		#limit = {
 		#	civilized = yes
 		#}
 	}
 
-	consumer_focus = 
+	consumer_focus =
 	{
 		liquor = 18.3
 		wine = 18.3
 		glass = 18.3
 		icon = 24
-		#limit = { 
+		#limit = {
 		#	civilized = yes
 		#}
 	}
@@ -237,49 +236,49 @@ party_loyalty_focus =
 	fascist_focus =
 	{
 		ideology = fascist
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 25
 	}
-	
+
 	reactionary_focus =
 	{
 		ideology = reactionary
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 26
 	}
-	
+
 	conservative_focus =
 	{
 		ideology = conservative
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 27
 	}
-	
+
 	socialist_focus =
 	{
 		ideology = socialist
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 28
 	}
-	
+
 	communist_focus =
 	{
 		ideology = communist
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 29
 	}
-	
+
 	liberal_focus =
 	{
 		ideology = liberal
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 30
 	}
-	
+
 	anarcho_liberal_focus =
 	{
 		ideology = anarcho_liberal
-		loyalty_value = 0.0025 # By that much pops will be more loyal
+		loyalty_value = 0.005 # By that much pops will be more loyal
 		icon = 31
 	}
 }

@@ -540,10 +540,12 @@ political_decisions = {
 			2242 = { add_core = GCO } # Mahdia, prev VNZ core
 
 			# some early claims we can roll with for future colombian lebensraum
-			2200 = { add_core = GCO }
-			2201 = { add_core = GCO }
-			2202 = { add_core = GCO }
-			2203 = { add_core = GCO }
+			PEU_2289 = { add_core = GCO }
+			ENG_1979 = { add_core = GCO }
+			UCA_2201 = { add_core = GCO }
+			2235 = { add_core = GCO }
+			2234 = { add_core = GCO }
+			2237 = { add_core = GCO }
 			change_tag = GCO
 			add_accepted_culture = central_american
 			add_accepted_culture = north_andean

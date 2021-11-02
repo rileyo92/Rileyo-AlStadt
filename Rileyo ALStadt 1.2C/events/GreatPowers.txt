@@ -81,7 +81,7 @@ country_event = {
 			who = FROM
 			value = 5
 		}
-		badboy = 1
+		badboy = 0.1
 	}
 
 	option = {
@@ -920,7 +920,7 @@ country_event = {
 		world_wars_enabled = no
 		NOT = { has_global_flag = world_wars_enabled }
 		year = 1905
-		mass_politics = 1		
+		mass_politics = 1
 	}
 
 	mean_time_to_happen = {

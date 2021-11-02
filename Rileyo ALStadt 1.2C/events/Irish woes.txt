@@ -10,7 +10,7 @@ country_event = {
 	news_desc_short = "EVTDESC1010011_NEWS_SHORT"
 	picture = "famine"
 	major = yes
-	
+
 	trigger = {
 		tag = ENG
 		year = 1844
@@ -23,9 +23,9 @@ country_event = {
 			has_country_flag = great_irish_famine
 		}
 	}
-	
+
 	mean_time_to_happen = {
-		months = 12
+		months = 6
 		modifier = {
 			factor = 1.5
 			medicine = 1
@@ -38,7 +38,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "Do whatever it takes to help them."
 		prestige = -50
@@ -93,7 +93,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "Give them what aid we can."
 		prestige = -10
@@ -126,7 +126,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "We must not interfere in the markets."
 		set_country_flag = no_help_for_the_irish
@@ -186,7 +186,7 @@ province_event = {
 	id = 1010012
 	title = "EVTNAME1010012" #Irish Famine Spreads - No Help
 	desc = "EVTDESC1010012"
-	
+
 	trigger = {
 		is_core = IRE
 		owner = { has_country_flag = no_help_for_the_irish }
@@ -197,11 +197,11 @@ province_event = {
 			has_province_modifier = potato_blight
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = "Our choice has been made."
 		state_scope = {
@@ -218,13 +218,13 @@ province_event = {
 			}
 		}
 	}
-}	
+}
 
 province_event = {
 	id = 1010013
 	title = "EVTNAME1010012" #Irish Famine Spreads - Little Help
 	desc = "EVTDESC1010013"
-	
+
 	trigger = {
 		is_core = IRE
 		owner = { has_country_flag = little_help_for_the_irish }
@@ -235,11 +235,11 @@ province_event = {
 			has_province_modifier = potato_blight
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "Our choice has been made."
 		state_scope = {
@@ -261,7 +261,7 @@ province_event = {
 	id = 1010014
 	title = "EVTNAME1010012" #Irish Famine Spreads - Helped
 	desc = "EVTDESC1010014"
-	
+
 	trigger = {
 		is_core = IRE
 		owner = { has_country_flag = help_for_the_irish }
@@ -272,11 +272,11 @@ province_event = {
 			has_province_modifier = potato_blight
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 18
 	}
-	
+
 	option = {
 		name = "Our choice has been made."
 		state_scope = {
@@ -299,7 +299,7 @@ country_event = {
 	news_desc_medium = "EVTDESC1010015_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC1010015_NEWS_SHORT"
 	picture = "arrested"
-	
+
 	trigger = {
 		tag = ENG
 		any_owned_province = { is_core = IRE }
@@ -313,7 +313,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
@@ -325,7 +325,7 @@ country_event = {
 			has_country_modifier = springtime_of_nations
 		}
 	}
-	
+
 	option = {
 		name = "Outrageous!"
 		set_country_flag = young_irish
@@ -354,7 +354,7 @@ province_event = {
 	id = 1010016
 	title = "EVTNAME1010016" #Ireland's Opportunity
 	desc = "EVTDESC1010016"
-	
+
 	trigger = {
 		is_core = IRE
 		controlled_by = THIS
@@ -365,11 +365,11 @@ province_event = {
 			NOT = { tag = IRE }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	option = {
 		name = "When the war is done, there shall be consequences."
 		state_scope = {
@@ -401,7 +401,7 @@ country_event = {
 	news_desc_medium = "EVTDESC1010020_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC1010020_NEWS_SHORT"
 	picture = "nationalists"
-	
+
 	trigger = {
 		any_owned_province = {
 			is_core = IRE
@@ -420,7 +420,7 @@ country_event = {
 			tag = IRE
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -440,7 +440,7 @@ country_event = {
 			citizenship_policy = residency
 		}
 	}
-	
+
 	option = {
 		name = "Perhaps the time has come to examine the Irish situation."
 		set_country_flag = irish_republican_brotherhood
@@ -466,14 +466,14 @@ province_event = {
 	id = 1010021
 	title = "EVTNAME1010021" #Fenians in $PROVINCENAME$
 	desc = "EVTDESC1010021"
-	
+
 	trigger = {
 		is_core = IRE
 		culture = irish
 		NOT = { has_province_modifier = irish_republicans }
 		owner = { has_country_flag = irish_republican_brotherhood }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -545,7 +545,7 @@ province_event = {
 			controlled_by = REB
 		}
 	}
-	
+
 	option = {
 		name = "This is a serious issue."
 		any_pop = {
