@@ -5,7 +5,7 @@ political_decisions = {
 			NOT = {
 				exists = GUA
 			}
-		} 
+		}
 
 		allow = {
 			GUA = {
@@ -30,5 +30,36 @@ political_decisions = {
 			factor = 1
 		}
 	}
-}	
-
+	integrate_the_mayas = {
+		potential = {
+			tag = UCA
+			NOT = { has_country_flag = maya_integration }
+		}
+		allow = {
+			owns = 2186
+			owns = 2165
+			owns = 2183
+		}
+		effect = {
+			set_country_flag = maya_integration
+			prestige = 3
+			MEX_2182 = { add_core = THIS }
+			MEX_2183 = { add_core = THIS }
+		}
+	}
+	claim_panama = {
+		potential = {
+			tag = UCA
+			NOT = { has_country_flag = panama_claimed }
+		}
+		allow = {
+			owns = 2204
+		}
+		effect = {
+			set_country_flag = panama_claimed
+			prestige = 3
+			PAN_2204 = { add_core = THIS }
+			CLM_1723 = { add_core = THIS }
+		}
+	}
+}

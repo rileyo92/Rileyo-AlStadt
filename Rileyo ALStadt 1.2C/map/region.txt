@@ -103,9 +103,9 @@ ECU_2279 = { 2279 2280 2281 2282 2283 2284 2285 } #Ecuador
 
 HAI_2213 = { 2213 2214 2215 2216 } #Hispaniola
 
-SWE_329 = { 329 330 328 327 323 } #V�stra G�taland
+SWE_329 = { 329 330 328 327 323 } #Vastra Gotaland
 
-SWE_334 = { 334 335 } #Sk�ne
+SWE_334 = { 334 335 } #Skane
 
 SWE_318 = { 318 317 319 320 321 } #Norrland
 

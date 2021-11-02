@@ -31,4 +31,61 @@ political_decisions = {
 			132 = { add_core = THIS }
 		}
 	}
+	claim_oklahoma = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = oklahoma_claimed }
+		}
+		allow = {
+			owns = 129
+		}
+		effect = {
+			set_country_flag = oklahoma_claimed
+			prestige = 3
+			USA_129 = { add_core = THIS }
+		}
+	}
+	claim_colorado = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = colorado_claimed }
+		}
+		allow = {
+			owns = 106
+		}
+		effect = {
+			set_country_flag = colorado_claimed
+			prestige = 3
+			USA_106 = { add_core = THIS }
+		}
+	}
+	claim_guatemala = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = guatemala_claimed }
+		}
+		allow = {
+			owns = 2186
+		}
+		effect = {
+			set_country_flag = guatemala_claimed
+			prestige = 3
+			UCA_2186 = { add_core = THIS }
+			2190 = { add_core = THIS }
+		}
+	}
+	claim_cuba_mex = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = cuba_claimed }
+		}
+		allow = {
+			owns = 2209
+		}
+		effect = {
+			set_country_flag = cuba_claimed
+			prestige = 3
+			SPA_2209 = { add_core = THIS }
+		}
+	}
 }
