@@ -511,7 +511,7 @@ ENG_2228 = { 2229 2231 2233 2237 2238 2409 } #Windward Islands
 
 FRA_2228 = { 2228 2230 } #French Antilles
 
-ENG_2224 = { 2224 2225 2226 2227 2222 2232 } #British Antilles
+ENG_2224 = { 2224 2225 2226 2227 2232 } #British Antilles
 
 DEN_2223 = { 2223 } #Virgin Islands
 
