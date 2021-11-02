@@ -33,8 +33,12 @@ political_decisions = {
 	}
 	claim_oklahoma = {
 		potential = {
-			tag = MEX
+			OR = {
+				tag = MEX
+				tag = USA
+			}
 			NOT = { has_country_flag = oklahoma_claimed }
+			NOT = { has_country_flag = manifest_destiny }
 		}
 		allow = {
 			owns = 129
@@ -47,8 +51,12 @@ political_decisions = {
 	}
 	claim_colorado = {
 		potential = {
-			tag = MEX
+			OR = {
+				tag = MEX
+				tag = USA
+			}
 			NOT = { has_country_flag = colorado_claimed }
+			NOT = { has_country_flag = manifest_destiny }
 		}
 		allow = {
 			owns = 106

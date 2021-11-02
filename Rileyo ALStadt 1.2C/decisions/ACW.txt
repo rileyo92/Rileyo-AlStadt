@@ -855,16 +855,34 @@ political_decisions = {
 	}
 	claim_bermuda = {
 		potential = {
-			tag = USA
-			NOT = { has_country_flag = bermuda_claimed }
+			OR = {
+				tag = USA
+				tag = CSA
+			}
+			NOT = { has_global_flag = bermuda_claimed }
 		}
 		allow = {
 			owns = 203
 		}
 		effect = {
 			prestige = 3
-			ENG_203 = { add_core = THIS }
-			set_country_flag = bermuda_claimed
+			ENG_203 = { add_core = USA }
+			ENG_203 = { add_core = CSA }
+			set_global_flag = bermuda_claimed
+		}
+	}
+	claim_st_pierre_usa = {
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = st_pierre_claimed_usa }
+		}
+		allow = {
+			owns = 77
+		}
+		effect = {
+			77 = { add_core = USA }
+			prestige = 3
+			set_country_flag = st_pierre_claimed_usa
 		}
 	}
 }

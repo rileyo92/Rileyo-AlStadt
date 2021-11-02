@@ -53,20 +53,20 @@ political_decisions = {
       }
     }
   }
-  claim_st_pierre = {
+  claim_st_pierre_can = {
     potential = {
       OR = {
         tag = CAN
         tag = ENG
         tag = QUE
       }
-      NOT = { has_global_flag = st_pierre_claimed }
+      NOT = { has_global_flag = st_pierre_claimed_can }
     }
     allow = {
       owns = 77
     }
     effect = {
-      set_global_flag = st_pierre_claimed
+      set_global_flag = st_pierre_claimed_can
       ENG = {
         prestige = 3
       }
