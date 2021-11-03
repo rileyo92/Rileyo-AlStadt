@@ -1,10 +1,6 @@
 #Plans/Things to do
 #
 #Adopt Zombie's combat width system for late-game
-#Add RGO deicison, alter RGO'S worldwide
+#Altar RGO'S worldwide
 #Countries to look at still: Persia, Greece, Egypt, Ethiopia, Korea, Romania
-#Add decision for Mexico to core Guatemala, Belize, Cuba, Oklahoma and Colorado
-#Add decision/event chain for the Pacifc North-west between USA and either Canada or UK
-#Split Murcia and Valencia State
-#Reduce pop growth maybe?
 #Add extra National Focus

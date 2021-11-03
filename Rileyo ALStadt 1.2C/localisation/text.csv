@@ -13264,8 +13264,7 @@ USA_243;Southern New England;;;;;;;;;;;;;x;;;;
 USA_247;Northern New England;;;;;;;;;;;;;x;;;;
 USA_2556;Carolina;Caroline;Carolina;;Carolina;;;;;;;;;x;;;;
 ENG_6;Yukon;Yukon;Yukon;;Yukón;;;;;;;;;x;;;;
-ENG_9;Northwest Territories;Territoires du N-O;Northwest Territories;;Territorios noroccidentales;;;;;;;;;x;;;;
-ENG_43;Nunavut;Nunavut;Nunavut;;Nunavut;;;;;;;;;x;;;;
+ENG_9;Northern Canada;;;;;;;;;;;;;x;;;;
 ENG_13;British Columbia;Colombie britannique;British Columbia;;Columbia Británica;;;;;;;;;x;;;;
 ENG_22;Alberta;Alberta;Alberta;;Alberta;;;;;;;;;x;;;;
 ENG_30;Saskatchewan;Saskatchewan;Saskatchewan;;Saskatchewan;;;;;;;;;x;;;;
@@ -13517,8 +13516,8 @@ ENG_1291;Gujarat;Gujarat;Gujarat;;Gujarat;;;;;;;;;x;
 ENG_1275;Central India;Central India;Zentral-Indien;;Central India;;;;;;;;;x;
 ENG_1297;Bombay;Bombay;Bombay;;Bombay;;;;;;;;;x;
 ENG_1247;Bihar;Bihar;Bihar;;Bihar;;;;;;;;;x;
-ENG_1251;South Bengal;Bengal du sud;Südbengalen;;Bengala del Sur;;;;;;;;;x;;;;
-ENG_1252;North Bengal;Bengal du nord;Nordbengalen;;Bengala del Norte;;;;;;;;;x;;;;
+ENG_1251;West Bengal;;;;;;;;;;;;;x;
+ENG_1254;East Bengal;;;;;;;;;;;;;x;
 ENG_1258;Assam;Assam;Assam;;Assam;;;;;;;;;x;;;;
 ENG_1236;United Provinces;United Provinces;Vereinte Provinzen;;United Provinces;;;;;;;;;x;
 ENG_1244;Bundelkand;;;;;;;;;;;;;x;
@@ -13612,13 +13611,14 @@ EGY_897;Aleppo;Aleppo;Aleppo;;Aleppo;;;;;;;;;x;
 TUR_931;Baghdad;Baghdad;Baghdad;;Baghdad;;;;;;;;;x;
 TUR_935;Basra;Basra;Basra;;Basra;;;;;;;;;x;
 TUR_923;Mosul;Mosul;Mosul;;Mosul;;;;;;;;;x;
-PER_1141;Laristan-Sistan;Laristan-Sistan;Laristan-Sistan;;Laristan-Sistan;;;;;;;;;x;
+PER_1141;Fars;;;;;;;;;;;;;x
+PER_1140;Sistan-Kerman;;;;;;;;;;;;;x
 PER_1148;Khorasan;Khorasan;Khorasan;;Khorasan;;;;;;;;;x;
 PER_1138;Khuzestan;Khuzestan;Chuzestan;;Khuzestan;;;;;;;;;x;
 PER_1135;Fars-Kerman;Fars-Kerman;Fars-Kerman;;Fars-Kerman;;;;;;;;;x;
 PER_1127;Isfahan;Isfahan;Isfahan;;Isfahan;;;;;;;;;x;
 PER_1116;Gilan-Mazandaran;Gilan-Mazandaran;Gilan-Mazandaran;;Gilan-Mazandaran;;;;;;;;;x;
-PER_1121;Irakajemi;Irakajemi;Irakajemi;;Irakajemi;;;;;;;;;x;
+PER_1121;Central Persia;;;;;;;;;;;;;x
 PER_1112;Tabriz;Tabriz;Täbris;;Tabriz;;;;;;;;;x;
 PER_1122;Luristan;Luristan;Luristan;;Luristan;;;;;;;;;x;
 RUS_1098;Armenia;Arménie;Armenien;;Armenia;;;;;;;;;x;;;;
@@ -13666,12 +13666,14 @@ NEP_1327;Himalayas;Himalayas;Himalaya;;Himalayas;;;;;;;;;x;
 CHI_1600;Xinjiang;Xinjiang;Xinjiang;;Xinjiang;;;;;;;;;x
 CHI_1578;Sichuan;Sichuan;Sichuan;;Sichuan;;;;;;;;;x;
 CHI_1601;Yunnan;Yunnan;Yunnan;;Yunnan;;;;;;;;;x
-CHI_1494;Shaozhou;Shaozhou;Shaozhou;;Shaozhou;;;;;;;;;x;
+CHI_1505;Guizhou;;;;;;;;;;;;;x;
+CHI_1494;Guangdong;Kwangtung;Guangdong;;Guangdong;;;;;;;;;x
 CHI_1496;Hong Kong;;;;;;;;;;;;;x;
 CHI_1498;Macao;;;;;;;;;;;;;x;
 CHI_1532;Inner Mongolia;Inner Mongolia;Innere Mongolei;;Inner Mongolia;;;;;;;;;x;
 CHI_1504;Guangxi;Kwangsi;Guangxi;;Guangxi;;;;;;;;;x
-CHI_1553;Manchuria;Manchuria;Mandschurei;;Manchuria;;;;;;;;;x;
+CHI_1553;Northern Manchuria;;;;;;;;;;;;;x;
+CHI_1479;Southern Manchuria;;;;;;;;;;;;;x;
 CHI_1481;Port Arthur;;;;;;;;;;;;;x;;;;;;;;;;;
 CHI_1563;Shandong;Shandong;Shandong;;Shandong;;;;;;;;;x;
 CHI_1566;Qingdao;;;;;;;;;;;;;x;
@@ -13682,7 +13684,6 @@ CHI_2062;Ningxia;Ningxia;Ningxia;;Ningxia;;;;;;;;;x
 CHI_1490;Gansu;Kansuh;Gansu;;Gansu;;;;;;;;;x
 CHI_1557;Qinghai;Tsinghai;Qinghai;;Qinghai;;;;;;;;;x
 CHI_1581;Chongqing;Chongqing;Chongqing;;Chongqing;;;;;;;;;x;
-CHI_1493;Guangdong;Kwangtung;Guangdong;;Guangdong;;;;;;;;;x
 CHI_1499;Hainan;Hainan;Hainan;;Hainan;;;;;;;;;x
 CHI_1487;Fujian;Fujian;Fujian;;Fujian;;;;;;;;;x;
 CHI_1611;Zhejiang;Zhejiang;Zhejiang;;Zhejiang;;;;;;;;;x;
