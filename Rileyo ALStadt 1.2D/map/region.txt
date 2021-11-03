@@ -415,7 +415,9 @@ ENG_260 = { 260 261 262 } #Munster
 
 ENG_263 = { 263 264 265 } #Leinster
 
-FRA_461 = { 461 462 463 464 } #Languedoc
+FRA_461 = { 461 462 463 } #Languedoc
+
+FRA_464 = { 464 457 460 } #Pyrenees
 
 FRA_451 = { 451 452 453 454 } #Rhone
 
@@ -433,8 +435,6 @@ FRA_418 = { 418 415 416 417 402 } #Normandy
 
 FRA_442 = { 442 444 443 } #Poitou
 
-FRA_455 = { 455 457 456 } #Le Midi
-
 FRA_445 = { 445 446 447 448 449 450 } #Limousin-Auvergne
 
 FRA_420 = { 420 421 422 424 423 } #Bretagne
@@ -445,7 +445,7 @@ FRA_404 = { 403 405 406 408 } #Champagne
 
 FRA_411 = { 411 413 407 414 432 } #Franche-Comte
 
-FRA_458 = { 458 459 460 } #Aquitaine
+FRA_458 = { 458 459 455 456 } #Gascogne
 
 FRA_438 = { 438 436 439 440 441 } #Region Centre
 
