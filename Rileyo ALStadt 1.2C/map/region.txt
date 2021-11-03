@@ -129,13 +129,13 @@ HAW_658 = { 658 686 2526 2623 } #Hawaiian Islands
 
 AUS_654 = { 654 655 661 660 2533 651 647 } #Northern Transylvania
 
-MOL_673 = { 673 672 670 671 676 677 678 663 } #Moldavia
+MOL_673 = { 673 672 670 671 676 677 678 } #Moldavia
 
 WAL_665 = { 665 666 664 668 667 669 674 675 818 } #Wallachia
 
-SPA_474 = { 474 476 475 478 } #Galicia-Asturias
+SPA_474 = { 474 476 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 } #Leon-Castille
+SPA_477 = { 477 479 480 475 478 481 } #Leon-Castille
 
 SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Aragon
 
@@ -205,7 +205,9 @@ TUS_744 = { 744 745 747 748 746 } #Toscana
 
 PAP_741 = { 741 742 743 } #Romanga
 
-PAP_752 = { 749 752 750 751 } #Lazio
+PAP_752 = { 752 751 753 } #Umbria
+
+PAP_749 = { 749 750 } #Lazio
 
 MEX_94 = { 94 95 96 97 98 99 } #Nevada-Utah
 
@@ -473,11 +475,13 @@ SPA_512 = { 512 509 510 511 } #Lower Andalucia
 
 SPA_517 = { 517 } #Gibraltar
 
-SPA_484 = { 484 485 486 } #Extremadura
+SPA_484 = { 484 485 486 482 } #Extremadura
 
-SPA_503 = { 503 504 505 506 507 508 } #Valencia-Murcia
+SPA_503 = { 503 504 505 } #Valencia
 
-SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
+SPA_506 = { 506 507 508 490 } #Murcia
+
+SPA_487 = { 487 488 489 491 483 } #Castilla la Nueva
 
 BEL_394 = { 394 392 393 } #Wallonie
 
@@ -597,13 +601,13 @@ SPA_1455 = { 1455 1456 1457 1458 } #Luzon
 
 SPA_1459 = { 1459 1460 1461 2565 } #Visayas
 
-GRE_837 = { 834 836 835 838 } #Attica
+GRE_837 = { 834 836 835 837 838 } #Attica
 
 TUR_806 = { 806 807 } #North Macedonia
 
-TUR_832 = { 832 831 833 } #Thessalia
+TUR_832 = { 832 831 833 825 824 } #Thessalia
 
-TUR_824 = { 824 825 827 826 837 } #Epirus
+TUR_824 = { 827 826 } #Ionian Islands
 
 TUR_805 = { 805 822 823 829 830 819 820 821 } #South Macedonia
 
@@ -1015,13 +1019,17 @@ RUS_943 = { 943 999 1000 1007 } #Smolensk
 
 RUS_947 = { 944 945 946 948 949 } #Orsha
 
-SIC_754 = { 754 755 759 760 761 2567 } #Campania
+SIC_754 = { 754 755 2567 } #Campania
+
+SIC_759 = { 759 760 761 } #Calabria
 
 SIC_753 = { 753 756 757 758 } #Puglia
 
-AUS_702 = { 704 705 714 703 2584 } #West Galicia
+AUS_704 = { 704 705 714 703 2584 } #West Galicia
 
-AUS_662 = { 702 951 952 953 662 } #East Galicia
+AUS_702 = { 702 951 952 953 } #East Galicia
+
+AUS_662 = { 662 663 } #Bukovina
 
 AUS_950 = { 950 } #Transcarpathia
 
@@ -1033,7 +1041,9 @@ AUS_771 = { 771 772 773 775 776 777 779 793 } #Croatia
 
 AUS_623 = { 623 639 640 642 643 644 } #Transdanubia
 
-AUS_736 = { 736 737 769 770 778 } #Istria
+AUS_736 = { 736 737 } #Trieste
+
+AUS_770 = { 770 778 } #Istria
 
 AUS_729 = { 729 730 731 732 733 } #Venice
 
@@ -1053,13 +1063,13 @@ AUS_619 = { 619 620 621 622 624 } #Lower Austria
 
 AUS_734 = { 734 735 } #South Tyrol
 
-AUS_768 = { 767 768 } #Slovenia
+AUS_768 = { 767 768 769 } #Slovenia
 
 AUS_777 = { 791 792 2538 } #Slavonia
 
 PRU_701 = { 699 700 701 } #Pozen
 
-PRU_581 = { 581 580 582 583 584 585 } #Westfalen
+PRU_581 = { 581 580 583 584 578 579 2561 } #Westfalen
 
 PRU_553 = { 553 555 556 557 } #Magdeburg
 
@@ -1069,9 +1079,9 @@ PRU_690 = { 690 691 692 693 694 } #Westprussen
 
 PRU_695 = { 695 696 697 698 } #Ostprussen
 
-PRU_572 = { 570 571 572 573 574 } #Rhineland
+PRU_572 = { 570 571 572 574 575 576 577 } #Rhineland
 
-PRU_575 = { 575 576 577 578 579 2561 } #Nordrhein
+PRU_573 = { 573 } #Saarland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 
@@ -1087,7 +1097,7 @@ WUR_589 = { 589 590 591 593 594 } #Wurttemberg
 
 BAD_586 = { 586 587 588 569 } #Baden
 
-HAN_534 = { 534 535 536 537 } #Hannover
+HAN_534 = { 534 535 536 537 585 582 } #Hannover
 
 OLD_540 = { 540 541 538 542 543 } #East Frisia
 
@@ -1119,6 +1129,8 @@ RUS_706 = { 706 707 708 709 711 715 } #Mazowieckie
 
 RUS_955 = { 955 956 957 } #Rovne
 
-RUS_958 = { 954 958 959 960 961 962 963 } #Kiev
+RUS_958 = { 954 958 959 960 961 } #Kiev
+
+RUS_962 = { 962 963 } #Chernigov
 
 RUS_718 = { 718 941 942 } #Minsk
