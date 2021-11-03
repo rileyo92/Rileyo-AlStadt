@@ -863,7 +863,9 @@ CHI_1532 = { 1532 1535 1534 } #Inner Mongolia
 
 CHI_1504 = { 1502 1503 1504 1495 1501 } #Guangxi
 
-CHI_1553 = { 1002 1533 1553 1554 1552 1555 1479 1480 } #Manchuria
+CHI_1553 = { 1002 1533 1553 1552 } #Northern Manchuria
+
+CHI_1479 = { 1479 1480 1555 1554 } #Southern Manchuria
 
 CHI_1481 = { 1481 } #Port Arthur
 
