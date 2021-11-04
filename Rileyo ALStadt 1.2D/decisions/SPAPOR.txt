@@ -61,6 +61,7 @@ political_decisions = {
 			set_country_flag = mendizabal_confiscated
 		}
 	}
+
 	kingdom_portugal_brazil = {
 		potential = {
 			OR = {
@@ -86,6 +87,7 @@ political_decisions = {
 			POR = { all_core = { add_core = THIS } }
 		}
 	}
+
 	spa_filipino_inititive = {
 		potential = {
 			tag = SPA
@@ -164,7 +166,7 @@ political_decisions = {
 		effect = {
 			SPA_474 = { add_core = THIS }
 			set_country_flag = galicia_claimed
-			SPA = { remove_country_flag = galicia_claimed }
+			SPA = { clr_country_flag = galicia_claimed }
 			any_owned = {
 				limit = {
 					OR = {
@@ -188,7 +190,7 @@ political_decisions = {
 		effect = {
 			SPA_474 = { add_core = THIS }
 			set_country_flag = galicia_claimed
-			POR = { remove_country_flag = galicia_claimed }
+			POR = { clr_country_flag = galicia_claimed }
 			any_owned = {
 				limit = {
 					OR = {
