@@ -1,6 +1,5 @@
 #Plans/Things to do
 #
 #Adopt Zombie's combat width system for late-game
-#Altar RGO'S worldwide
-#Countries to look at still: Persia, Greece, Egypt, Ethiopia, Korea, Romania
-#Add extra National Focus
+#Alter RGO'S worldwide
+#Countries to look at still: Greece, Romania

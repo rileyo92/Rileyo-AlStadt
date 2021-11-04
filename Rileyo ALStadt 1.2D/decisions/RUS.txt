@@ -332,11 +332,14 @@ political_decisions = {
 		allow = {
 			owns = 953
 			owns = 662
+			owns = 950
 		}
 		effect = {
 			AUS_702 = { add_core = RUS }
 			AUS_662 = { add_core = RUS }
-			prestige = 5
+			950 = { add_core = RUS }
+			prestige = 10
+			badboy = 5
 			set_country_flag = galicia_claimed_rus
 		}
 	}
