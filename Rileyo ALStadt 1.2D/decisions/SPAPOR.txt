@@ -152,4 +152,68 @@ political_decisions = {
 			set_country_flag = lusotropicalism
 		}
 	}
+
+	claim_galicia_portugal = {
+		potential = {
+			tag = POR
+			NOT = { has_country_flag = galicia_claimed }
+		}
+		allow = {
+			owns = 474
+		}
+		effect = {
+			SPA_474 = { add_core = THIS }
+			set_country_flag = galicia_claimed
+			SPA = { remove_country_flag = galicia_claimed }
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 474
+						province_id = 476
+					}
+				}
+				assimilate = yes
+			}
+		}
+	}
+
+	claim_galicia_spain = {
+		potential = {
+			tag = SPA
+			NOT = { has_country_flag = galicia_claimed }
+		}
+		allow = {
+			owns = 474
+		}
+		effect = {
+			SPA_474 = { add_core = THIS }
+			set_country_flag = galicia_claimed
+			POR = { remove_country_flag = galicia_claimed }
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 474
+						province_id = 476
+					}
+				}
+				assimilate = yes
+			}
+		}
+	}
+
+	claim_pyrenees = {
+		potential = {
+			tag = SPA
+			NOT = { has_country_flag = pyrenees_claimed }
+		}
+		allow = {
+			owns = 460
+			owns = 464
+		}
+		effect = {
+			FRA_464 = { add_core = THIS }
+			set_country_flag = pyrenees_claimed
+			prestige = 5
+		}
+	}
 }

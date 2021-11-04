@@ -262,4 +262,82 @@ political_decisions = {
 		}
 	}
 
+	claim_kars = {
+		potential = {
+			tag = RUS
+			has_country_flag = eastern_christians_up_in_here_yall
+			NOT = { has_country_flag = kars_claimed }
+		}
+		allow = {
+			owns = 885
+		}
+		effect = {
+			prestige = 3
+			TUR_885 = { add_core = RUS }
+			set_country_flag = kars_claimed
+		}
+	}
+
+	consolidate_central_asia = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = the_game_begins }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			KHI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+			KOK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+			BUK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						province_id = 1211
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+		}
+		effect = {
+			RUS_1182 = { add_core = RUS }
+			RUS_1185 = { add_core = RUS }
+			KHI_1191 = { add_core = RUS }
+			KOK_1190 = { add_core = RUS }
+			BUK_1207 = { add_core = RUS }
+			RUS_1196 = { add_core = RUS }
+			prestige = 20
+			set_country_flag = the_game_begins
+			badboy = 12.5
+		}
+	}
+
+	claim_galicia_russia = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = galicia_claimed_rus }
+		}
+		allow = {
+			owns = 953
+			owns = 662
+		}
+		effect = {
+			AUS_702 = { add_core = RUS }
+			AUS_662 = { add_core = RUS }
+			prestige = 5
+			set_country_flag = galicia_claimed_rus
+		}
+	}
 }

@@ -133,6 +133,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	loss_of_balkans = {
 		potential = {
 			tag = TUR
@@ -161,6 +162,7 @@ political_decisions = {
 			set_country_flag = balkans_lost
 		}
 	}
+
 	focus_on_balkans = {
 		potential = {
 			tag = TUR
@@ -227,6 +229,27 @@ political_decisions = {
 				militancy = -4
 				consciousness = -4
 			}
+		}
+	}
+
+	refute_treaty_of_zuhab_tur = {
+		potential = {
+			tag = TUR
+			has_country_flag = balkans_lost
+			NOT = { has_country_flag = treaty_of_zuhab_refuted }
+		}
+		allow = {
+			owns = 1108
+			owns = 1117
+			owns = 1131
+		}
+		effect = {
+			set_country_flag = treaty_of_zuhab_refuted
+			badboy = 5
+			prestige = 10
+			PER_1112 = { add_core = TUR }
+			PER_1122 = { add_core = TUR }
+			PER_1138 = { add_core = TUR }
 		}
 	}
 }

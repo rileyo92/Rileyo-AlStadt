@@ -514,7 +514,7 @@ political_decisions = {
 		}
 
 		effect = {
-			badboy = 6
+			badboy = 7.5
 			any_greater_power = {
 				relation = {
 					who = USA
@@ -525,6 +525,7 @@ political_decisions = {
 				add_core = USA
 			}
 			2222 = { add_core = USA }
+			2223 = { add_core = USA }
 			any_state = {
 				limit = {
 					is_slave = yes
@@ -838,6 +839,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	claim_colombia_usa = {
 		potential = {
 			tag = USA
@@ -853,6 +855,7 @@ political_decisions = {
 			set_country_flag = colombia_claimed
 		}
 	}
+
 	claim_bermuda = {
 		potential = {
 			OR = {
@@ -871,6 +874,7 @@ political_decisions = {
 			set_global_flag = bermuda_claimed
 		}
 	}
+
 	claim_st_pierre_usa = {
 		potential = {
 			tag = USA
@@ -883,6 +887,21 @@ political_decisions = {
 			77 = { add_core = USA }
 			prestige = 3
 			set_country_flag = st_pierre_claimed_usa
+		}
+	}
+
+	claim_alaska_usa = {
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = you_did_try }
+		}
+		allow = {
+			owns = 1
+		}
+		effect = {
+			1 = { add_core = USA }
+			prestige = 3
+			set_country_flag = you_did_try
 		}
 	}
 }

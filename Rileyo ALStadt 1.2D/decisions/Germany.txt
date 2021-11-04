@@ -12,7 +12,7 @@ political_decisions = {
 			government = absolute_monarchy
 			owns = 570
 		}
-		
+
 		allow = {
 			prestige = 30
 			steel_breech_loaded_artillery = 1
@@ -23,7 +23,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			prestige = 5
 			FRA = {
@@ -31,7 +31,7 @@ political_decisions = {
 			}
 			set_country_flag = ems_dispatch_sent
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -42,7 +42,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	construct_germania_werft = {
 		potential = {
 			NOT = {
@@ -55,11 +55,11 @@ political_decisions = {
 			}
 			owns = 369
 		}
-		
+
 		allow = {
 			steel_steamers = 1
 		}
-		
+
 		effect = {
 			set_global_flag = germania_werft_has_been_built
 			prestige = 1
@@ -71,7 +71,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	support_ruhr_industrialism = {
 		potential = {
 			has_global_flag = ruhr_boom_has_happened
@@ -84,7 +84,7 @@ political_decisions = {
 				tech_school = prussian_tech_school
 			}
 		}
-		
+
 		allow = {
 			cheap_steel = 1
 			iron_breech_loaded_artillery = 1
@@ -101,13 +101,13 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			tech_school = prussian_tech_school
 			prestige = 5
 		}
-	}	
-	
+	}
+
 	die_wacht_am_rhein = {
 		potential = {
 			OR = {
@@ -137,7 +137,7 @@ political_decisions = {
 			set_country_flag = watching_the_rhine
 		}
 	}
-	
+
 	niederwald_denkmal = {
 		potential = {
 			tag = GER
@@ -147,12 +147,12 @@ political_decisions = {
 				has_country_flag = niederwald_denkmal
 			}
 		}
-		
+
 		allow = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 		}
-		
+
 		effect = {
 			any_pop = {
 				militancy = -1
@@ -161,7 +161,7 @@ political_decisions = {
 			set_country_flag = niederwald_denkmal
 		}
 	}
-	
+
 	schwabing_circles = {
 		potential = {
 			OR = {
@@ -182,7 +182,7 @@ political_decisions = {
 			set_country_flag = schwabing_encircled
 		}
 	}
-	
+
 	support_biesterfelds = {
 		potential = {
 			tag = LIP
@@ -192,17 +192,17 @@ political_decisions = {
 			}
 			exists = PRU
 		}
-		
+
 		allow = {
 			is_independant = yes
 		}
-		
+
 		effect = {
 			prestige = 10
 			set_country_flag = lippe_dispute_solved
 		}
 	}
-	
+
 	support_schaumburgs = {
 		potential = {
 			tag = LIP
@@ -212,11 +212,11 @@ political_decisions = {
 			}
 			exists = PRU
 		}
-		
+
 		allow = {
 			is_independant = yes
 		}
-		
+
 		effect = {
 			relation = {
 				who = PRU
@@ -224,9 +224,9 @@ political_decisions = {
 			}
 			set_country_flag = lippe_dispute_solved
 		}
-		
+
 	}
-	
+
 	das_zivilgesetzbuch = {
 		potential = {
 			tag = HES
@@ -234,11 +234,11 @@ political_decisions = {
 				has_country_flag = code_of_laws
 			}
 		}
-		
+
 		allow = {
 			ideological_thought = 1
 		}
-		
+
 		effect = {
 			prestige = 5
 			years_of_research = 0.05
@@ -248,7 +248,7 @@ political_decisions = {
 			set_country_flag = code_of_laws
 		}
 	}
-	
+
 	kaiser_wilhelms_land = {
 		potential = {
 			tag = GER
@@ -261,11 +261,11 @@ political_decisions = {
 				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 			}
 		}
-		
+
 		allow = {
 			invention = mission_to_civilize
 		}
-		
+
 		effect = {
 			prestige = 10
 			2531 = {
@@ -277,7 +277,7 @@ political_decisions = {
 			set_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 		}
 	}
-	
+
 	the_heligoland_question = {
 		potential = {
 			tag = GER
@@ -285,14 +285,14 @@ political_decisions = {
 				has_country_flag = has_questioned_heligoland
 			}
 		}
-		
+
 		allow = {
 			OR = {
 				is_greater_power = yes
 				invention = national_fraternity
 			}
 		}
-		
+
 		effect = {
 			533 = {
 				add_core = GER # Heligoland is my last territorial demand!
@@ -300,7 +300,7 @@ political_decisions = {
 			set_country_flag = has_questioned_heligoland
 		}
 	}
-	
+
 	construct_the_walhalla = {
 		potential = {
 			OR = {
@@ -313,11 +313,11 @@ political_decisions = {
 				has_global_flag = the_walhalla_is_built
 			}
 		}
-		
+
 		allow = {
 			romanticism = 1
 		}
-		
+
 		effect = {
 			602 = {
 				add_province_modifier = {
@@ -328,7 +328,7 @@ political_decisions = {
 			set_global_flag = the_walhalla_is_built
 		}
 	}
-	
+
 	introduce_the_presbyteries = {
 		potential = {
 			tag = HAN
@@ -342,7 +342,7 @@ political_decisions = {
 				vassal_of = ENG
 			}
 		}
-		
+
 		effect = {
 			any_pop = {
 				limit = {
@@ -353,7 +353,7 @@ political_decisions = {
 			set_country_flag = presbyteries_introduced
 		}
 	}
-	
+
 	von_moltkes_staff_reforms = {
 		potential = {
 			OR = {
@@ -384,7 +384,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	the_ruhr_boom = {
 		potential = {
 			OR = {
@@ -399,19 +399,40 @@ political_decisions = {
 				has_global_flag = ruhr_boom_has_happened
 			}
 		}
-		
+
 		allow = {
 			market_structure = 1
 			organized_factories = 1
 			early_railroad = 1
 		}
-		
+
 		effect = {
 			add_country_modifier = {
 				name = ruhr_boom
 				duration = 3650
 			}
 			set_global_flag = ruhr_boom_has_happened
+		}
+	}
+
+	grossgermanium = {
+		potential = {
+			tag = GER
+			NOT = { has_country_flag = greater_germany }
+		}
+		allow = {
+			owns = 629
+			owns = 619
+			owns = 613
+		}
+		effect = {
+			badboy = 15
+			AUS_627 = { add_core = GER }
+			AUS_612 = { add_core = GER }
+			AUS_619 = { add_core = GER }
+			AUS_734 = { add_core = GER }
+			prestige = 25
+			set_country_flag = greater_germany
 		}
 	}
 }

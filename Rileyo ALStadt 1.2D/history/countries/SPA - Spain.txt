@@ -90,6 +90,8 @@ govt_flag = {
 
 oob = "SPA_oob.txt"
 
+decision = claim_galicia_spain
+
 1837.1.1 = {
 	decision = confiscations_of_mendizabal
 }
