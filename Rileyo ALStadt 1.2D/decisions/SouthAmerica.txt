@@ -112,7 +112,11 @@ political_decisions = {
 
 	claim_guyana = {
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = GCO
+				tag = VNZ
+			}
 			NOT = { has_country_flag = guyana_claimed }
 		}
 		allow = {

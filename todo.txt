@@ -3,3 +3,5 @@
 #Adopt Zombie's combat width system for late-game
 #Alter RGO'S worldwide
 #Countries to look at still: Greece, Romania
+#Localise all the new decisions
+#Fix the duplicate Spanish Decisions
