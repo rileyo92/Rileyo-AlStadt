@@ -239,6 +239,7 @@ political_decisions = {
 				type = acquire_state
 				months = 1
 			}
+			573 = { add_core = FRA }
 			prestige = 10
 			badboy = 4
 			set_country_flag = crisis_on_the_rhine
