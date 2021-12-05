@@ -2,5 +2,5 @@ owner = BOL
 controller = BOL
 add_core = BOL
 add_core = CHL
-trade_goods = wool
+trade_goods = sulphur
 life_rating = 35

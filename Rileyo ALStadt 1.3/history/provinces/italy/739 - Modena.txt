@@ -2,5 +2,5 @@ owner = MOD
 controller = MOD
 add_core = MOD
 add_core = ITA
-trade_goods = iron
-life_rating = 36
+trade_goods = coal
+life_rating = 37
