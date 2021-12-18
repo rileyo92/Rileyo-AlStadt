@@ -835,7 +835,7 @@ switched_production = {
 }
 
 Bonus_Immigration = {
-	global_immigrant_attract = 4
+	global_immigrant_attract = 4.2
 	icon = 17
 }
 

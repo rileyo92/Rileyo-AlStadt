@@ -53,21 +53,21 @@ precision_work = yes
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
+upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+press_rights = censored_press
+trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = non_secret_ballots
 
 # Social Reforms
-wage_reform = low_minimum_wage
-work_hours = ten_hours
-safety_regulations = low_safety
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = trinket_pensions
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = SAF_conservative_2
