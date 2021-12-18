@@ -564,7 +564,6 @@ unite_moldavia_wallachia = {
 		}
 
 		allow = {
-			nationalism_n_imperialism = 1
 			WAL = {
 				war = no
 			}

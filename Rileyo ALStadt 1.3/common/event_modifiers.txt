@@ -838,3 +838,8 @@ Bonus_Immigration = {
 	global_immigrant_attract = 4
 	icon = 17
 }
+
+integration_campaign = {
+	assimilation_rate = 0.1
+	icon = 19
+}

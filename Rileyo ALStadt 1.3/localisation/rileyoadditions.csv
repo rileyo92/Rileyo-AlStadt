@@ -119,3 +119,8 @@ new_world_become_a_king_title;Establish a Kingdom;;;;;;;;;;;;;x;;;;;;;;;;;
 new_world_become_a_king_desc;After being a presidential dictatorship for more than 10 years, we can now choose to become a Monarchy!;;;;;;;;;;;;;x;;;;;;;;;;;
 new_world_become_a_republic_title;Establish a Democracy;;;;;;;;;;;;;x;;;;;;;;;;;
 new_world_become_a_republic_desc;After being a presidential dictatorship for more than 10 years, we can now choose to become a Democracy!;;;;;;;;;;;;;x;;;;;;;;;;;
+claim_cherson_rom_title;Claim Transnistria;;;;;;;;;;;;;x;;;;;;;;;;;
+claim_cherson_rom_desc;Transnistria were only ever considered historically a part of Greater Romania during World War 2 and the invasion of the Soviet Union. However we have beaten the odds and now hold onto this land. Maybe we could also integrate the people here...;;;;;;;;;;;;;x;;;;;;;;;;;
+integrate_cherson_rom_title;Integrate the Ukrainians;;;;;;;;;;;;;x;;;;;;;;;;;
+integrate_cherson_rom_desc;During World War 2 the Romanians seized land and formed the Transnistria Governorate. While short-lived in real life, it was also intended to be annexed into Romania later on anyways. Through our careful governance of the region and of our experience with Ukrainians in Bukovina beforehand, we are now in a position to integrate the Ukrainians into our country!;;;;;;;;;;;;;x;;;;;;;;;;;
+integration_campaign;Integration Campaign;;;;;;;;;;;;;x;;;;;;;;;;;
