@@ -41,20 +41,6 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
-		factor = 4.0
-		THIS = { religion = jewish }
-		any_owned_province = { is_core = ISR }
-	}
-	modifier = {
-		factor = 10.0
-		OR = {
-			continent = north_america
-			continent = south_america
-			continent = oceania
-			tag = SAF
-		}
-	}
-	modifier = {
 		factor = 0.9
 		unemployment = 0.05
 	}
@@ -86,20 +72,18 @@ country_migration_target =
 		factor = 0.1
 		unemployment = 0.5
 	}
-	#modifier = {
-	#	factor = 1.05
-	#	vote_franschise = wealth_voting
-	#}
-	#modifier = {
-	#	factor = 1.25
-	#	vote_franschise = universal_weighted_voting
-	#}
-	#modifier = {
-	#	factor = 1.5
-	#	vote_franschise = universal_voting
-	#}
+	modifier = {
+		factor = 4.0
+		THIS = { religion = jewish }
+		any_owned_province = { is_core = ISR }
+	}
+	modifier = {
+		factor = 10.0
+		nationalvalue = nv_liberty
+	}
 	modifier = {
 		factor = 0.1
+		nationalvalue = nv_liberty
 		NOT = {
 			any_owned_province = {
 				OR = {
@@ -113,7 +97,7 @@ country_migration_target =
 					}
 					AND = {
 						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
+						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
 					}
 				}
 			}

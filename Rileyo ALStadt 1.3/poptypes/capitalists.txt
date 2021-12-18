@@ -25,7 +25,6 @@ everyday_needs = {
 	paper = 20
 	luxury_clothes = 20
 	luxury_furniture = 20
-	wine = 20
 	tobacco = 20
 	coffee = 20
 }
@@ -37,7 +36,6 @@ life_needs = {
 	fruit =  1
 	grain =  2.5
 }
-
 
 luxury_needs = {
 	opium = 20
@@ -60,28 +58,36 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
-		factor = 2
+		factor = 0.9
+		unemployment = 0.05
+	}
+	modifier = {
+		factor = 0.9
 		unemployment = 0.1
 	}
 	modifier = {
-		factor = 3.0
-		NOT = { rich_tax = 0.1 }
+		factor = 0.9
+		unemployment = 0.15
 	}
 	modifier = {
-		factor = 1.2
-		is_greater_power = yes
+		factor = 0.9
+		unemployment = 0.2
 	}
 	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
+		factor = 0.9
+		unemployment = 0.25
 	}
 	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
+		factor = 0.9
+		unemployment = 0.3
 	}
 	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
+		factor = 0.9
+		unemployment = 0.35
+	}
+	modifier = {
+		factor = 0.1
+		unemployment = 0.5
 	}
 	modifier = {
 		factor = 4.0
@@ -90,15 +96,11 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10.0
-		OR = {
-			continent = north_america
-			continent = south_america
-			continent = oceania
-			tag = SAF
-		}
+		nationalvalue = nv_liberty
 	}
 	modifier = {
 		factor = 0.1
+		nationalvalue = nv_liberty
 		NOT = {
 			any_owned_province = {
 				OR = {
@@ -112,7 +114,7 @@ country_migration_target =
 					}
 					AND = {
 						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type =  craftsmen } }
+						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
 					}
 				}
 			}

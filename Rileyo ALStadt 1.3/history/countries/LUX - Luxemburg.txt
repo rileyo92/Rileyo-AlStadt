@@ -4,7 +4,7 @@ culture = french
 religion = catholic
 government = absolute_monarchy
 plurality = 25.2
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.45
 civilized = yes
 prestige = 1
@@ -26,7 +26,7 @@ work_hours = fourteen_hours
 safety_regulations = low_safety
 health_care = low_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = LUX_conservative
@@ -95,7 +95,7 @@ oob = "LUX_oob.txt"
 	army_command_principle = 1
 	army_professionalism = 1
 	army_decision_making = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -105,7 +105,7 @@ oob = "LUX_oob.txt"
 	alphabetic_flag_signaling = 1
 	naval_plans = 1
 	the_command_principle = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -117,7 +117,7 @@ oob = "LUX_oob.txt"
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -132,7 +132,7 @@ oob = "LUX_oob.txt"
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1
