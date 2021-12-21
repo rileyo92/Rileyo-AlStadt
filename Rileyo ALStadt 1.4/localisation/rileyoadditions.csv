@@ -124,3 +124,7 @@ claim_cherson_rom_desc;Transnistria were only ever considered historically a par
 integrate_cherson_rom_title;Integrate the Ukrainians;;;;;;;;;;;;;x;;;;;;;;;;;
 integrate_cherson_rom_desc;During World War 2 the Romanians seized land and formed the Transnistria Governorate. While short-lived in real life, it was also intended to be annexed into Romania later on anyways. Through our careful governance of the region and of our experience with Ukrainians in Bukovina beforehand, we are now in a position to integrate the Ukrainians into our country!;;;;;;;;;;;;;x;;;;;;;;;;;
 integration_campaign;Integration Campaign;;;;;;;;;;;;;x;;;;;;;;;;;
+interwar_warfare;Interwar Warfare;;;;;;;;;x;;;;
+interwar_warfare_desc;The age of interwar warfare has begun, allowing more frontage.;;;;;;;;;x;;;;
+interwar_warfare_2;Interwar Warfare 1925;;;;;;;;;x;;;;
+interwar_warfare_2_desc;The age of interwar warfare has continued, allowing more frontage.;;;;;;;;;x;;;;
