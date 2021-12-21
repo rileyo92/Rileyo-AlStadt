@@ -105,6 +105,18 @@ country_migration_target =
 		factor = -10000
 		soldiers = 0.06
 	}
+	modifier = { #Neighbour easier to get to, Immigrant nation bias, accepted nation bias
+		factor = 2
+		OR = {
+			neighbour = THIS
+			continent = north_america
+			continent = south_america
+			continent = oceania
+			is_primary_culture = boer
+			is_primary_culture = THIS
+			is_accepted_culture = THIS
+			is_culture_group = THIS
+	}
 	modifier = {
 		factor = 0.1
 		NOT = {
