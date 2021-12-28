@@ -285,15 +285,25 @@ gas_attack_capability = {
 gas_defense_capability = {
 	limit = { military_directionism = 1 }
 	chance = {
-		base = 100
+		base = 0
+		modifier = {
+			factor = 5
+			invention = gas_attack_capability
+		}
 		modifier = {
 			factor = 5
 			war = yes
 			war_countries = { invention = gas_attack_capability }
 		}
+		modifier = {
+			factor = 6
+			any_neighbor_country = {
+				invention = gas_defense_capability
+			}
+		}
 	}
 	effect = {
-		gas_defence = yes
+		soldier_to_pop_loss = 0.03
 	}
 }
 elastic_defense_system = {

@@ -3,8 +3,7 @@ color = { 11 40 93 }
 state_capital_only = yes
 strata = rich
 
-rebel =
-{
+rebel = {
 	cavalry = 0.1
 	artillery = 0
 	cuirassier = 0.1
@@ -48,8 +47,8 @@ luxury_needs = {
 }
 
 
-country_migration_target =
-{
+country_migration_target = {
+
 	factor = 1
 
 	modifier = {
@@ -206,8 +205,7 @@ country_migration_target =
 	}
 }
 
-migration_target =
-{
+migration_target = {
 	factor = 0.01
 
 	modifier = {
@@ -316,11 +314,9 @@ migration_target =
 	}
 }
 
-promote_to =
-{
+promote_to = {
 
-	capitalists =
-	{
+	capitalists = {
 		factor = 0.01
 		modifier = {
 			factor = -1
@@ -854,15 +850,6 @@ promote_to =
 			}
 		}
 	}
-#	labourers =
-#	{
-#		factor = 0.01
-#		modifier = {
-#			factor = 1.4
-#			not = { military_spending = 0.35 }
-#		}
-#	}
-
 }
 
 
@@ -1418,8 +1405,7 @@ ideologies = {
 	}
 }
 
-issues =
-{
+issues = {
 	protectionism = {
 		factor = 1.1
 		modifier = {
