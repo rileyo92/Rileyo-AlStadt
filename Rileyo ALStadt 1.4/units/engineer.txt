@@ -1,6 +1,6 @@
 engineer = {
 	icon = 16
-	
+
 	type = land
 	sprite = Engineer
 	active = no
@@ -22,7 +22,7 @@ engineer = {
 		liquor = 10
 		explosives = 5
 	}
-	
+
 	supply_consumption = 1.0
 	supply_cost = {
 		small_arms = 0.012 #0.01
@@ -30,11 +30,11 @@ engineer = {
 		canned_food = 0.06 # 0.02
 		explosives = 0.05
 	}
-	
+
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 2
+	attack = 3
 	defence = 6
 	discipline = 1.0
 	support = 0.5

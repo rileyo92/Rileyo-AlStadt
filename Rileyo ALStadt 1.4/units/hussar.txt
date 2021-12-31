@@ -1,17 +1,17 @@
 hussar = {
 	icon = 15
-	
+
 	type = land
 	sprite = Hussar
 	active = no
 	unit_type = cavalry
 	floating_flag = yes
-	
+
 	#Avatar
 	sprite_override = Cavalry
 	sprite_mount = GenericMount
 	sprite_mount_attach_node = Saddle_Node
-	
+
 	#Core Abilities
 	priority = 40
 	max_strength = 3
@@ -27,21 +27,21 @@ hussar = {
 		canned_food = 10
 		luxury_clothes = 5
 	}
-	
+
 	supply_consumption = 1.0
 	supply_cost = {
 		small_arms = 0.015 #0.01
 		ammunition = 0.075 #0
 		canned_food = 0.08 #0.08
 	}
-	
+
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 3
-	defence = 3
+	attack = 4
+	defence = 5
 	discipline = 1.0
 	support = 0.0
 	maneuver = 4
-	
+
 }

@@ -1,6 +1,6 @@
-artillery = { 
+artillery = {
 	icon = 3
-	
+
 	type = land
 	sprite = Artillery
 	active = no
@@ -23,17 +23,17 @@ artillery = {
 		liquor = 10
 		wine = 10
 	}
-	
+
 	supply_consumption = 1.0
 	supply_cost = {
 		artillery = 0.1 #0.008
 		canned_food = 0.06 #0.004
 	}
-	
+
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 1.5
+	attack = 2
 	defence = 3
 	discipline = 1.0
 	support = 2
