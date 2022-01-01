@@ -176,6 +176,7 @@ country_event = {
 		SAF = { exists = yes }
 		NZL = { exists = yes }
 		CAN = { exists = yes }
+		EIC = { exists = yes }
 		tag = ENG
 		NOT = { year = 1837 }
 	}
@@ -202,6 +203,10 @@ country_event = {
 		}
 		diplomatic_influence = {
 			who = SAF
+			value = 400
+		}
+		diplomatic_influence = {
+			who = EIC
 			value = 400
 		}
 	}
