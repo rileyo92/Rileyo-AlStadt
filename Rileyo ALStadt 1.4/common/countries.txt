@@ -12,7 +12,6 @@ HNN   = "countries/Hunan.txt"
 HUI   = "countries/Anhui.txt"
 SZC   = "countries/Sichuan.txt"
 
-
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
