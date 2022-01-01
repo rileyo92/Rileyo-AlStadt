@@ -2,6 +2,6 @@ owner = ENG
 controller = ENG
 add_core = ORI
 add_core = HND
-trade_goods = grains
+trade_goods = grain
 life_rating = 30
 colonial = 2
