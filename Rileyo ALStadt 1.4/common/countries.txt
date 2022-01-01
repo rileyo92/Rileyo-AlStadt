@@ -1,7 +1,17 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
-REB 	= 	"countries/rebels.txt"
+REB 	= 	"countries/rebels
+
+#Rileyo Additions
+EIC   = "countries/East India Company.txt"
+QNG   = "countries/Qing China.txt"
+FJN   = "countries/Fujian.txt"
+GNG   = "countries/Guangdong.txt"
+HNN   = "countries/Hunan.txt"
+HUI   = "countries/Anhui.txt"
+SZC   = "countries/Sichuan.txt"
+
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
