@@ -1,7 +1,7 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
-REB 	= 	"countries/rebels
+REB 	= 	"countries/rebels.txt"
 
 #Rileyo Additions
 EIC   = "countries/East India Company.txt"
