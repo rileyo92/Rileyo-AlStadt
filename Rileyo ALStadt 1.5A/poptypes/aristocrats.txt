@@ -97,10 +97,12 @@ country_migration_target = {
 			tag = SAF
 			tag = TRN
 			tag = ORA
+			tag = KRA
+			tag = LIB
 		}
 	}
 	modifier = { #Flemish/Dutch/German to Boer Bias
-		factor = 1.2
+		factor = 1.3
 		OR = {
 			primary_culture = boer
 			accepted_culture = boer
@@ -114,7 +116,7 @@ country_migration_target = {
 		}
 	}
 	modifier = { #French to French Canadian Bias
-		factor = 1.2
+		factor = 1.3
 		OR = {
 			primary_culture = french_canadian
 			accepted_culture = french_canadian
@@ -126,7 +128,7 @@ country_migration_target = {
 		}
 	}
 	modifier = { #British to Anglo Bias
-		factor = 1.2
+		factor = 1.3
 		OR = {
 			primary_culture = yankee
 			accepted_culture = yankee
@@ -149,7 +151,7 @@ country_migration_target = {
 		}
 	}
 	modifier = { #Iberian/Italian to Latin America Bias
-		factor = 1.2
+		factor = 1.3
 		OR = {
 			primary_culture = brazilian
 			accepted_culture = brazilian
@@ -180,6 +182,34 @@ country_migration_target = {
 			THIS = { culture = basque }
 			THIS = { culture = north_italian }
 			THIS = { culture = south_italian }
+		}
+	}
+	modifier = { #Polish/Ashkenazi to Krakow Bias
+		factor = 1.5
+		OR = {
+			primary_culture = polish
+			accepted_culture = polish
+		}
+		OR = {
+			THIS = { culture = polish }
+			THIS = { culture = ashkenazi }
+		}
+	}
+	modifier = { #African-American and African to Liberia/Haiti Bias
+		factor = 1.5
+		OR = {
+			primary_culture = afro_american
+		}
+		OR = {
+			THIS = { culture = afro_american }
+			THIS = { culture = afro_caribeno }
+			THIS = { culture = afro_antillean }
+			THIS = { culture = afro_brazilian }
+			THIS = { culture = afro_caribbean }
+			THIS = { culture = west_african }
+			THIS = { culture = central_african }
+			THIS = { culture = east_african }
+			THIS = { culture = southern_african }
 		}
 	}
 	modifier = {
