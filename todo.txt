@@ -1,7 +1,4 @@
 #Plans/Things to do
 #
-#Adopt Zombie's combat width system for late-game
 #Alter RGO'S worldwide (Done: Coal, Iron, Sulphur, precious_metal )
-#Countries to look at still: Romania
-#Fix the duplicate Spanish Decisions
 #
