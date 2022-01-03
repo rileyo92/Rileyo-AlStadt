@@ -247,40 +247,22 @@ migration_target =
 			has_factories = no
 			}
 	}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 150000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 250000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 500000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 750000
-	#}
-#	modifier = {
-#		factor = 0
-#		has_pop_type = labourers
-#		unemployment_by_type = { value = 0.01 type = labourers }
-#		state_scope = { has_factories = no }
-#	}
-#	modifier = {
-#		factor = 0
-#		has_pop_type = farmers
-#		unemployment_by_type = { value = 0.01 type = farmers }
-#		state_scope = { has_factories = no }
-#	}
-#	modifier = {
-#		factor = 0
-#		has_pop_type = farmers
-#		unemployment_by_type = { value = 0.01 type = craftsmen }
-#		state_scope = { has_factories = yes }
-#	}
+	modifier = {
+		factor = 1.2
+		total_pops = 150000
+	}
+	modifier = {
+		factor = 1.2
+		total_pops = 250000
+	}
+	modifier = {
+		factor = 1.2
+		total_pops = 500000
+	}
+	modifier = {
+		factor = 1.2
+		total_pops = 750000
+	}
 	modifier = {
     		factor = 4
     		has_culture_core = yes

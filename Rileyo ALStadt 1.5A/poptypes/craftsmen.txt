@@ -231,22 +231,22 @@ migration_target =
 			has_factories = no
 			}
 	}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 150000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 250000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 500000
-	#}
-	#modifier = {
-	#	factor = 1.2
-	#	total_pops = 750000
-	#}
+	modifier = {
+		factor = 1.2
+		total_pops = 150000
+	}
+  modifier = {
+		factor = 1.2
+		total_pops = 250000
+	}
+	modifier = {
+		factor = 1.2
+		total_pops = 500000
+	}
+	modifier = {
+		factor = 1.2
+		total_pops = 750000
+	}
 	modifier = {
 		factor = 0
 		has_pop_type = craftsmen
@@ -318,6 +318,10 @@ migration_target =
 	modifier = {
 		factor = 2
 		life_rating = 40
+	}
+	modifier = {
+		factor = 2
+		life_rating = 45
 	}
 	modifier = {
 		factor = 2

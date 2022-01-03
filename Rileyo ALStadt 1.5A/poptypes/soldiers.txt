@@ -344,6 +344,10 @@ migration_target =
 	}
 	modifier = {
 		factor = 2
+		life_rating = 45
+	}
+	modifier = {
+		factor = 2
 		life_rating = 50
 	}
 }
