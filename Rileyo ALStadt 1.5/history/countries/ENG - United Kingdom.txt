@@ -101,5 +101,5 @@ foreign_investment = {
 oob = "ENG_oob.txt"
 
 1836.1.2 = {
-	oob = "/1837/ENG_oob.txt"
+	oob = "ENG2_oob.txt"
 }
