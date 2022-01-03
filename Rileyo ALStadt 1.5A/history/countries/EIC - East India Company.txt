@@ -10,7 +10,6 @@ civilized = yes
 #GreaterPowers = prestige
 prestige = 10
 
-
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
@@ -62,4 +61,8 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+1836.1.2 = {
+	oob = "/1837/EIC_oob.txt"
 }
