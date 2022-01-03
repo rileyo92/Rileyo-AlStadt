@@ -10,8 +10,8 @@ leader = {
 	name = "Rye"
 	date = 1836.1.1
 	type = land
-	personality = daring
-	background = adventurer
+	personality = defence_0.1
+	background = attack_4.1
 }
 
 army = {
@@ -34,7 +34,7 @@ army = {
 		type = infantry
 		home = 372
 	}
-	
+
 	regiment = {
 		name= "1.2. Infanteridivision"
 		type = infantry
@@ -119,4 +119,3 @@ navy = {
 	}
 
 }
-

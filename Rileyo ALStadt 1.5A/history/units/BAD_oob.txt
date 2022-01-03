@@ -1,12 +1,12 @@
 army = {
 	name = "Badische Armee"
-	
+
 	leader = {
 		name = "Leopold of Baden"
 		date = 1830.1.1
 		type = land
-		personality = mediocre
-		background = aristocrat
+		personality = defence_0.1
+		background = attack_0.1
 		prestige = 0.3
 	}
 
@@ -16,7 +16,7 @@ army = {
 		type = infantry
 		home = 586
 	}
-	
+
 	regiment = {
 		name = "2. Badische Infanterie-Brigade"
 		type = infantry

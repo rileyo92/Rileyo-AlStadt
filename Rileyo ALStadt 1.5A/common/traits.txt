@@ -13,7 +13,6 @@
 #
 
 
-
 personality = {
 	no_personality = {
 		defence = -3
