@@ -62,7 +62,3 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-1836.1.2 = {
-	oob = "EIC_oob.txt"
-}
