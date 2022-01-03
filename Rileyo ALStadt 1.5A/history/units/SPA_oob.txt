@@ -63,8 +63,8 @@ leader = {
 	name = "Baldomero Espartero"
 	date = 1834.1.1
 	type = land
-	personality = diplomatic
-	background = war_college
+	personality = defence_0.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -72,8 +72,8 @@ leader = {
 	name = "Francisco Serrano"
 	date = 1833.1.1
 	type = land
-	personality = expert
-	background = war_college
+	personality = defence_0.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -81,8 +81,8 @@ leader = {
 	name = "Leopoldo O'Donnell"
 	date = 1836.1.1
 	type = land
-	personality = efficient
-	background = rising_star
+	personality = defence_0.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -90,8 +90,8 @@ leader = {
 	name = "Narváez"
 	date = 1836.1.1
 	type = land
-	personality = efficient
-	background = powerful_friends
+	personality = defence_0.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -99,8 +99,8 @@ leader = {
 	name = "Gerónimo Valdés"
 	date = 1836.1.1
 	type = land
-	personality = competent
-	background = generals_aide
+	personality = defence_1.1
+	background = attack_0.1
 	prestige = 0.0
 }
 
@@ -108,8 +108,8 @@ leader = {
 	name = "Van Halen"
 	date = 1823.1.1
 	type = land
-	personality = merciless
-	background = adventurer
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
@@ -117,8 +117,8 @@ leader = {
 	name = "José Ramón Rodil"
 	date = 1824.1.1
 	type = land
-	personality = merciless
-	background = adventurer
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
@@ -190,7 +190,7 @@ army = {
 army = {
 	name = "Ejército del Norte"
 	location = 498
-	
+
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
@@ -202,13 +202,13 @@ army = {
 		type = artillery
 		home = 476
 	}
-	
+
 	regiment = {
 		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 482
 	}
-	
+
 	regiment = {
 		name= "6. Brigada de Infantería 'La Granja'"
 		type = infantry
@@ -249,7 +249,7 @@ army = {
 		type = infantry
 		home = 516
 	}
-	
+
 	regiment = {
 		name= "12. Brigada de Infantería"
 		type = infantry
@@ -260,13 +260,13 @@ army = {
 army = {
 	name = "Ejército de Cuba"
 	location = 2209
-	
+
 	regiment = {
 		name = "1. Brigada Colonial"
 		type = infantry
 		home = 474
 	}
-	
+
 	regiment = {
 		name = "2. Brigada Colonial"
 		type = infantry
@@ -277,7 +277,7 @@ army = {
 army = {
 	name = "Ejército de Puerto Rico"
 	location = 2222
-	
+
 	regiment = {
 		name = "3. Brigada Colonial"
 		type = infantry
@@ -288,7 +288,7 @@ army = {
 army = {
 	name = "Ejército de Filipinas"
 	location = 1455
-	
+
 	regiment = {
 		name = "4. Brigada Colonial"
 		type = infantry
@@ -299,7 +299,7 @@ army = {
 army = {
 	name = "Ejército de Mindanao"
 	location = 1463
-	
+
 	regiment = {
 		name = "5. Brigada Colonial"
 		type = infantry
@@ -310,32 +310,32 @@ army = {
 navy = {
 	name = "Armada de Cuba"
 	location = 2212
-	
+
 	ship = {
 		name = "Santiago"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Hespérides"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Centinela"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Isla de Cuba"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Cristóbal Colón"
 		type = frigate
 	}
-	
+
 	ship = {
 		name= "1a Flotilla de Transporte"
 		type = clipper_transport
@@ -355,32 +355,32 @@ navy = {
 navy = {
 	name = "Armada de Filipinas"
 	location = 1455
-	
+
 	ship = {
 		name = "Alerta"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "San Fernando"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Legazpi"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Victoria"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Nuestra Señora del Patrocinio"
 		type = frigate
 	}
-	
+
 	ship = {
 		name= "1a Flotilla de Transporte"
 		type = clipper_transport

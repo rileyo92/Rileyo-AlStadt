@@ -1,12 +1,12 @@
 army = {
 	name = "Esercito di Modena"
-	
+
 	leader = {
 		name = "Francesco IV"
 		date = 1815.1.1
 		type = land
-		personality = arrogant
-		background = hated
+		personality = defence_1.1
+		background = attack_1.1
 		prestige = 0.5
 	}
 
@@ -23,4 +23,3 @@ army = {
 		home = 740
 	}
 }
-

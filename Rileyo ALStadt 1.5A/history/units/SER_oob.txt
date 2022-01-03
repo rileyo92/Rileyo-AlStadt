@@ -2,8 +2,8 @@ leader = {
 	name = "Prince Aleksandar"
 	type = land
 	date="1836.1.1"
-	personality = openminded
-	background = gifted_administrator
+	personality = defence_0.1
+	background = attack_0.1
 }
 
 army = {
@@ -23,4 +23,3 @@ army = {
 
 
 }
-

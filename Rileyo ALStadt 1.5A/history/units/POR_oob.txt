@@ -6,8 +6,8 @@ leader = {
 	name = "Nunes Vidigal"
 	date = 1808.1.1
 	type = land
-	personality = aggressive
-	background = hated
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -15,8 +15,8 @@ leader = {
 	name = "Luís Barreto"
 	date = 1824.1.1
 	type = land
-	personality = resolute
-	background = gifted_administrator
+	personality = defence_2.1
+	background = attack_0.1
 	prestige = 0.2
 }
 
@@ -24,8 +24,8 @@ leader = {
 	name = "Vicente de Mesquita"
 	date = 1808.1.1
 	type = land
-	personality = dauntless
-	background = madman
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.0
 }
 
@@ -73,7 +73,7 @@ army = {
 army = {
 	name = "Exército do Africa Ocidental"
 	location = 1999
-	
+
 	regiment = {
 		name = "1. Divisão Colonial"
 		type = infantry
@@ -84,7 +84,7 @@ army = {
 army = {
 	name = "Exército do Africa Oriental"
 	location = 2057
-	
+
 	regiment = {
 		name = "2. Divisão Colonial"
 		type = infantry
@@ -95,7 +95,7 @@ army = {
 army = {
 	name = "Exército da Índia"
 	location = 1303
-	
+
 	regiment = {
 		name = "3. Divisão Colonial"
 		type = infantry
@@ -162,4 +162,3 @@ navy = {
 	}
 
 }
-

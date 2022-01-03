@@ -3,26 +3,26 @@
 SWE = {
 
 	value = 125
-	level = 3 	
+	level = 3
 	influence_value = 40
 }
 
 SER = {
-	
+
 	value = 125
 	level = 4
 	influence_value = 25
 }
 
 GRE = {
-	
+
 	value = 125
 	level = 4
 	influence_value = 25
 }
 
 KRA = {
-	
+
 	value = 125
 	level = 4
 	influence_value = 25
@@ -67,7 +67,7 @@ PER = {
 }
 
 DEN = {
-	
+
 	value = 125
 }
 
@@ -75,8 +75,8 @@ leader = {
 	name = "Prince Vasilchikov"
 	date = 1801.1.1
 	type = land
-	personality = competent
-	background = powerful_friends
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.4
 }
 
@@ -84,8 +84,8 @@ leader = {
 	name = "Prince Mikhail Vorontsov"
 	date = 1814.1.1
 	type = land
-	personality = daring
-	background = gifted_administrator
+	personality = defence_0.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
@@ -93,8 +93,8 @@ leader = {
 	name = "Pyotr Chicherin"
 	date = 1835.1.1
 	type = land
-	personality = earnest
-	background = cavalry_school
+	personality = defence_0.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -102,8 +102,8 @@ leader = {
 	name = "Alexander Chernyshev"
 	date = 1821.1.1
 	type = land
-	personality = intelligent
-	background = diplomat
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.1
 }
 
@@ -111,8 +111,8 @@ leader = {
 	name = "Prince Menshikov"
 	date = 1833.1.1
 	type = sea
-	personality = lackluster
-	background = clueless
+	personality = defence_0.1
+	background = attack_minus_1.1
 	prestige = 0.1
 }
 
@@ -120,8 +120,8 @@ leader = {
 	name = " Ivan Paskevich"
 	date = 1812.1.1
 	type = land
-	personality = merciless
-	background = school_of_offense
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
@@ -129,8 +129,8 @@ leader = {
 	name = "Matvey Khrapovitsky"
 	date = 1835.1.1
 	type = land
-	personality = able
-	background = war_college
+	personality = defence_0.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -138,8 +138,8 @@ leader = {
 	name = "Mikhail Lazarev"
 	date = 1827.1.1
 	type = sea
-	personality = au_fait
-	background = innovative_tactician
+	personality = defence_0.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
@@ -147,8 +147,8 @@ leader = {
 	name = "Muraviev-Karsky"
 	date = 1832.1.1
 	type = land
-	personality = defiant
-	background = natural_born_leader
+	personality = defence_3.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -156,8 +156,8 @@ leader = {
 	name = "Pyotr Volkonsky"
 	date = 1812.1.1
 	type = land
-	personality = intelligent
-	background = elderly
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.3
 }
 
@@ -165,8 +165,8 @@ leader = {
 	name = "Pavel Grabbe"
 	date = 1836.1.1
 	type = land
-	personality = keen
-	background = school_of_firepower
+	personality = defence_0.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -174,8 +174,8 @@ leader = {
 	name = "Vasily Bebutov"
 	date = 1825.1.1
 	type = land
-	personality = stout
-	background = generals_aide
+	personality = defence_2.1
+	background = attack_0.1
 	prestige = 0.1
 }
 
@@ -183,8 +183,8 @@ leader = {
 	name = "Fedor von Berg"
 	date = 1836.1.1
 	type = land
-	personality = sharp
-	background = cartographer
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.1
 }
 
@@ -192,8 +192,8 @@ leader = {
 	name = "Ferdinand Wrangel"
 	date = 1836.1.1
 	type = sea
-	personality = active_p
-	background = cartographer
+	personality = defence_0.1
+	background = attack_0.1
 	prestige = 0.0
 }
 
@@ -358,7 +358,7 @@ army = {
 		type = artillery
 		home = 997
 	}
-	
+
 	regiment = {
 		name= "1.1-ya Kavalerijskaya Diviziya"
 		type = dragoon
@@ -652,7 +652,7 @@ army = {
 army = {
 	name = "7-ya Pekhotnaya Diviziya"
 	location = 1075
-	
+
 	regiment = {
 		name = "1.7-ya Pekhotnaya Diviziya"
 		home = 1075
@@ -664,7 +664,7 @@ army = {
 		type = engineer
 		home = 1021
 	}
-	
+
 	regiment = {
 		name = "3.7-ya Pekhotnaya Diviziya"
 		home = 346
@@ -757,7 +757,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Smelyï"
+		name= "Smelyï¿½"
 		type = manowar
 	}
 
@@ -772,7 +772,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Chrabryï"
+		name= "Chrabryï¿½"
 		type = manowar
 	}
 
@@ -902,7 +902,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Bystryï"
+		name= "Bystry"
 		type = frigate
 	}
 
@@ -917,7 +917,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Chtchastlivyï"
+		name= "Chtchastlivy"
 		type = frigate
 	}
 
@@ -1067,4 +1067,3 @@ navy = {
 	}
 
 }
-
