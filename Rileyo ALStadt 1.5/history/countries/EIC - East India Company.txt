@@ -64,5 +64,5 @@ upper_house = {
 }
 
 1836.1.2 = {
-	oob = "/1837/EIC_oob.txt"
+	oob = "EIC_oob.txt"
 }
