@@ -290,16 +290,6 @@ army = {
 
 army = {
 	name = "Armée d'Algerie"
-
-	leader = {
-		name = "Bertrand Clauzel"
-		date = 1803.1.1
-		type = land
-		personality = inefficient
-		background = elderly
-		prestige = 0.1
-	}
-
 	location = 1700
 	regiment = {
 		name= "1.4ème Division d'Infanterie"
