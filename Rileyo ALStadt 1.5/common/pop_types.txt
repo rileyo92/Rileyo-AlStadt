@@ -1035,11 +1035,19 @@ assimilation_chance = {
 	modifier = {
 		factor = -1000
 		OR = {
+			has_pop_culture = afro_american
+			has_pop_culture = ashkenazi
+			has_pop_culture = sephardic
 			AND = {
-				has_pop_culture = afro_american
-				country = {
-					is_culture_group = american_cultures
+				has_pop_culture = irish
+				tag = ENG
+			}
+			AND = {
+				OR = {
+					has_pop_culture = armenian
+					has_pop_culture = greek
 				}
+				tag = TUR
 			}
 			OR = {
 				state_scope = { is_colonial = yes }
@@ -1059,10 +1067,6 @@ assimilation_chance = {
 		modifier = {
 			factor = -9.9
 			has_culture_core = no
-		}
-		modifier = {
-			factor = -11
-			culture = ashkenazi
 		}
 	}
 #LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
@@ -1731,129 +1735,9 @@ assimilation_chance = {
 			has_culture_core = no
 		}
 	}
-#EQUALITY NATIONAL VALUE BONUS - 50% more base assimilation rate for nations with the equality national value. (0.000198 + base)(new rate = 0.000594)
-	group = {
-		modifier = {
-			factor = 5
-			country = {
-				nationalvalue = nv_equality
-			}
-		}
-		modifier = {
-			factor = -4.95
-			has_culture_core = no
-			country = {
-				nationalvalue = nv_equality
-			}
-		}
-	}
-
 }
 
 #general conversion mtth, same for all pops
-conversion_chance =
-{
+conversion_chance = {
 	factor = 0
-
-#	group = {
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.4
-#		}
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.5
-#		}
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.6
-#		}
-#	}
-#
-#
-#	group = {
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.9 }
-#		}
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.7 }
-#		}
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.5 }
-#		}
-#	}
-#
-#	modifier = {
-#		factor = -10
-#		has_pop_religion = jewish
-#	}
-#
-#	modifier = {
-#		factor = 3
-#		has_pop_religion = animist
-#		location = { continent = africa }
-#	}
-#
-#	group = {
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.9 }
-#		}
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.8 }
-#		}
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.7 }
-#		}
-#	}
-#
-#	modifier = {
-#		factor = 0.15
-#		not = { culture = this }
-#	}
-#
-#	modifier = {
-#		factor = -5
-#		OR = {
-#			is_primary_culture = yes
-#			is_accepted_culture = yes
-#		}
-#	}
-#
-#	modifier = {
-#		factor = 3
-#		country = { religious_policy = moralism }
-#	}
-#	modifier = {
-#		factor = 1.01
-#		country = { religious_policy = pluralism }
-#	}
-#	modifier = {
-#		factor = -3
-#		country = { religious_policy = pro_atheism }
-#	}
-#	modifier = {
-#		factor = -1
-#		country = { religious_policy = secularized }
-#	}
-#
-#	group = {
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.1
-#		}
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.2
-#		}
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.3
-#		}
-#	}
 }
