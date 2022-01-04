@@ -30,7 +30,7 @@ political_decisions = {
     }
     effect = {
       set_country_flag = persian_irredentism
-      badboy = 15
+      badboy = 10
       AFG = { all_core = { add_core = PER } }
       KAL_1221 = { add_core = PER }
       BUK_1207 = { add_core = PER }

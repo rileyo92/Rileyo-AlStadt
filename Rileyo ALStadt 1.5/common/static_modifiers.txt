@@ -90,13 +90,12 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 5			#Maximum Attrition is 5
-	supply_limit = 5				
+	supply_limit = 5
 }
 
 
 
-blockaded = 
-{
+blockaded = {
 }
 
 no_adjacent_controlled = {
@@ -113,7 +112,7 @@ has_siege = {
 }
 
 occupied = {
-	population_growth = -0.02
+	population_growth = -0.03
 	immigrant_attract = -1
 }
 
@@ -144,14 +143,14 @@ war = {
 	max_war_exhaustion = 100			#base max at war.
 	supply_consumption = -0.5
 	#war_exhaustion = 0.1
-	badboy = -0.055
+	badboy = -0.05
 }
 
 peace = {
 	max_war_exhaustion = 50			#base max at peace.
 	supply_consumption = -0.5
 	war_exhaustion = -1
-	badboy = -0.25
+	badboy = -0.20
 }
 
 disarming = {
@@ -217,12 +216,12 @@ average_literacy = {
 	self_unciv_military_modifier = -0.5
 }
 
-plurality = { 
+plurality = {
 	research_points_modifier = 0.02
 }
 
 generalised_debt_default = {
-	
+
 }
 
 total_occupation = {
@@ -230,7 +229,7 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 0.5				#increased by war exhaustion.  
+	war_exhaustion = 0.5				#increased by war exhaustion.
 }
 
 in_bankrupcy = {

@@ -1,7 +1,7 @@
 cruiser = {
 	icon = 11
 	naval_icon = 8
-	
+
 	type = naval
 	sprite = Cruiser
 	active = no
@@ -9,7 +9,7 @@ cruiser = {
 	move_sound = steam_move
 	select_sound = steam_selected
 	colonial_points = 16
-	
+
 	#Core Abilities
 	priority = 12
 	max_strength = 100
@@ -32,7 +32,7 @@ cruiser = {
 	min_port_level = 4
 	limit_per_port = -1
 	supply_consumption_score = 20
-	
+
 	supply_consumption = 1.0
 	supply_cost = {
 		steamer_convoy = 0.2
@@ -44,11 +44,11 @@ cruiser = {
 		regular_clothes = 0.3
 		tobacco = 1.2
 	}
-	
+
 	#Naval Abilties
 	hull = 50
 	gun_power = 30
 	fire_range = 0.65
-	evasion = 0.30
+	evasion = 0.10
 	torpedo_attack = 2
 }
