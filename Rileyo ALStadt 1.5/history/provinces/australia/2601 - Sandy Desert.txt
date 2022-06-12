@@ -1,8 +1,5 @@
-add_core = AST
+owner = NZL
+controller = NZL
+add_core = NZL
 trade_goods = grain
 life_rating = 20
-1836.1.2 = {
-	owner = AST
-	controller = AST
-	colonial = 0
-}

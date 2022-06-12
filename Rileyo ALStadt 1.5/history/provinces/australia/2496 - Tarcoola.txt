@@ -1,11 +1,5 @@
-owner = ENG
-controller = ENG
+owner = AST
+controller = AST
 add_core = AST
 trade_goods = wool
 life_rating = 20
-colonial = 2
-1836.1.2 = {
-	owner = AST
-	controller = AST
-	colonial = 0
-}
