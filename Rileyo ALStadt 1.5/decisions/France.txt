@@ -239,7 +239,6 @@ political_decisions = {
 				type = acquire_state
 				months = 1
 			}
-			573 = { add_core = FRA }
 			prestige = 10
 			badboy = 4
 			set_country_flag = crisis_on_the_rhine
@@ -327,21 +326,6 @@ political_decisions = {
 			BEL_394 = { add_core = THIS }
 			BEL_395 = { add_core = THIS }
 			set_country_flag = wallonia_integration
-		}
-	}
-
-	claim_saarland = {
-		potential = {
-			tag = FRA
-			NOT = { has_country_flag = saarland_claimed }
-		}
-		allow = {
-			owns = 573
-		}
-		effect = {
-			573 = { add_core = THIS }
-			prestige = 5
-			set_country_flag = saarland_claimed
 		}
 	}
 
