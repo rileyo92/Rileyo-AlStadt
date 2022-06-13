@@ -115,7 +115,7 @@ political_decisions = {
 			ION = { ai = yes }
 			NOT = {
 				truce_with = GRE
-			}			
+			}
 		}
 
 		allow = {
@@ -144,13 +144,13 @@ political_decisions = {
 				factor = 0
 				NOT = {
 					AND = {
-						year = 1864 
+						year = 1864
 						month = 4
 					}
 				}
 			}
 			modifier = {
-				factor = 1			
+				factor = 1
 				relation = {
 					who = GRE
 					value = 0
@@ -190,6 +190,60 @@ political_decisions = {
 				}
 			}
 			set_country_flag = ian_would_be_proud
+		}
+	}
+
+	annex_australia = {
+		potential = {
+			tag = ENG
+			AST = {
+				vassal_of = THIS
+				ai = yes
+			}
+		}
+		allow = {}
+		effect = {
+			AST = { annex_to = THIS }
+			badboy = 15
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	annex_new_zealand = {
+		potential = {
+			tag = ENG
+			NZL = {
+				vassal_of = THIS
+				ai = yes
+			}
+		}
+		allow = {}
+		effect = {
+			NZL = { annex_to = THIS }
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	annex_canada = {
+		potential = {
+			tag = ENG
+			CAN = {
+				vassal_of = THIS
+				ai = yes
+			}
+		}
+		allow = {}
+		effect = {
+			CAN = { annex_to = THIS }
+			badboy = 15
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

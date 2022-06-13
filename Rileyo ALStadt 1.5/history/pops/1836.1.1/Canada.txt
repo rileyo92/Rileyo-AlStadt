@@ -3412,25 +3412,25 @@
 #Saint Pierre (2000/500 POPS)
 77 = {
 	bureaucrats = {
-		culture = french
+		culture = french_canadian
 		religion = catholic
 		size = 1
 	}
 
 	clergymen = {
-		culture = french
+		culture = french_canadian
 		religion = catholic
 		size = 4
 	}
 
 	artisans = {
-		culture = french
+		culture = french_canadian
 		religion = catholic
 		size = 45
 	}
 
 	labourers = {
-		culture = french
+		culture = french_canadian
 		religion = catholic
 		size = 450
 	}

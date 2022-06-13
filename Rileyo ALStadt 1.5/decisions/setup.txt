@@ -48,6 +48,8 @@ political_decisions = {
 						OR = {
 							has_pop_culture = anglo_canadian
               has_pop_culture = french_canadian
+							has_pop_culture = australian
+							has_pop_culture = boer
 						}
 					}
 					reduce_pop = 3
@@ -114,6 +116,31 @@ political_decisions = {
     				}
     			}
     			literacy = 0.20
+    		}
+			}
+			any_country = {
+				limit = {
+					tag = RUS
+				}
+        any_pop = {
+    			limit = {
+    				OR = {
+    					has_pop_culture = finnish
+							has_pop_culture = swedish
+							has_pop_culture = ashkenazi
+    				}
+    			}
+    			literacy = 0.70
+    		}
+				any_pop = {
+    			limit = {
+    				OR = {
+    					has_pop_culture = polish
+							has_pop_culture = swedish
+							has_pop_culture = ashkenazi
+    				}
+    			}
+    			literacy = 0.15
     		}
 			}
 		}

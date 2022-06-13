@@ -3429,7 +3429,7 @@
 	officers = {
 		culture = french
 		religion = catholic
-		size = 50
+		size = 100
 	}
 
 	bureaucrats = {
@@ -3439,15 +3439,21 @@
 	}
 
 	clergymen = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 500
 	}
 
 	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1500
+	}
+
+	artisans = {
 		culture = french
 		religion = catholic
-		size = 2500
+		size = 1000
 	}
 
 	soldiers = {
@@ -3457,10 +3463,14 @@
 	}
 
 	farmers = {
-		culture = french
+		culture = north_italian
 		religion = catholic
-		size = 47800
+		size = 41800
 	}
 
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 1000
+	}
 }
-
