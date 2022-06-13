@@ -15,14 +15,16 @@ political_decisions = {
 			any_country = {
 				any_pop = {
 					limit = {
-						has_pop_culture = beifaren
-            has_pop_culture = nanfaren
-            has_pop_culture = hakka
-            has_pop_culture = min
-            has_pop_culture = yue
-            has_pop_culture = zhuang
-            has_pop_culture = yi
-            has_pop_culture = hui
+						OR = {
+							has_pop_culture = beifaren
+            	has_pop_culture = nanfaren
+            	has_pop_culture = hakka
+            	has_pop_culture = min
+            	has_pop_culture = yue
+            	has_pop_culture = zhuang
+            	has_pop_culture = yi
+            	has_pop_culture = hui
+						}
 					}
 					reduce_pop = 0.40
 				}
@@ -33,12 +35,24 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = brazilian
-              has_pop_culture = afro_brazilian
+							has_pop_culture = caribeno
               has_pop_culture = mexican
 						}
 					}
 					reduce_pop = 1.5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = brazilian
+              has_pop_culture = afro_brazilian
+							has_pop_culture = central_american
+						}
+					}
+					reduce_pop = 2
 				}
 			}
 
@@ -60,13 +74,29 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = platinean
               has_pop_culture = south_andean
               has_pop_culture = north_andean
-              has_pop_culture = central_american
 						}
 					}
+					reduce_pop = 4
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = platinean
+					}
 					reduce_pop = 5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = texan
+					}
+					reduce_pop = 20
 				}
 			}
 
