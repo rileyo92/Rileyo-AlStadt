@@ -107,13 +107,19 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-            has_pop_culture = italian
+						OR = {
+            	has_pop_culture = north_italian
+							has_pop_culture = slovak
+						}
 					}
-					literacy = 0.3
+					literacy = 0.30
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = hungarian
+						OR = {
+							has_pop_culture = hungarian
+							has_pop_culture = slovene
+						}
 					}
 					literacy = 0.15
 				}
@@ -164,13 +170,9 @@ political_decisions = {
     		}
 				any_pop = {
     			limit = {
-    				OR = {
-    					has_pop_culture = polish
-							has_pop_culture = swedish
-							has_pop_culture = ashkenazi
-    				}
+    				has_pop_culture = polish
     			}
-    			literacy = 0.15
+    			literacy = 0.5
     		}
 			}
 		}
