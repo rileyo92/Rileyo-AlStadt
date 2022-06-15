@@ -5,7 +5,8 @@ religion = catholic
 government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.35
+literacy = 0.25
+non_state_culture_literacy = 0.25
 civilized = yes
 prestige = 5
 
@@ -25,7 +26,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = PAP_reactionary
@@ -74,7 +75,7 @@ nonstate_consciousness = 1
 oob = "PAP_oob.txt"
 
 1858.6.23 = {
-	decision = the_case_of_edgardo_mortara 
+	decision = the_case_of_edgardo_mortara
 }
 
 1861.1.1 = {
@@ -82,8 +83,8 @@ oob = "PAP_oob.txt"
 }
 1861.1.1 = {
 	plurality = 60
-	
-#Technologies 
+
+#Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
 	flintlock_rifles = 1
@@ -94,7 +95,7 @@ oob = "PAP_oob.txt"
 	military_plans = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -106,7 +107,7 @@ oob = "PAP_oob.txt"
 	naval_plans = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	no_standard = 1
@@ -116,7 +117,7 @@ oob = "PAP_oob.txt"
 	freedom_of_trade = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -128,7 +129,7 @@ oob = "PAP_oob.txt"
 	state_n_government = 1
 	introspectionism = 1
 	associationism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1
