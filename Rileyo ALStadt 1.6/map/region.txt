@@ -1025,7 +1025,7 @@ SIC_754 = { 754 755 2567 } #Campania
 
 SIC_759 = { 759 760 761 } #Calabria
 
-SIC_753 = { 753 756 757 758 } #Puglia
+SIC_753 = { 756 757 758 } #Puglia
 
 AUS_704 = { 704 705 714 703 2584 } #West Galicia
 
