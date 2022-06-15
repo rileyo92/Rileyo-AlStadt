@@ -200,6 +200,7 @@ political_decisions = {
 				vassal_of = THIS
 				ai = yes
 			}
+			NOT = { year = 1848 }
 		}
 		allow = {}
 		effect = {
@@ -218,6 +219,7 @@ political_decisions = {
 				vassal_of = THIS
 				ai = yes
 			}
+			NOT = { year = 1848 }
 		}
 		allow = {}
 		effect = {
@@ -236,6 +238,7 @@ political_decisions = {
 				vassal_of = THIS
 				ai = yes
 			}
+			NOT = { year = 1848 }
 		}
 		allow = {}
 		effect = {

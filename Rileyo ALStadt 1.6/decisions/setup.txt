@@ -50,6 +50,8 @@ political_decisions = {
 							has_pop_culture = brazilian
               has_pop_culture = afro_brazilian
 							has_pop_culture = central_american
+							has_pop_culture = anglo_canadian
+              has_pop_culture = french_canadian
 						}
 					}
 					reduce_pop = 2
@@ -60,8 +62,6 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = anglo_canadian
-              has_pop_culture = french_canadian
 							has_pop_culture = australian
 							has_pop_culture = boer
 						}
