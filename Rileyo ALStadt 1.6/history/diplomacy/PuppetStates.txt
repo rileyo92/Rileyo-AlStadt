@@ -82,30 +82,6 @@ vassal = {
 	end_date = 1864.1.1
 }
 
-# United Kingdom-Australia
-vassal = {
-	first = ENG
-	second = AST
-	start_date = 1815.11.9
-	end_date = 1986.3.9
-}
-
-# United Kingdom-New Zealand
-vassal = {
-	first = ENG
-	second = NZL
-	start_date = 1815.11.9
-	end_date = 1987.1.1
-}
-
-# United Kingdom-Canada
-vassal = {
-	first = ENG
-	second = CAN
-	start_date = 1815.11.9
-	end_date = 1982.4.12
-}
-
 # Ottoman Empire-Wallachia
 vassal = {
 	first = TUR
@@ -282,35 +258,57 @@ vassal = {
 #       British Dominions       #
 #################################
 
+#England-Canada
 vassal = {
 	first = ENG
 	second = CAN
-	start_date = 1836.1.2
+	start_date = 1836.1.1
 	end_date = 1935.12.31
 }
+
+#England-South Africa
 vassal = {
 	first = ENG
 	second = SAF
-	start_date = 1836.1.2
+	start_date = 1836.1.1
 	end_date = 1935.12.31
 }
+
+#England-Australia
 vassal = {
 	first = ENG
 	second = AST
-	start_date = 1836.1.2
+	start_date = 1836.1.1
 	end_date = 1935.12.31
 }
+
+#England-New Zealand
 vassal = {
 	first = ENG
 	second = NZL
-	start_date = 1836.1.2
+	start_date = 1836.1.1
 	end_date = 1935.12.31
 }
+
+#England-East India Company
 vassal = {
 	first = ENG
 	second = EIC
-	start_date = 1836.1.2
+	start_date = 1836.1.1
 	end_date = 1935.12.31
+}
+
+
+#################################
+#       Russian Puppets         #
+#################################
+
+#Russia-Finland
+vassal = {
+	first = RUS
+	second = FIN
+	start_date = 1809.3.29
+	end_date = 1917.12.6
 }
 
 ###########################
