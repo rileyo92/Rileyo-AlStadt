@@ -434,5 +434,32 @@ political_decisions = {
 			prestige = 25
 			set_country_flag = greater_germany
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.6 }
+		}
+	}
+
+	conquer_swiss_sgf = {
+		potential = {
+			OR = {
+				tag = BAD
+				tag = WUR
+				tag = BAV
+				tag = SGF
+				tag = GER
+				tag = AUS
+			}
+			NOT = { has_country_flag = sgf_swiss_coquered }
+		}
+		allow = {
+			owns = 603
+		}
+		effect = {
+			badboy = 5
+			SWI_603 = { add_core = THIS }
+			add_accepted_culture = swiss
+			set_country_flag = sgf_swiss_coquered
+		}
 	}
 }

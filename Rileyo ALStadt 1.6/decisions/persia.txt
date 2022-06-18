@@ -32,11 +32,27 @@ political_decisions = {
       set_country_flag = persian_irredentism
       badboy = 10
       AFG = { all_core = { add_core = PER } }
-      KAL_1221 = { add_core = PER }
-      BUK_1207 = { add_core = PER }
+      KAL_1221 = { add_core = PER } #Baluchistan
+      BUK_1207 = { add_core = PER } #Tajikistan
+      RUS_1196 = { add_core = PER } #Turkmenistan
       add_accepted_culture = tajik
       add_accepted_culture = pashtun
       add_accepted_culture = hazara
+      add_accepted_culture = turkmen
+    }
+  }
+
+  reclaim_mesopotamia_per = {
+    potential = {
+      tag = PER
+      NOT = { has_country_flag = mesopotamia_reclaimed_per }
+    }
+    allow = {
+      owns = 923
+      owns = 926
+    }
+    effect = {
+
     }
   }
 }

@@ -33,7 +33,8 @@ global_liberal_agitation = {
 }
 
 potato_blight = {
-	population_growth = -0.02
+	population_growth = -0.015
+	immigrant_push = 0.5
 	pop_militancy_modifier = 0.01
 	icon = 20
 }
@@ -44,12 +45,14 @@ anti_jacobin_tract = {
 }
 
 cholera_epidemic_small = {
-	population_growth = -0.01
+	population_growth = -0.008
+	immigrant_push = 0.5
 	icon = 20
 }
 
 cholera_epidemic_big = {
-	population_growth = -0.02
+	population_growth = -0.016
+	immigrant_push = 1
 	icon = 20
 }
 
@@ -73,7 +76,7 @@ national_tragedy = {
 
 ##### CIVILIZATION AND GUNBOATS #####
 western_influences = {
-	global_pop_militancy_modifier = 0.1
+	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.05
 	research_points_modifier = 0.2
 	icon = 10
@@ -88,7 +91,7 @@ uncivilized_isolationism = {
 
 western_presence = {
 	pop_militancy_modifier = 0.1
-	research_points_modifier = 0.01
+	research_points_modifier = 0.02
 	icon = 9
 }
 
@@ -412,6 +415,7 @@ libertine_culture = {
 	prestige = -0.01
 	farm_rgo_eff = -0.05
 	mine_rgo_eff = -0.05
+	global_pop_militancy_modifier = -0.01
 	icon = 19
 }
 
@@ -669,7 +673,7 @@ the_eiffel_tower = {
 signed_the_geneva_convention = {
 	war_exhaustion = -0.02
 	org_regain = 0.05
-	badboy = 0.01
+	badboy = -0.05
 	icon = 7
 }
 
@@ -835,7 +839,7 @@ switched_production = {
 }
 
 Bonus_Immigration = {
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 2 #200%
 	icon = 17
 }
 

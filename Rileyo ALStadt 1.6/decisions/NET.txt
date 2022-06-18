@@ -8,19 +8,19 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = { 
+			OR = {
 				relation = {
 					who = ENG
 					value = 100
 				}
-				ENG = { 
+				ENG = {
 					diplomatic_influence = {
 						who = THIS
 						value = 50
 					}
 				}
 				ideological_thought = 1
-			}		
+			}
 		}
 		effect = {
 			remove_core = 387
@@ -36,14 +36,14 @@ political_decisions = {
 			remove_core = 398
 			prestige = 20
 			any_greater_power = {
-				limit = { 
-					NOT = { 
+				limit = {
+					NOT = {
 						OR = {
 							tag = FRA
 							tag = ENG
 						}
 					}
-				}	
+				}
 				relation = {
 					who = THIS
 					value = 20
@@ -97,6 +97,50 @@ political_decisions = {
 					owns = 398
 				}
 			}
+		}
+	}
+
+	reclaim_cape_colony = {
+		potential = {
+			tag = NET
+			NOT = { has_country_flag = kaap_reclaimed }
+		}
+		allow = {
+			owns = 2087
+			owns = 2096
+		}
+		effect = {
+			badboy = 12.5
+			add_accepted_culture = boer
+			SAF = { all_core = { add_core = THIS } }
+			set_country_flag = kaap_reclaimed
+		}
+	}
+
+	expand_cape_colony = {
+		potential = {
+			OR = {
+				tag = SAF
+				tag = TRN
+				tag = ORA
+				AND = {
+					tag = NET
+					has_country_flag = kaap_reclaimed
+				}
+			}
+			NOT = { has_country_flag = cape_expanded }
+		}
+		allow = {
+			SAF = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			badboy = 10
+			add_accepted_culture = khoisan
+			ENG_2083 = { add_core = SAF add_core = THIS } #Namaqualand
+			ENG_2078 = { add_core = SAF add_core = THIS } #Hereroland
+			ENG_2074 = { add_core = SAF add_core = THIS } #Botswana
+			ENG_2068 = { add_core = SAF add_core = THIS } #Zambezi
+			set_country_flag = kaap_reclaimed
 		}
 	}
 }

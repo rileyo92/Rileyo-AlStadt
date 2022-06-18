@@ -68,6 +68,10 @@ political_decisions = {
 			FRA_399 = { add_core = THIS }
 			badboy = 2.5
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
 	}
 
 	prioritise_the_flemish = {

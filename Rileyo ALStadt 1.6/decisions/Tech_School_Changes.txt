@@ -3,7 +3,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			civilized = yes
-			tech_school = traditional_academic
+			NOT = { tech_school = army_tech_school }
 			OR = {
 				ruling_party_ideology = conservative
 				ruling_party_ideology = reactionary
@@ -34,7 +34,7 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			colonial_nation = yes
-			tech_school = traditional_academic
+			NOT = { tech_school = naval_tech_school }
 			OR = {
 				ruling_party_ideology = conservative
 				ruling_party_ideology = liberal
@@ -65,7 +65,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			civilized = yes
-			tech_school = traditional_academic
+			NOT = { tech_school = culture_tech_school }
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = fascist
@@ -95,7 +95,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			civilized = yes
-			tech_school = traditional_academic
+			NOT = { tech_school = commerce_tech_school }
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
@@ -124,7 +124,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			civilized = yes
-			tech_school = traditional_academic
+			NOT = { tech_school = industrial_tech_school }
 			OR = {
 				ruling_party_ideology = conservative
 				ruling_party_ideology = socialist
@@ -159,7 +159,7 @@ political_decisions = {
 			}
 			civilized = yes
 		}
-		
+
 		allow = {
 			prestige = 45
 		}

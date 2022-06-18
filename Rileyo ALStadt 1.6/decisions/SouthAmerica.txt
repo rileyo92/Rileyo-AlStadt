@@ -132,4 +132,46 @@ political_decisions = {
 			ENG_1979 = { add_core = THIS }
 		}
 	}
+
+	integrate_afro_latinos = {
+		potential = {
+			OR = {
+				primary_culture = mexican
+				primary_culture = central_american
+				primary_culture = caribeno
+				primary_culture = north_andean
+				primary_culture = south_andean
+				primary_culture = platinean
+			}
+			NOT = { accepted_culture = afro_caribeno }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			slavery = no_slavery
+			OR = {
+				citizenship_policy = full_citizenship
+				citizenship_policy = limited_citizenship
+			}
+		}
+		effect = {
+			add_accepted_culture = afro_caribeno
+		}
+	}
+
+	integrate_afro_brazilians = {
+		potential = {
+			tag = BRZ
+			NOT = { accepted_culture = afro_brazilian }
+		}
+		allow = {
+			slavery = no_slavery
+			OR = {
+				citizenship_policy = full_citizenship
+				citizenship_policy = limited_citizenship
+			}
+		}
+		effect = {
+			add_accepted_culture = afro_brazilian
+		}
+	}
 }

@@ -31,7 +31,7 @@ political_decisions = {
 			132 = { add_core = THIS }
 		}
 	}
-	
+
 	claim_oklahoma = {
 		potential = {
 			OR = {
@@ -56,6 +56,7 @@ political_decisions = {
 			OR = {
 				tag = MEX
 				tag = USA
+				tag = TEX
 			}
 			NOT = { has_country_flag = colorado_claimed }
 			NOT = { has_country_flag = manifest_destiny }

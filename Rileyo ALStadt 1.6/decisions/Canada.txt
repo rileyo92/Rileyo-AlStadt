@@ -80,4 +80,28 @@ political_decisions = {
       }
     }
   }
+  canadian_underground_railroad = {
+    potential = {
+      OR = {
+        tag = CAN
+        tag = QUE
+      }
+      NOT = { has_country_flag = underground_railroad_can }
+      has_global_flag = dred_scott_decision
+    }
+    allow = {
+    }
+    effect = {
+      add_accepted_culture = afro_american
+      set_country_flag = underground_railroad_can
+			relation = {
+				who = USA
+				value = -100
+			}
+      relation = {
+				who = CSA
+				value = -200
+			}
+    }
+  }
 }

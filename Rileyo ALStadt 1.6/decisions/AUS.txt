@@ -146,14 +146,14 @@ political_decisions = {
 			}
 	}
 
-		embrace_slovene_minority = {
+	embrace_slovak_minority = {
 			picture = embrace_minority
 			potential = {
 				tag = KUK
-				any_owned_province = { is_core = SLO }
+				any_owned_province = { is_core = SLV }
 				NOT = {
-					accepted_culture = slovene
-					has_country_flag = embraced_slovenes
+					accepted_culture = slovak
+					has_country_flag = embraced_slovaks
 				}
 			}
 			allow = {
@@ -162,10 +162,11 @@ political_decisions = {
 				revolution_n_counterrevolution = 1
 				psychoanalysis = 1
 				social_science = 1
+				NOT = { any_owned_province = { is_core = BAV } }
 			}
 			effect = {
-				set_country_flag = embraced_slovenes
-				add_accepted_culture = slovene
+				set_country_flag = embraced_slovaks
+				add_accepted_culture = slovak
 				prestige = -25
 				any_pop = {
 					limit = {
@@ -179,7 +180,7 @@ political_decisions = {
 					consciousness = 3
 				}
 				any_pop = {
-					limit = { has_pop_culture = slovene }
+					limit = { has_pop_culture = croat }
 					militancy = -4
 					consciousness = -4
 				}
@@ -202,7 +203,7 @@ political_decisions = {
 			owns = 783
 		}
 		effect = {
-			badboy = 2
+			badboy = 2.5
 			TUR_788 = { add_core = THIS }
 			set_country_flag = bosnia_claimed
 			any_pop = {
@@ -215,6 +216,53 @@ political_decisions = {
 				militancy = 6
 				consciousness = 8
 			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
+	}
+
+	reclaim_silesia_aus = {
+		potential = {
+			OR = {
+				tag = KUK
+				tag = AUS
+				tag = CZH
+				tag = BOH
+			}
+			NOT = { has_country_flag = silesia_swap }
+		}
+		allow = {
+			owns = 682
+		}
+		effect = {
+			prestige = 5
+			PRU_682 = { add_core = THIS }
+			set_country_flag = silesia_swap
+		}
+	}
+
+	unite_south_germany_aus = {
+		potential = {
+			tag = AUS
+			NOT = { has_country_flag = sgf_aus }
+		}
+		allow = {
+			owns = 599
+			owns = 589
+			owns = 595
+			owns = 586
+		}
+		effect = {
+			prestige = 20
+			BAV_599 = { add_core = THIS } #Bavaria
+			BAV_595 = { add_core = THIS } #Franken
+			WUR_589 = { add_core = THIS } #Wurttemberg
+			BAD_586 = { add_core = THIS } #Baden
+			FRA_412 = { add_core = THIS } #Alsace-Lorraine
+			HES_2560 = { add_core = THIS } #Palatinate
+			set_country_flag = sgf_austria
 		}
 	}
 }

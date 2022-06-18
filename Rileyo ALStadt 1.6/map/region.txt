@@ -501,9 +501,11 @@ SWE_308 = { 308 305 306 307 } #Nordnorge
 
 SWE_313 = { 313 316 314 315 } #Ostlandet
 
-SWI_603 = { 603 606 611 2568 } #East Switzerland
+SWI_603 = { 603 606 611 2568 605 604 } #East Switzerland
 
-SWI_605 = { 605 604 607 608 609 } #West Switzerland
+SWI_605 = { 607 608 609 } #West Switzerland
+
+SWI_2568 = { 2568 } #Lugano
 
 ENG_2228 = { 2229 2231 2233 2237 2238 2409 } #Windward Islands
 
@@ -1081,7 +1083,7 @@ PRU_690 = { 690 691 692 693 694 } #Westprussen
 
 PRU_695 = { 695 696 697 698 } #Ostprussen
 
-PRU_572 = { 570 571 572 574 575 576 577 573 } #Rhineland
+PRU_572 = { 572 574 575 576 577 573 } #Rhineland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 
@@ -1101,7 +1103,9 @@ HAN_534 = { 534 535 536 537 585 582 } #Hannover
 
 OLD_540 = { 540 541 538 542 543 } #East Frisia
 
-HES_2560 = { 2560 564 565 567 568 566 } #Hesse
+HES_2560 = { 2560 570 571 } #Palatinate
+
+HEK_566 = { 564 565 567 568 566 } #Hesse-Nassau
 
 BAV_599 = { 599 592 600 601 602 } #Bayern
 
