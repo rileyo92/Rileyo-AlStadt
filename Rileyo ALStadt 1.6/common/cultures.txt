@@ -1589,16 +1589,6 @@ oceanic = {
 native_american = {
 	leader = nativeamerican
 	is_overseas = no
-	zapotec = {
-		color = {87 199 81}
-		first_names = { Agustín Alberto Alfonso Alfredo Andrés Benito Carlos César Eduardo Eugenio
-		Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jesús José Juan Julio
-		Macario Manuel Miguel Nazario Nicolás Oliverio Pablo Porfirio Rodolfo Rufino }
-
-		last_names = { Alonso Antúnez Cabrera Cajigas Chacón Chiñas Cortés Fernández Gamboa García
-		González Gutiérrez Guzmán Henestrosa Isael Jiménez Juárez López Matus Mérida
-		Morales Nayeli Orozco Ortíz Pineda Rojas Ruíz Suárez Tamayo Vichido }
-	}
 	mayan = {
 		color = {98 88 142}
 		first_names = { Agustín Akbal Alejandro Andrés Aníbal Antonio Armando Bernardo Carlos Crescencio
@@ -1618,16 +1608,6 @@ native_american = {
 		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
 		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
-	}
-	tarascan = {
-		color = {87 188 192}
-		first_names = { Agustín Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
-		Everardo Gerardo Gumersindo Héctor Jesús Juan Leobardo Luis Manuel Marcial
-		"Marco Antonio" Melchor Pedro Ricardo Salvador Samuel Sergio Silvano Silvestre Víctor }
-
-		last_names = { Almonte Arredondo Arriaga Aureoles Bernal Brito Calderón Cano Carrillo Cristóbal
-		Cuevas Dimas Esquivel Estrada Galeana Gallardo García Gómez López Maciel
-		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas }
 	}
 	quechua = {
 		color = {178 141 85}
@@ -1649,16 +1629,6 @@ native_american = {
 		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
 		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
 	}
-	aimara = {
-		color = {190 45 23}
-		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
-		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
-		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
-
-		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
-		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
-		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
-	}
 	amazonian = {
 		color = {4 255 84}
 		first_names = { Aníbal Augusto Bento Bernardo César Daniel David Donato Duarte Ernesto
@@ -1677,72 +1647,6 @@ native_american = {
 		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
-	}
-	guajiro = {
-		color = {221 248 75}
-		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
-		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
-		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
-
-		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
-		Uraliyyu Ulewana Walapuana Walepushana }
-	}
-	tupinamba = {
-		color = {43 212 67}
-		first_names = { Álvaro André Carlos Diogo Emilio Eusébio Fábio Fernando Filipe Francisco
-		Gabriel Gaspar Gonçalo Gustavo Henrique João José Luís Manuel Inácio
-		Jordão Lúcio Mateus Nicolau Paulo Pedro Roque Sergio Tomás Vítor }
-
-		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
-	}
-	metis = {
-		color = {15 68 192}
-		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
-		}
-		last_names = { Riel Bruce Lépine Dumont Clarence Martin
-		}
-	}
-	dakota = {
-		color = {66 78 134}
-		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = { Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
-	cherokee = {
-		color = {136 114 173}
-		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	pueblo = {
-		color = {222 238 156}
-		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
-		}
-		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
-		}
-	}
-	inuit = {
-		color = {210 243 242}
-		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
-		}
-		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
-		}
-	}
-	cree = {
-		color = {127 244 100}
-		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
-		}
-		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
-		}
-	}
-	navajo = {
-		color = {83 111 191}
-		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
-		}
-		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
-		}
 	}
 	native_american_minor = {
 		color = {68 55 88}
