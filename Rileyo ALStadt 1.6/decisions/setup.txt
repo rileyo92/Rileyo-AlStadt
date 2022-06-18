@@ -37,6 +37,8 @@ political_decisions = {
 						OR = {
 							has_pop_culture = caribeno
               has_pop_culture = mexican
+							has_pop_culture = afro_caribeno
+							has_pop_culture = quechua
 						}
 					}
 					reduce_pop = 1.5
@@ -61,10 +63,7 @@ political_decisions = {
       any_country = {
 				any_pop = {
 					limit = {
-						OR = {
-							has_pop_culture = australian
-							has_pop_culture = boer
-						}
+						has_pop_culture = australian
 					}
 					reduce_pop = 3
 				}
@@ -78,14 +77,17 @@ political_decisions = {
               has_pop_culture = north_andean
 						}
 					}
-					reduce_pop = 4
+					reduce_pop = 3.5
 				}
 			}
 
 			any_country = {
 				any_pop = {
 					limit = {
-						has_pop_culture = platinean
+						OR = {
+							has_pop_culture = platinean
+							has_pop_culture = boer
+						}
 					}
 					reduce_pop = 5
 				}

@@ -1,5 +1,11 @@
-owner = NZL
-controller = NZL
+owner = AST
+controller = AST
+add_core = AST
 add_core = NZL
 trade_goods = cattle
 life_rating = 40
+1836.1.2 = {
+	owner = NZL
+	controller = NZL
+	remove_core = AST
+}
