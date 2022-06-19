@@ -223,57 +223,15 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = italia_ulterior
-			729 = {
-				add_core = ITA
-			}
-			730 = {
-				add_core = ITA
-			}
-			731 = {
-				add_core = ITA
-			}
-			732 = {
-				add_core = ITA
-			}
-			733 = {
-				add_core = ITA
-			}
-			734 = {
-				add_core = ITA
-			}
-			735 = {
-				add_core = ITA
-			}
-			736 = {
-				add_core = ITA
-			}
-			737 = {
-				add_core = ITA
-			}
-			769 = {
-				add_core = ITA
-			}
-			770 = {
-				add_core = ITA
-			}
-			778 = {
-				add_core = ITA
-			}
-			780 = {
-				add_core = ITA
-			}
-			781 = {
-				add_core = ITA
-			}
-			782 = {
-				add_core = ITA
-			}
-			2582 = {
-				add_core = ITA
-			}
-			2568 = {
-				add_core = ITA
-			}
+			AUS_729 = { add_core = THIS } #Venice
+			AUS_734 = { add_core = THIS } #South Tyrol
+			AUS_736 = { add_core = THIS } #Trieste
+			AUS_770 = { add_core = THIS } #Istria
+			AUS_780 = { add_core = THIS }#Dalmatia
+			2582 = { add_core = THIS } #Kotor
+			2568 = { add_core = THIS } #Lugano
+			473 = { add_core = THIS } #Corsica
+			854 = { add_core = THIS } #Malta
 			add_accepted_culture = maltese
 			add_accepted_culture = slovene
 			add_accepted_culture = croat

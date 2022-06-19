@@ -177,6 +177,14 @@ political_decisions = {
     			literacy = 0.5
     		}
 			}
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 100000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 50000
+			}
 		}
 	}
 }

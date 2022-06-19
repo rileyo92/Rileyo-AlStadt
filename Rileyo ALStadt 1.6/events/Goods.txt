@@ -2,7 +2,7 @@
 #        GOLD EVENTS        #
 #############################
 province_event = {
-	
+
 	id = 1100
 
 	trigger = {
@@ -17,7 +17,7 @@ province_event = {
 			province_id = 1390			# Kuantan
 			province_id = 1422			# Muraleve
 			province_id = 1440			# Sumbawa
-			province_id = 1513			# Nanyang
+			province_id = 1564			# Caozhou
 			province_id = 1884			# Freetown
 			province_id = 2501			# Kimberley
 			province_id = 2153			# Durango
@@ -33,6 +33,7 @@ province_event = {
 			province_id = 1659			# Kobe
 			province_id = 2142			# Chihuahua
 			province_id = 2255			# Barranquilla
+			province_id = 2478			# Ballarat
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -56,14 +57,14 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1101
 
 	trigger = {
 		year = 1848
 		or = {
 			province_id = 88			# Mariposa
-			province_id = 695			# Königsberg
+			province_id = 695			# Konigsberg
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -86,7 +87,7 @@ province_event = {
 
 
 province_event = {
-	
+
 	id = 1102
 
 	trigger = {
@@ -111,7 +112,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1103
 
 	trigger = {
@@ -138,7 +139,7 @@ province_event = {
 #Witwatersrand Gold Rush
 province_event = {
 	id = 1139
-	
+
 	trigger = {
 		year = 1886
 		province_id = 2106
@@ -146,14 +147,14 @@ province_event = {
 			trade_goods = precious_metal
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	title = "EVTNAME1139"
 	desc = "EVTDESC1139"
-	
+
 	option = {
 		name = "EVTOPTA1139"
 		trade_goods = precious_metal
@@ -181,18 +182,18 @@ country_event = {
 	news_desc_medium = "EVTDESC1140_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC1140_NEWS_SHORT"
 	picture = "goldrush"
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		year = 1874
 		has_country_flag = custers_expedition_sent
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5
 	}
-	
+
 	option  ={
 		name = "EVTOPTA1140"
 		122 = {
@@ -206,7 +207,7 @@ country_event = {
 }
 
 province_event = {
-	
+
 	id = 1104
 
 	trigger = {
@@ -240,7 +241,7 @@ province_event = {
 #        DIAMOND EVENTS        #
 ################################
 province_event = {
-	
+
 	id = 1105
 
 	trigger = {
@@ -274,7 +275,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1106
 
 	trigger = {
@@ -282,6 +283,7 @@ province_event = {
 		or = {
 			province_id = 2097			# Graaf Reinet
 			province_id = 1849			# Massawa
+			province_id = 2094			# Kimberley
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -305,7 +307,7 @@ province_event = {
 #        RUBBER EVENTS        #
 ###############################
 province_event = {
-	
+
 	id = 1107
 
 	trigger = {
@@ -388,7 +390,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1108
 
 	trigger = {
@@ -464,7 +466,7 @@ province_event = {
 	id = 1109
 
 	trigger = {
-		year = 1870
+		year = 1856
 		or = {
 			province_id = 1102		# Baku
 			province_id = 1205		# Kizil Arvat
@@ -855,7 +857,10 @@ province_event = {
 
 	trigger = {
 		year = 1881
-		province_id = 110		# Cheyenne
+		OR = {
+			province_id = 110		# Cheyenne
+			province_id = 180   # Sandusky
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1041,7 +1046,7 @@ province_event = {
 	trigger = {
 		year = 1886
 		or = {
-			province_id = 1335		# Kyaukse
+			province_id = 1335	# Kyaukse
 			province_id = 134		# Dallas
 			province_id = 705		# Przemysl
 		}
@@ -1396,7 +1401,10 @@ province_event = {
 
 	trigger = {
 		year = 1907
-		province_id = 2396		# Rawson
+		OR = {
+			province_id = 2396		# Rawson
+			province_id = 2391		# Neuquen
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1439,7 +1447,7 @@ province_event = {
 
 	trigger = {
 		year = 1908
-		province_id = 1131		# Ahvaz
+		province_id = 1131		# Tabriz
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1488,7 +1496,7 @@ province_event = {
 			province_id = 1167		# Abu Dhabi
 			province_id = 1163		# Qatif
 			province_id = 2270		# Maracaibo
-			province_id = 1170		# Nizwa 
+			province_id = 1170		# Nizwa
 		}
 		not = { trade_goods = oil }
 		OR = {
@@ -1532,7 +1540,11 @@ province_event = {
 
 	trigger = {
 		year = 1912
-		province_id = 1132		# Abadan
+		OR = {
+			province_id = 1132		# Abadan
+			province_id = 1051		# Adygei
+			province_id = 1182		# Guryev
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
