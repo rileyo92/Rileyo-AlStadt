@@ -41,8 +41,7 @@ political_decisions = {
 				owns = 369
 				369 = {
 					owner = {
-						in_sphere = THIS
-						puppet_of = THIS
+						puppet = THIS
 					}
 				}
 			}

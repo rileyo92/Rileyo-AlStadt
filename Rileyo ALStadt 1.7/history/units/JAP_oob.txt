@@ -1,16 +1,5 @@
 army = {
 	name = "Army of the Tokugawa Shogunate"
-	
-	leader = {
-		name = "Tokugawa Nariaki"
-		date = 1836.1.1
-		type = land
-		personality = disciplined
-		background = old_school
-		prestige = 0.1
-	
-	}
-	
 	location = 1650
 	regiment = {
 		name= "1.Edo"
@@ -156,4 +145,3 @@ navy = {
 	}
 
 }
-

@@ -23,7 +23,6 @@ political_decisions = {
             	has_pop_culture = yue
             	has_pop_culture = zhuang
             	has_pop_culture = yi
-            	has_pop_culture = hui
 						}
 					}
 					reduce_pop = 0.40
@@ -149,9 +148,7 @@ political_decisions = {
 				}
         any_pop = {
     			limit = {
-    				OR = {
-    					has_pop_culture = irish
-    				}
+    				has_pop_culture = irish
     			}
     			literacy = 0.20
     		}

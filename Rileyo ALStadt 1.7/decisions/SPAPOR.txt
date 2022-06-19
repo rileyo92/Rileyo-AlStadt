@@ -156,7 +156,7 @@ political_decisions = {
 		}
 	}
 
-	unite_iberia = [
+	unite_iberia = {
 		potential = {
 			OR = {
 				tag = SPA
@@ -188,5 +188,5 @@ political_decisions = {
 			add_accepted_culture = catalan
 			set_country_flag = iberian_union
 		}
-	]
+	}
 }

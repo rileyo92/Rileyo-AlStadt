@@ -147,10 +147,8 @@ political_decisions = {
 			ALB = { all_core = { remove_core = TUR } }
 			SER = { all_core = { remove_core = TUR } }
 			BUL = { all_core = { remove_core = TUR } }
-			TUR_819 = { remove_core = TUR }
 			TUR_832 = { remove_core = TUR }
 			TUR_805 = { remove_core = TUR }
-			TUR_674 = { remove_core = TUR }
 			MON_2582 = { remove_core = TUR }
 			capital = 876
 			remove_accepted_culture = bosniak

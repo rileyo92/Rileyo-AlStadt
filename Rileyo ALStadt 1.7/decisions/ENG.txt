@@ -139,23 +139,8 @@ political_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					AND = {
-						year = 1864
-						month = 4
-					}
-				}
-			}
-			modifier = {
-				factor = 1
-				relation = {
-					who = GRE
-					value = 0
-				}
-			}
+			factor = 0
+			modifier = { factor = 1 badboy = 0.6 }
 		}
 	}
 
