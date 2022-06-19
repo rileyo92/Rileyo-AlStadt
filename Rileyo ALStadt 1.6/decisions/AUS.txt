@@ -180,7 +180,7 @@ political_decisions = {
 					consciousness = 3
 				}
 				any_pop = {
-					limit = { has_pop_culture = croat }
+					limit = { has_pop_culture = slovak }
 					militancy = -4
 					consciousness = -4
 				}
@@ -246,7 +246,7 @@ political_decisions = {
 	unite_south_germany_aus = {
 		potential = {
 			tag = AUS
-			NOT = { has_country_flag = sgf_aus }
+			NOT = { has_country_flag = sgf_austria }
 		}
 		allow = {
 			owns = 599

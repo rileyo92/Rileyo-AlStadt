@@ -52,7 +52,10 @@ political_decisions = {
       owns = 926
     }
     effect = {
-
+      IRQ = { all_core = { add_core = THIS } }
+      badboy = 5
+      add_accepted_culture = mashriqi
+      set_country_flag = mesopotamia_reclaimed_per
     }
   }
 }

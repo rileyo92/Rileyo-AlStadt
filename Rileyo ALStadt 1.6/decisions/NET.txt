@@ -140,7 +140,7 @@ political_decisions = {
 			ENG_2078 = { add_core = SAF add_core = THIS } #Hereroland
 			ENG_2074 = { add_core = SAF add_core = THIS } #Botswana
 			ENG_2068 = { add_core = SAF add_core = THIS } #Zambezi
-			set_country_flag = kaap_reclaimed
+			set_country_flag = cape_expanded
 		}
 	}
 }

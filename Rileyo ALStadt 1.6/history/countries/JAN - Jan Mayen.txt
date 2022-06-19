@@ -1,7 +1,7 @@
 capital = 3246
 primary_culture = norwegian
 culture = swedish
-culture = polar_bears
+culture = icelandic
 religion = protestant
 government = hms_government
 plurality = 0.5
@@ -25,7 +25,7 @@ work_hours = ten_hours
 safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
-pensions = low_pensions 
+pensions = low_pensions
 school_reforms = no_schools
 
 ruling_party = JAN_liberal

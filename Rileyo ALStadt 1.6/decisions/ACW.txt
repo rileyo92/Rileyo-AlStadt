@@ -325,7 +325,7 @@ political_decisions = {
 				exists = TEX
 				133 = {
 					owned_by = MEX # Austin
-					}
+				}
 			}
 		}
 		effect = {

@@ -1,7 +1,5 @@
 capital = 37
-primary_culture = metis
-culture = cree
-culture = native_american_minor
+primary_culture = native_american_minor
 religion = catholic
 government = democracy
 plurality = 5.0

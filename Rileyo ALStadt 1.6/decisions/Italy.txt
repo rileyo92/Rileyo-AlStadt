@@ -227,7 +227,7 @@ political_decisions = {
 			AUS_734 = { add_core = THIS } #South Tyrol
 			AUS_736 = { add_core = THIS } #Trieste
 			AUS_770 = { add_core = THIS } #Istria
-			AUS_780 = { add_core = THIS }#Dalmatia
+			AUS_780 = { add_core = THIS } #Dalmatia
 			2582 = { add_core = THIS } #Kotor
 			2568 = { add_core = THIS } #Lugano
 			473 = { add_core = THIS } #Corsica

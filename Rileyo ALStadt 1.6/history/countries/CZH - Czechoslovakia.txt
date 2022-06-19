@@ -1,6 +1,7 @@
 capital = 625
 primary_culture = czech
 culture = slovak
+culture = south_german
 religion = catholic
 government = democracy
 plurality = 25.0
@@ -25,7 +26,7 @@ work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = CZH_conservative

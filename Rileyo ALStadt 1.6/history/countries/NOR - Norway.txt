@@ -1,7 +1,6 @@
 capital = 313
 primary_culture = norwegian
 culture = icelandic
-culture = sami
 religion = protestant
 government = hms_government
 plurality = 0.5

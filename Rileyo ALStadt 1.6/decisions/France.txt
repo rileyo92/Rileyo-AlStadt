@@ -375,6 +375,7 @@ political_decisions = {
 			prestige = 5
 			badboy = 5
 			SAR_720 = { add_core = FRA }
+			set_country_flag = piedmont_fra
 		}
 		ai_will_do = {
 			factor = 1
@@ -385,7 +386,7 @@ political_decisions = {
 	claim_catalonia_fra = {
 		potential = {
 			tag = FRA
-			NOT = { has_country_flag = Catalonia_fra }
+			NOT = { has_country_flag = catalonia_fra }
 		}
 		allow = {
 			owns = 498
@@ -394,6 +395,7 @@ political_decisions = {
 			prestige = 5
 			badboy = 5
 			SPA_498 = { add_core = FRA }
+			set_country_flag = catalonia_fra
 		}
 		ai_will_do = {
 			factor = 1

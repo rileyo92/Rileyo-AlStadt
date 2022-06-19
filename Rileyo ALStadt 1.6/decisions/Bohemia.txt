@@ -6,6 +6,7 @@ political_decisions = {
         tag = KUK
       }
       NOT = { has_country_flag = sgf_austria }
+      NOT = { has_global_flag = austria_collapsed }
     }
     allow = {
       NOT = {
@@ -74,6 +75,7 @@ political_decisions = {
         }
         capital = 605
       }
+      set_global_flag = austria_collapsed
     }
     ai_will_do = {
       factor = 0
@@ -83,6 +85,7 @@ political_decisions = {
   integrate_polish_czh = {
     potential = {
       tag = CZH
+      NOT = { has_country_flag = poles_in_czechia }
     }
     allow = {
       owns = 703
@@ -91,5 +94,6 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = polish
+      set_country_flag = poles_in_czechia
     }
   }

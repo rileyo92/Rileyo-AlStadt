@@ -4,7 +4,6 @@ culture = norwegian
 culture = danish
 culture = icelandic
 culture = finnish
-culture = sami
 religion = protestant
 government = hms_government
 plurality = 0.05
