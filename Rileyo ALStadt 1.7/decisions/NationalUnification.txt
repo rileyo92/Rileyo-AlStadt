@@ -367,6 +367,7 @@ political_decisions = {
 			add_accepted_culture = norwegian
 			add_accepted_culture = finnish
 			add_accepted_culture = icelandic
+			FIN = { all_core = { add_core = THIS } }
 			any_country = {
 				limit = {
 					NOT = {

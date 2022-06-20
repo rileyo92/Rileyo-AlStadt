@@ -13,4 +13,15 @@ political_decisions = {
       set_country_flag = indian_gurkhas
     }
   }
+
+  #dominion_of_india = {
+  #  potential = {
+  #    tag = EIC
+  #    NOT = { has_country_flag = indian_dominion }
+  #  }
+  #  allow = {
+  #    mass_politics = 1
+  #  }
+  #  effect = {}
+  #}
 }
