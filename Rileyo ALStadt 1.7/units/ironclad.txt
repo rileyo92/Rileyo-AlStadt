@@ -1,7 +1,7 @@
 ironclad = {
 	icon = 9
 	naval_icon = 6
-	
+
 	type = naval
 	sprite = Ironclad
 	unit_type = big_ship
@@ -24,7 +24,7 @@ ironclad = {
 
 	#Building Costs
 	build_time = 360
-	build_cost = {	
+	build_cost = {
 		steamer_convoy = 25
 		artillery = 10
 		canned_food = 10
@@ -32,20 +32,18 @@ ironclad = {
 	}
 	min_port_level = 3
 	limit_per_port = -1
-	supply_consumption_score = 3
-	
+	supply_consumption_score = 5
+
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.32
+		steamer_convoy = 0.5
 		artillery = 0.2
-		canned_food = 0.4
-		ammunition = 0.2
+		canned_food = 0.2
 	}
-	
+
 	#Naval Abilties
-	hull = 15
-	gun_power = 15
-	fire_range = 0.6
+	hull = 18
+	gun_power = 18
+	fire_range = 0.75
 	evasion = 0
 }
-

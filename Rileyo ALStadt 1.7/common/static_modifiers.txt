@@ -142,7 +142,6 @@ base_values = {
 war = {
 	max_war_exhaustion = 100			#base max at war.
 	supply_consumption = -0.5
-	#war_exhaustion = 0.1
 	badboy = -0.05
 }
 
@@ -184,14 +183,14 @@ bad_debter = {
 
 great_power = {
 	prestige = 0.05
-	research_points = 1.5
+	research_points = 1.4
 	diplomatic_points_modifier = 1.0
 	leadership = 2.0
 }
 
 second_power = {
 	prestige = 0.025
-	research_points = 1.25
+	research_points = 1.2
 	diplomatic_points_modifier = 1.0
 	leadership = 1.0
 }
@@ -206,6 +205,7 @@ unciv_nation = {
 	mobilisation_size = -0.1
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
+	research_points = 0.5
 }
 
 

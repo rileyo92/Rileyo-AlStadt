@@ -1,7 +1,7 @@
 monitor = {
 	icon = 10
 	naval_icon = 7
-	
+
 	type = naval
 	sprite = Monitor
 	unit_type = big_ship
@@ -22,28 +22,25 @@ monitor = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		steamer_convoy = 25
+		steamer_convoy = 20
 		artillery = 10
 		canned_food = 10
-		regular_clothes = 12
 	}
 	min_port_level = 3
 	limit_per_port = -1
-	supply_consumption_score = 3
-	
+	supply_consumption_score = 5
+
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.32
-		artillery = 0.2
-		canned_food = 0.4
-		ammunition = 0.2
+		steamer_convoy = 0.4
+		artillery = 0.16
+		canned_food = 0.2
 	}
-	
+
 	#Naval Abilties
 	hull = 20
-	gun_power = 10
-	fire_range = 0.5
+	gun_power = 12
+	fire_range = 0.75
 	evasion = 0
 	torpedo_attack = 0
 }
-

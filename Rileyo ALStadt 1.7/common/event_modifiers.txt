@@ -121,7 +121,7 @@ dissatisfied_workers = {
 }
 
 naval_school = {
-	research_points_modifier = 0.01
+	research_points_modifier = 0.02
 	icon = 17
 }
 
@@ -140,8 +140,8 @@ colonial_dry_spell = {
 }
 
 colonial_exploitation = {
-	farm_RGO_eff = 0.10
-	mine_RGO_eff = 0.10
+	farm_RGO_eff = 0.20
+	mine_RGO_eff = 0.20
 	pop_militancy_modifier = 0.1
 	icon = 18
 }

@@ -26,7 +26,7 @@ party_issues = {
 				open_factory = no
 				destroy_factory = no
 				build_railway = no
-				factory_priority = no
+				factory_priority = yes
 				can_subsidise = no
 				pop_build_factory = yes
 				pop_expand_factory = yes
@@ -106,7 +106,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				can_invest_in_pop_projects = yes
+				can_invest_in_pop_projects = no
 			}
 		}
 	}
@@ -129,6 +129,8 @@ party_issues = {
 		residency = {
 			rules = { primary_culture_voting = yes }
       suppression_points_modifier = 0.15
+      core_pop_militancy_modifier = -0.01
+      non_accepted_pop_militancy_modifier = 0.01
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
@@ -139,48 +141,49 @@ party_issues = {
 			rules = { all_voting = yes }
 			global_assimilation_rate = 0.10
       global_immigrant_attract = 0.05
+      core_pop_militancy_modifier = 0.01
+      non_accepted_pop_militancy_modifier = -0.01
 		}
 	}
 	war_policy = {
 		jingoism = {
       global_immigrant_attract = -0.05
 			max_military_spending = 1.0
-			supply_consumption = 0.1
+      min_miltary_spending = 0.4
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
 			mobilization_impact = 4
-			org_regain = 0.5
-			reinforce_speed = 0.5
+			org_regain = 0.4
+			reinforce_speed = 0.4
 		}
 		pro_military = {
       global_immigrant_attract = -0.02
 			max_military_spending = 1.0
+      min_miltary_spending = 0.2
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
-			org_regain = 0.25
-			reinforce_speed = 0.25
+			org_regain = 0.2
+			reinforce_speed = 0.2
 		}
 		anti_military = {
       global_immigrant_attract = 0.02
-			max_military_spending = 0.75
-			supply_consumption = -0.25
+			max_military_spending = 0.8
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
 			mobilization_impact = 2
-			org_regain = -0.25
-			reinforce_speed = -0.25
+			org_regain = -0.2
+			reinforce_speed = -0.2
 		}
 		pacifism = {
       global_immigrant_attract = 0.05
-			max_military_spending = 0.5
-			supply_consumption = -0.5
+			max_military_spending = 0.6
 			war_exhaustion_effect = 1.5
-			cb_generation_speed_modifier = -0.4
+			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 1
-			org_regain = -0.5
-			reinforce_speed = -0.5
+			org_regain = -0.4
+			reinforce_speed = -0.4
 		}
 	}
 }
