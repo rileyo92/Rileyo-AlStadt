@@ -116,6 +116,7 @@ political_decisions = {
 			NOT = {
 				truce_with = GRE
 			}
+			GRE = { exist = yes }
 		}
 
 		allow = {
@@ -137,10 +138,6 @@ political_decisions = {
 			GRE = {
 				inherit = ION
 			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = { factor = 1 badboy = 0.6 }
 		}
 	}
 

@@ -1,6 +1,7 @@
 capital = 487
 primary_culture = spanish
 culture = catalan
+culture = galician
 culture = basque
 culture = caribeno
 religion = catholic

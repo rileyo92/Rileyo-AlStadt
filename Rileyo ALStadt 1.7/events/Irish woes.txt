@@ -4,8 +4,6 @@ country_event = {
 	id = 1010011
 	title = "EVTNAME1010011" #The Great Irish Famine
 	desc = "EVTDESC1010011"
-	news = yes
-	picture = "famine"
 	major = yes
 
 	trigger = {
@@ -291,10 +289,6 @@ country_event = {
 	id = 1010015
 	title = "EVTNAME1010015" #The Young Irelander Rebellion
 	desc = "EVTDESC1010015"
-	news = yes
-	news_desc_long = "EVTDESC1010015_NEWS_LONG"
-	news_desc_medium = "EVTDESC1010015_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC1010015_NEWS_SHORT"
 	picture = "arrested"
 
 	trigger = {
@@ -393,11 +387,6 @@ country_event = {
 	id = 1010020
 	title = "EVTNAME1010020" #The Irish Republican Brotherhood
 	desc = "EVTDESC1010020"
-	news = yes
-	news_desc_long = "EVTDESC1010020_NEWS_LONG"
-	news_desc_medium = "EVTDESC1010020_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC1010020_NEWS_SHORT"
-	picture = "nationalists"
 
 	trigger = {
 		any_owned_province = {

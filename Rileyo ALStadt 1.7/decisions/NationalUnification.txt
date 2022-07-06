@@ -78,9 +78,9 @@ political_decisions = {
 						OR = {
 							province_id = 370 # Ignore Schleswig
 							province_id = 371 # Ignore Schleswig
-							province_id = 410 # Need not have Elsaß-Lothringen
-							province_id = 409 # Need not have Elsaß-Lothringen
-							province_id = 412 # Need not have Elsaß-Lothringen
+							province_id = 410 # Need not have Elsaï¿½-Lothringen
+							province_id = 409 # Need not have Elsaï¿½-Lothringen
+							province_id = 412 # Need not have Elsaï¿½-Lothringen
 							owned_by = THIS
 							owner = {
 								in_sphere = THIS
@@ -335,10 +335,7 @@ political_decisions = {
 		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
 		news_desc_short = "form_scandinavia_NEWS_SHORT"
 		potential = {
-			OR = {
-				is_culture_group = scandinavian
-				is_culture_group = bears
-			}
+			is_culture_group = scandinavian
 			NOT = {
 				exists = SCA
 			}
@@ -447,9 +444,9 @@ political_decisions = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Straßburg"
+				change_province_name = "Straï¿½burg"
 				state_scope = {
-					change_region_name = "Elsaß-Lothringen"
+					change_region_name = "Elsaï¿½-Lothringen"
 				}
 			}
 			prestige = 5

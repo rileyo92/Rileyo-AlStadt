@@ -41,7 +41,7 @@ political_decisions = {
 				owns = 369
 				369 = {
 					owner = {
-						puppet = THIS
+						vassal_of = THIS
 					}
 				}
 			}

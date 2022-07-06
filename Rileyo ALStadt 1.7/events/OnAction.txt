@@ -14,7 +14,7 @@ country_event = {
 	}
 	is_triggered_only = yes
 	allow_multiple_instances = yes
-	
+
 	option = {
 		name = "EVTOPTA70000"
 		is_slave = yes
@@ -100,7 +100,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB70000"
 		is_slave = no
@@ -122,8 +122,8 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				owner = { 
-					tag = CSA 
+				owner = {
+					tag = CSA
 				}
 			}
 			modifier = {
@@ -168,7 +168,7 @@ country_event = {
 					province_id = 129 #Oklahoma
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -188,7 +188,7 @@ country_event = {
 	}
 	is_triggered_only = yes
 	allow_multiple_instances = yes
-	
+
 	option = {
 		name = "EVTOPTA70001"
 		is_slave = no
@@ -230,27 +230,6 @@ country_event = {
 		name = "EVTOPTA70002"
 		casus_belli = {
 			type = cut_down_to_size
-			target = FROM
-		}
-	}
-}
-
-
-# Nation that owns your debt goes bankrupt, but the amount is small
-country_event = {
-	id = 70004
-	title = "EVTNAME70002"
-	desc = "EVTDESC70002"
-	picture = "Bankruptcy"
-	trigger = {
-
-	}
-
-	is_triggered_only = yes
-	option = {
-		name = "EVTOPTA70002"
-		casus_belli = {
-			type = gunboat
 			target = FROM
 		}
 	}

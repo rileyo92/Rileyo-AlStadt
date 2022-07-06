@@ -2,7 +2,7 @@ country_event = {
 
 	id = 44300
 	trigger = {
-		tag = CAN 
+		tag = CAN
 		year = 1872
 		owns = 13 #Vancouver BC
 		owns = 57 #Ottawa ON
@@ -10,9 +10,9 @@ country_event = {
 			year = 1878
 		}
 	}
- 
+
 	fire_only_once = yes
- 
+
 	mean_time_to_happen =  {
 		months = 12
 
@@ -32,7 +32,7 @@ country_event = {
 	picture = "train"
 
 	option = {
-		name = "EVTOPTA44300" 
+		name = "EVTOPTA44300"
 		any_pop = {
 			ideology = {
 				factor = 0.1
@@ -50,7 +50,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB44300" 
+		name = "EVTOPTB44300"
 		any_pop = {
 			ideology = {
 				factor = 0.25
@@ -72,7 +72,7 @@ country_event = {
 
 	id = 44301
 	trigger = {
-		tag = CAN 
+		tag = CAN
 		year = 1868
 		owns = 36 #Winnipeg MB
 		owns = 57 #Ottawa ON
@@ -82,7 +82,7 @@ country_event = {
 			has_country_flag = RielRebellionIgnored
 			}
 		}
- 
+
 	mean_time_to_happen =  {
 		months = 8
 
@@ -102,7 +102,7 @@ country_event = {
 	picture = "Metis"
 
 	option = {
-		name = "EVTOPTA44301" 
+		name = "EVTOPTA44301"
 		set_country_flag = RielRebellion
 		set_country_flag = RielRebellionIgnored
 		any_pop = {
@@ -122,7 +122,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB44301" 
+		name = "EVTOPTB44301"
 		set_country_flag = RielRebellion
 		any_pop = {
 			limit = {
@@ -133,7 +133,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = metis
+				has_pop_culture = native_american_minor
 			}
 			militancy = 10
 			consciousness = 5
@@ -152,24 +152,24 @@ country_event = {
 
 	id = 44302
 	trigger = {
-		tag = CAN 
+		tag = CAN
 		year = 1884
 		owns = 57 #Ottawa ON
 		OR = {
 			has_country_flag = RielRebellionIgnored
-			owns = 30 #Saskatchewan 
-			owns = 34  
-			owns = 38 #Western Manitoba 
-			owns = 39  
-			owns = 40 
+			owns = 30 #Saskatchewan
+			owns = 34
+			owns = 38 #Western Manitoba
+			owns = 39
+			owns = 40
 			owns = 41
-			} 
+			}
 		NOT = {
 			year = 1888
 			has_country_flag = NorthwestRebellion
 			}
 		}
- 
+
 	mean_time_to_happen =  {
 		months = 8
 
@@ -189,11 +189,11 @@ country_event = {
 	picture = "Rebellion"
 
 	option = {
-		name = "EVTOPTA44302" 
+		name = "EVTOPTA44302"
 		set_country_flag = NorthwestRebellion
 		any_pop = {
 			limit = {
-				has_pop_culture = metis
+				has_pop_culture = native_american_minor
 			}
 			militancy = 7
 			consciousness = 5

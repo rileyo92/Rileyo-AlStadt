@@ -13300,6 +13300,8 @@ AUS_654;Northern Transylvania;;;;;;;;;;;;;x;;;;
 MOL_673;Moldavia;Moldavie;Moldau;;Moldavia;;;;;;;;;x;;;;
 WAL_665;Wallachia;Valachie;Walachei;;Valaquia;;;;;;;;;x;;;;
 SPA_474;Galicia;;;;;;;;;;;;;x;;;;
+SPA_2136;Canary Islands;;;;;;;;;;;;;x;;;;
+SWE_332;Smaland;;;;;;;;;;;;;x;;;;
 SPA_477;León-Castilla;León-Castilla;León-Castilla;;Castilla-León;;;;;;;;;x;;;;
 SPA_492;Vasconia-Aragón;Vasconia-Aragón;Vasconia-Aragón;;Vasconia-Aragón;;;;;;;;;x;;;;
 SPA_498;Catalonia;Catalogne;Katalonien;;Cataluña;;;;;;;;;x;;;;
@@ -13603,6 +13605,7 @@ PER_1122;Luristan;Luristan;Luristan;;Luristan;;;;;;;;;x;
 RUS_1098;Armenia;Arménie;Armenien;;Armenia;;;;;;;;;x;;;;
 RUS_1102;Azerbaijan;Azerbaïdjan;Aserbaidschan;;Azerbaiyán;;;;;;;;;x;;;;
 RUS_1090;Georgia;Géorgie;Georgien;;Georgia;;;;;;;;;x;;;;
+RUS_1469;Tomsk;;;;;;;;;;;;;x
 MON_2582;Montenegro;Monténégro;Montenegro;;Montenegro;;;;;;;;;x;;;;
 SER_794;Serbia;Serbie;Serbien;;Serbia;;;;;;;;;x;;;;
 TUR_860;Thrace;Thrace;Thrakien;;Tracia;;;;;;;;;x;;;;SS
