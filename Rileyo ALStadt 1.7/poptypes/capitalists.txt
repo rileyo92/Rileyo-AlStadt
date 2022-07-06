@@ -96,15 +96,227 @@ country_migration_target =
 	modifier = { #Neighbour easier to get to, Immigrant nation bias, accepted nation bias
 		factor = 2
 		OR = {
-			neighbour = THIS
 			continent = north_america
 			continent = south_america
 			continent = oceania
-			tag = SAF
-			tag = TRN
-			tag = ORA
-			tag = KRA
-			tag = LIB
+			AND = { #Liberia/South Africa
+				continent = africa
+				OR = {
+					primary_culture = boer
+					primary_culture = afro_american
+				}
+			}
+			AND = { #Israel
+				THIS = { religion = jewish }
+				any_owned_province = { is_core = ISR }
+			}
+			AND = { #Germans
+				OR = {
+					THIS = { culture = north_german }
+					THIS = { culture = south_german }
+					THIS = { culture = siebenbergen }
+					THIS = { culture = swiss }
+				}
+				OR = {
+					primary_culture = north_german
+					primary_culture = south_german
+					primary_culture = siebenbergen
+					primary_culture = swiss
+				}
+			}
+			AND = { #Dutch/Flemish
+				OR = {
+					THIS = { culture = dutch }
+					THIS = { culture = flemish }
+					THIS = { culture = boer }
+				}
+				OR = {
+					primary_culture = dutch
+					primary_culture = flemish
+				}
+			}
+			AND = { #scandinavia
+				OR = {
+					THIS = { culture = swedish }
+					THIS = { culture = danish }
+					THIS = { culture = norwegian }
+					THIS = { culture = icelandic }
+					THIS = { culture = finnish }
+				}
+				OR = {
+					primary_culture = swedish
+					primary_culture = danish
+					primary_culture = norwegian
+					primary_culture = icelandic
+					primary_culture = finnish
+				}
+			}
+			AND = { #Britain
+				OR = {
+					THIS = { culture = british }
+					THIS = { culture = anglo_canadian }
+					THIS = { culture = australian }
+				}
+				primary_culture = british
+			}
+			AND = { #Ireland
+				THIS = { culture = irish }
+				primary_culture = irish
+			}
+			AND = { #Italy
+				OR = {
+					THIS = { culture = north_italian }
+					THIS = { culture = south_italian }
+					THIS = { culture = maltese }
+				}
+				OR = {
+					primary_culture = north_italian
+					primary_culture = south_italian
+					primary_culture = maltese
+				}
+			}
+			AND = { #Spain
+				OR = {
+					THIS = { culture = basque }
+					THIS = { culture = spanish }
+					THIS = { culture = catalan }
+					THIS = { culture = galician }
+				}
+				OR = {
+					primary_culture = basque
+					primary_culture = spanish
+					primary_culture = catalan
+					primary_culture = galician
+				}
+			}
+			AND = { #Portugal
+				OR = {
+					THIS = { culture = portuguese }
+					THIS = { culture = brazilian }
+					THIS = { culture = galician }
+				}
+				OR = {
+					primary_culture = portuguese
+					primary_culture = galician
+				}
+			}
+			AND = { #France
+				OR = {
+					THIS = { culture = french }
+					THIS = { culture = wallonian }
+					THIS = { culture = french_canadian }
+				}
+				OR = {
+					primary_culture = french
+					primary_culture = wallonian
+				}
+			}
+			AND = { #Serbia
+				THIS = { culture = serb }
+				primary_culture = serb
+			}
+			AND = { #Romania
+				THIS = { culture = romanian }
+				primary_culture = romanian
+			}
+			AND = { #Hungary
+				THIS = { culture = hungarian }
+				primary_culture = hungarian
+			}
+			AND = { #Poland
+				THIS = { culture = polish }
+				primary_culture = polish
+			}
+			AND = { #Czechoslovakia
+				OR = {
+					THIS = { culture = czech }
+					THIS = { culture = slovak }
+				}
+				OR = {
+					primary_culture = czech
+					primary_culture = slovak
+				}
+			}
+			AND = { #Russia
+				OR = {
+					THIS = { culture = russian }
+					THIS = { culture = byelorussian }
+					THIS = { culture = ukrainian }
+				}
+				OR = {
+					primary_culture = russian
+					primary_culture = byelorussian
+					primary_culture = ukrainian
+				}
+			}
+			AND = { #Greece
+				THIS = { culture = greek }
+				primary_culture = greek
+			}
+			AND = { #Turkey
+				THIS = { culture = turkish }
+				primary_culture = turkish
+			}
+			AND = { #Arabia
+				OR = {
+					THIS = { culture = maghrebi }
+					THIS = { culture = misri }
+					THIS = { culture = mashriqi }
+					THIS = { culture = bedouin }
+				}
+				OR = {
+					primary_culture = maghrebi
+					primary_culture = misri
+					primary_culture = mashriqi
+					primary_culture = bedouin
+				}
+			}
+			AND = { #Persia
+				OR = {
+					THIS = { culture = persian }
+					THIS = { culture = tajik }
+					THIS = { culture = pashtun }
+					THIS = { culture = baluchi }
+					THIS = { culture = hazara }
+					THIS = { culture = kurdish }
+				}
+				OR = {
+					primary_culture = persian
+					primary_culture = tajik
+					primary_culture = pashtun
+					primary_culture = baluchi
+					primary_culture = hazara
+					primary_culture = kurdish
+				}
+			}
+			AND = { #Japan
+				THIS = { culture = japanese }
+				primary_culture = japanese
+			}
+			AND = { #Korea
+				THIS = { culture = korean }
+				primary_culture = korean
+			}
+			AND = { #China
+				OR = {
+					THIS = { culture = nanfaren }
+					THIS = { culture = hakka }
+					THIS = { culture = miao }
+					THIS = { culture = min }
+					THIS = { culture = zhuang }
+					THIS = { culture = yi }
+					THIS = { culture = yue }
+				}
+				OR = {
+					primary_culture = nanfaren
+					primary_culture = hakka
+					primary_culture = miao
+					primary_culture = min
+					primary_culture = zhuang
+					primary_culture = yi
+					primary_culture = yue
+				}
+			}
 		}
 	}
 	modifier = { #Flemish/Dutch/German to Boer Bias
@@ -205,6 +417,9 @@ country_migration_target =
 		factor = 1.5
 		OR = {
 			primary_culture = afro_american
+			primary_culture = afro_caribeno
+			primary_culture = afro_antillean
+			primary_culture = afro_caribbean
 		}
 		OR = {
 			THIS = { culture = afro_american }
@@ -212,10 +427,6 @@ country_migration_target =
 			THIS = { culture = afro_antillean }
 			THIS = { culture = afro_brazilian }
 			THIS = { culture = afro_caribbean }
-			THIS = { culture = west_african }
-			THIS = { culture = central_african }
-			THIS = { culture = east_african }
-			THIS = { culture = southern_african }
 		}
 	}
 	modifier = {
