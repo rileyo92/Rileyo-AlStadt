@@ -16,7 +16,6 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = beifaren
             	has_pop_culture = nanfaren
             	has_pop_culture = hakka
             	has_pop_culture = min
