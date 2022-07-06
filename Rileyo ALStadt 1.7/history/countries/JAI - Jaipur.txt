@@ -1,6 +1,5 @@
 capital = 1268
-primary_culture = rajput
-culture = avadhi
+primary_culture = indo_aryian
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0

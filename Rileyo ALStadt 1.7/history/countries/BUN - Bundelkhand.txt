@@ -1,6 +1,5 @@
 capital = 1274
-primary_culture = kanauji
-culture = avadhi
+primary_culture = indo_aryian
 culture = asian_minor
 religion = hindu
 government = absolute_monarchy

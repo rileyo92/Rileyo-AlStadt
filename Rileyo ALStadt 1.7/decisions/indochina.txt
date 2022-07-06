@@ -14,10 +14,10 @@ political_decisions = {
       owns = 1259
     }
     effect = {
-      add_accepted_culture = manipuri
-      add_accepted_culture = assamese
+      add_accepted_culture = bengali
       add_accepted_culture = tibetan
       add_accepted_culture = yi
+      add_accepted_culture = asian_minor
       ENG_1343 = { add_core = THIS }
       SIA_1355 = { add_core = THIS }
       ENG_1258 = { add_core = THIS }
@@ -43,9 +43,10 @@ political_decisions = {
       owns = 1338
     }
     effect = {
-      add_accepted_culture = karen
       add_accepted_culture = khmer
-      add_accepted_culture = zhuang
+      add_accepted_culture = vietnamese
+      add_accepted_culture = burmese
+      add_accepted_culture = malay
       ENG_1343 = { add_core = THIS }
       ENG_1384 = { add_core = THIS }
       SIA_1366 = { add_core = THIS }
@@ -73,6 +74,7 @@ political_decisions = {
       add_accepted_culture = lao
       add_accepted_culture = khmer
       add_accepted_culture = yue
+      add_accepted_culture = zhuang
       SIA_1366 = { add_core = THIS }
       SIA_1358 = { add_core = THIS }
       LUA_1356 = { add_core = THIS }

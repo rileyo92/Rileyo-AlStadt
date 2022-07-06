@@ -1049,6 +1049,25 @@ assimilation_chance = {
 				}
 				tag = TUR
 			}
+			AND = {
+				has_pop_culture = turkish
+				tag = GRE
+			}
+			AND = {
+				has_pop_culture = romanian
+				OR = {
+					tag = AUS
+					tag = KUK
+					tag = HUN
+				}
+			}
+			AND = {
+				has_pop_culture = serbian
+				OR = {
+					tag = AUS
+					tag = KUK
+				}
+			}
 			OR = {
 				state_scope = { is_colonial = yes }
 				country = {

@@ -1,10 +1,7 @@
 capital = 1236
 primary_culture = panjabi
-culture = avadhi
-culture = telegu
-culture = marathi
-culture = rajput
-culture = gujarati
+culture = indo_aryian
+culture = dravidian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

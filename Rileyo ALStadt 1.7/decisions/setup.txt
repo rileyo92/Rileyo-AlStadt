@@ -25,7 +25,7 @@ political_decisions = {
             	has_pop_culture = yi
 						}
 					}
-					reduce_pop = 0.35
+					reduce_pop = 0.33
 				}
 			}
 

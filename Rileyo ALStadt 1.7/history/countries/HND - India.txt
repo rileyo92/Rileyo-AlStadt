@@ -1,16 +1,11 @@
 capital = 1251
-primary_culture = avadhi
-culture = marathi
-culture = bihari
-culture = tamil
-culture = kanauji
-culture = telegu
-culture = kannada
-culture = malayalam
-culture = gujarati
-culture = bengali
-culture = assamese
+primary_culture = indo_aryian
+culture = dravidian
+culture = panjabi
 culture = nepali
+culture = sindi
+culture = bengali
+culture = kashmiri
 
 religion = hindu
 government = democracy

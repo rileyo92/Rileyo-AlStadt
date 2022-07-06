@@ -16,19 +16,20 @@ categories =  {
 		mine_rgo_size = -0.0
 		mine_rgo_eff = -0.2
 		min_build_railroad = 1
+		max_attrition = 10
 	}
 
 	farmlands = {
 		movement_cost = 1.2
 		color = { 137 104 165  }
-		
+
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
 	}
-	
+
 	forest = {
 		movement_cost = 1.2
 		defence = 1
@@ -53,8 +54,9 @@ categories =  {
 		supply_limit = 6
 		min_build_railroad = 1
 		combat_width = -0.33
+		max_attrition = 2
 	}
-	
+
 	woods = {
 		movement_cost = 1.1
 		defence = 1
@@ -66,7 +68,7 @@ categories =  {
 		supply_limit = 6
 		combat_width = -0.20
 	}
-	
+
 	mountain = {
 		movement_cost = 1.4
 		defence = 3
@@ -76,9 +78,8 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 2
-		
+		max_attrition = 5
 		combat_width = -0.6
-		
 		min_build_railroad = 3
 	}
 
@@ -91,6 +92,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 8
+		max_attrition = 2
 
 	}
 	plains = {
@@ -115,8 +117,9 @@ categories =  {
 		supply_limit = 2
 		min_build_railroad = 2
 		combat_width = -0.25
-	}	
-	
+		max_attrition = 5
+	}
+
 	marsh = {
 		movement_cost = 1.4
 		defence = 1
@@ -129,18 +132,20 @@ categories =  {
 		supply_limit = 2
 		min_build_railroad = 2
 		combat_width = -0.25
+		max_attrition = 5
 	}
-	
+
 	desert = {
 		movement_cost = 1.5
 		color = { 218 195 0 }
-	
+
 		farm_rgo_size = -0.5
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
+		max_attrition = 10
 	}
-	
+
 	coastal_desert = {
 		movement_cost = 1.0
 		color = { 208 155 0 }
@@ -149,17 +154,18 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 2
-	}	
+		max_attrition = 5
+	}
 }
 
 
 
-ocean1 = { 
-	
+ocean1 = {
+
 	type = ocean
-	
+
 	color = {
-		254 
+		254
 	}
 	has_texture = no
 }
@@ -257,7 +263,7 @@ pti = {
 	type = plains
 	color = {
 		64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92
-		93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115  
+		93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115
 		116 117 118 119 120 121 122 123 124 125 126  127 128 129  130 131  132  133 134 135
 		136 137 138 139 140 141 142 143 144  145  146  147 148 149 150 151 152 153 154 155
 156
@@ -335,7 +341,7 @@ pti = {
 228
 229
 230
-231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 
+231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253
 		255
 	}
 	has_texture = no

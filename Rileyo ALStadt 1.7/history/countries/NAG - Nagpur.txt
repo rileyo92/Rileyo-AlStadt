@@ -1,5 +1,5 @@
 capital = 1277
-primary_culture = marathi
+primary_culture = indo_aryian
 culture = asian_minor
 religion = hindu
 government = absolute_monarchy

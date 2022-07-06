@@ -1,8 +1,6 @@
 capital = 1283
-primary_culture = avadhi
-culture = marathi
-culture = telegu
-culture = kannada
+primary_culture = indo_aryian
+culture = dravidian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
