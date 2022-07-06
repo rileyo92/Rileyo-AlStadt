@@ -1115,11 +1115,11 @@ south_asian = {
 	unit = IndianGC
 	indo_aryian = {
 		color = {190 220 10}
-		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya Dibvyasimhadeva Harekrushnadeva Gopinathdeva Ramachandradeva Padmanavadeva Birakishoredeva Mukundadeva Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya Dibvyasimhadeva Harekrushnadeva Gopinathdeva Ramachandradeva Padmanavadeva Birakishoredeva Mukundadeva Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Ishvari Udit Prasan Mahip Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 
 		}
 
-		last_names = { Singh Valmiki Janak Jarasandh Mishra Deva Das Rao Mohaptra Mishra Singh Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+		last_names = { Singh Valmiki Janak Jarasandh Mishra Deva Das Mohaptra Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
 
 		}
 	}
